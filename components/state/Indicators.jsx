@@ -339,7 +339,7 @@ const IndicatorItem = ({ item }) => {
 
 //                 <img
 //                   src="/state/statefrm.png"
-//                   className="object-cover lg:h-[58px] h-[40px] lg:w-[318px] md:w-full w-[70%]"
+//                   className="object-cover lg:h-[58px] h-[40px] lg:w-[318px] md:w-full w-auto"
 //                   alt="Grade A Box"
 //                 />
 //               </div>
@@ -390,7 +390,7 @@ const Indicators = ({ data }) => {
 
                 <img
                   src="/state/statefrm.png"
-                  className="object-cover lg:h-[58px] h-[40px] lg:w-[368px] md:w-full w-[70%]"
+                  className="object-cover lg:h-[58px] h-[40px] lg:w-[368px] md:w-full w-auto"
                   alt="Grade A Box"
                 />
               </div>

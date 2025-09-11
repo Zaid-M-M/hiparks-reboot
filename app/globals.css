@@ -7,6 +7,7 @@
 
 @import "tailwindcss";
 
+
 @theme {
   /* Common screen widths in rem (1rem = 16px) */
   --breakpoint-360: 22.5rem;
@@ -43,6 +44,7 @@
 } */
 * {
   transition-timing-function: cubic-bezier(0.7, 0, 0.4, 1);
+  font-family: var(--font-barlow);
 }
 
 body {
@@ -1250,4 +1252,122 @@ select option:hover {
 .testimonial-scrollbar::-webkit-scrollbar-thumb:hover {
   background: #47546750;
   /* darker on hover */
+}
+
+
+
+/* sizes (grouped by size; includes common 400-suffixes used: r / n) */
+.md48m,
+.md48r {
+  font-size: 48px;
+  line-height: 58px;
+  letter-spacing: -1.92px;
+}
+
+/* 48×-0.04 = -1.92 */
+.md56m,
+.md56r {
+  font-size: 56px;
+  line-height: 66px;
+  letter-spacing: -2.24px;
+}
+
+/* 56×-0.04 = -2.24 */
+.md64m,
+.md64r {
+  font-size: 64px;
+  line-height: 74px;
+  letter-spacing: -2.56px;
+}
+
+/* 64×-0.04 = -2.56 */
+.md66m,
+.md66r {
+  font-size: 66px;
+  line-height: 76px;
+  letter-spacing: -2.64px;
+}
+
+/* 66×-0.04 = -2.64 */
+.md76m,
+.md76r {
+  font-size: 76px;
+  line-height: 86px;
+  letter-spacing: -3.04px;
+}
+
+/* 76×-0.04 = -3.04 */
+
+/* weights (define once) */
+.md48m,
+.md56m,
+.md64m,
+.md66m,
+.md76m {
+  font-weight: 500;
+}
+
+.md48r,
+.md56r,
+.md64r,
+.md66r,
+.md76r {
+  font-weight: 400;
+}
+
+/* responsive (mobile-md) — 32px, line-height 42, letter-spacing 32×-0.04 = -1.28 */
+@media only screen and (min-device-width: 1px) and (max-device-width: 769px) {
+
+  .md48m,
+  .md48r,
+  .md56m,
+  .md56r,
+  .md64m,
+  .md64r,
+  .md66m,
+  .md66r,
+  .md76m,
+  .md76r {
+    font-size: 32px;
+    line-height: 42px;
+    letter-spacing: -1.28px;
+    /* 32×-0.04 = -1.28 */
+  }
+}
+
+.indhead sub,
+.indhead sup {
+  font-weight: 400 !important;
+  font-size: 30px !important;
+}
+
+.indhead sup {
+  vertical-align: super !important;
+}
+
+.wmhead span span,
+.hparkhead span span {
+  font-weight: 500 !important;
+  width: 100% !important;
+  display: flex;
+}
+
+.indhead span span {
+  font-weight: 400 !important;
+  color: #000 !important;
+  font-size: 56px !important;
+  line-height: 65px !important;
+}
+
+@media (max-width: 768px) {
+  .indhead span span {
+
+    font-size: 32px !important;
+    line-height: 42px !important;
+  }
+
+  .indhead sup {
+    vertical-align: super !important;
+    font-size: 16px !important;
+  }
 }

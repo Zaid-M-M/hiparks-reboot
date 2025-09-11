@@ -8,7 +8,7 @@ const HorizonParks = ({ data }) => {
         <div className=" max-w-[600px] md:max-w-[100%] xl:max-w-[45%]">
           <div className="flex flex-col md:flex-col  relative  md:w-[460px] lg:w-[auto]">
             <div className="flex items-start gap-2 lg:gap-5 flex-col">
-              <h1 className="text-[32px] hparkhead leading-[42px] lg:leading-[66px] lg:text-[56px] xl:text-[60px] xl:leading-[74px] flex flex-col max-h-fit justify-start bw-r md:w-[460px] lg:w-[auto] capitalize">
+              <h1 className="text-[32px] hparkhead leading-[42px] lg:leading-[66px] lg:text-[56px] xl:text-[53px] xl:leading-[63px] flex flex-col max-h-fit justify-start bw-r md:w-[460px] lg:w-[auto] capitalize">
                 <span
                   className="bw-r w-full tracking-[-0.04em] gap-5"
                   dangerouslySetInnerHTML={{ __html: data.title }}
@@ -22,7 +22,7 @@ const HorizonParks = ({ data }) => {
               /> */}
               <img
                 src="/state/statefrm.png"
-                className="object-cover lg:h-[58px] h-[40px] lg:w-[368px] md:w-[50%] w-[70%]"
+                className="object-cover lg:h-[58px] h-[40px] lg:w-[368px] md:w-[50%] w-auto"
                 alt="Grade A Box"
               />
             </div>

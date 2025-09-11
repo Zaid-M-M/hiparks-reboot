@@ -107,7 +107,7 @@
 
 //                 <img
 //                   src="/state/statefrm.png"
-//                   className="object-cover lg:h-[58px] h-[40px] lg:w-[318px] md:w-[50%] w-[70%]"
+//                   className="object-cover lg:h-[58px] h-[40px] lg:w-[318px] md:w-[50%] w-auto"
 //                   alt="Grade A Box"
 //                 />
 //               </div>
@@ -183,7 +183,7 @@ const MakeIndia = ({ data }) => {
 
                 <img
                   src="/state/statefrm.png"
-                  className="object-cover lg:h-[58px] h-[40px] lg:w-[318px] md:w-[50%] w-[70%]"
+                  className="object-cover lg:h-[58px] h-[40px] lg:w-[318px] md:w-[50%] w-auto"
                   alt="Grade A Box"
                 />
               </div> */}
@@ -197,7 +197,7 @@ const MakeIndia = ({ data }) => {
 
                 <img
                   src="/state/statefrm.png"
-                  className="object-cover lg:h-[58px] h-[40px] lg:w-[318px] md:w-[50%] w-[70%]"
+                  className="object-cover lg:h-[58px] h-[40px] lg:w-[318px] md:w-[50%] w-auto"
                   alt="Grade A Box"
                 />
               </div>
@@ -254,9 +254,8 @@ const MakeIndia = ({ data }) => {
                   strokeWidth="2"
                   strokeLinecap="round"
                   strokeLinejoin="round"
-                  className={`transition-transform ${
-                    showMore ? "rotate-180" : ""
-                  }`}
+                  className={`transition-transform ${showMore ? "rotate-180" : ""
+                    }`}
                 >
                   <path d="m6 9 6 6 6-6" />
                 </svg>

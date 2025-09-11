@@ -249,7 +249,10 @@ const HorizonRegion = ({ data = [] }) => {
   }, [data]);
 
   return (
-    <div className="bg-white py-[45px] lg:py-[100px]">
+    <div className="bg-white py-[45px] lg:py-[100px] overflow-hidden relative">
+
+      <img className="green_vctr absolute w-[200px] md:w-[200px] lg:w-[300px] xl:w-[400px] top-[-50px] md:left-auto  right-[-80px] md:top-[0px] lg:top-[-120px] xl:right-[-180px] 1920:right-[-50px]" src='/green_vector.svg' />
+      <img className="orange_vctr absolute w-[200px] md:w-[200px] lg:w-[300px] xl:w-[400px] top-[-50px]  md:left-auto right-[0px] md:top-[-80px] lg:top-[-120px] xl:right-[100px] 1920:right-[100px]" src='/orange_vector.svg' />
       <div className="fixup pb-5 lg:pb-[50px]">
         <div className="flex flex-col">
           <div className="flex items-center gap-[24px]">
@@ -257,7 +260,7 @@ const HorizonRegion = ({ data = [] }) => {
               Horizon
             </h2>
             <img
-              src="/state/statefrm.png"
+              src="/txt_box_226.svg"
               className="object-cover h-[58px] lg:w-[236px] w-[100px] lg:!flex !hidden"
               alt="Grade A Box"
             />
@@ -265,9 +268,14 @@ const HorizonRegion = ({ data = [] }) => {
           <h3 className="bw-r text-[32px] lg:text-[56px] leading-[32px] lg:leading-[64px] tracking-[-0.04em]  xl:text-[64px] xl:leading-[64px]">
             in Other Regions
           </h3>
-          <img
+          {/* <img
             src="/state/statefrm.png"
-            className="object-cover h-[40px] md:w-[30%] w-[70%] mt-5 lg:!hidden !flex"
+            className="object-cover h-[40px] md:w-[30%] w-auto mt-5 lg:!hidden !flex"
+            alt="Grade A Box"
+          /> */}
+          <img
+            src="/txt_box_226.svg"
+            className="object-cover h-[38px] mt-2 lg:w-[236px] w-[156px] lg:!hidden !flex"
             alt="Grade A Box"
           />
         </div>
@@ -323,9 +331,8 @@ const HorizonRegion = ({ data = [] }) => {
             <SwiperSlide key={region.name || idx}>
               <Link
                 href={region.url || "#"}
-                className={`flex flex-col h-full group w-full border border-[rgba(0,0,0,0.20)] ${
-                  idx !== 0 ? "border-l-0" : ""
-                }`}
+                className={`flex flex-col h-full group w-full border border-[rgba(0,0,0,0.20)] ${idx !== 0 ? "border-l-0" : ""
+                  }`}
               >
                 {/* Image */}
                 <div className="h-[360px] overflow-hidden w-full">
