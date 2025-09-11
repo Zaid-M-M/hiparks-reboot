@@ -48,6 +48,7 @@
 
 import { notFound } from "next/navigation";
 
+export const dynamic = "force-dynamic"; // 👈 ensure always dynamic
 import HeroSection from "@/components/state/HeroSection";
 import MakeIndia from "@/components/state/MakeIndia";
 import HorizonParks from "@/components/state/HorizonParks";
@@ -109,13 +110,13 @@ export default async function CombinedPage({ params }) {
   }
 
   // If not a state, try parks
-  const allParks = await fetchAllParks();
-  const park = allParks.find((p) => p.slug === slug);
+  // const allParks = await fetchAllParks();
+  // const park = allParks.find((p) => p.slug === slug);
 
   // if (park) {
   //   return <PDMain allParks={allParks} park={park} />;
   // }
 
   // Neither state nor park → 404
-  // notFound();
+  notFound();
 }
