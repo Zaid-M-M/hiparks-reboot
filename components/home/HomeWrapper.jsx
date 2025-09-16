@@ -53,9 +53,9 @@ const HomeWrapper = ({ heroData, testimonials = [] }) => {
             { start: 18, end: 23, title: "40", subtitle: "Parks" },
           ]}
         />
-        <MapWrapper />
+        {/* <MapWrapper /> */}
         <IntegratedSolutionsSection />
-        <MobileMapWrapper />
+        {/* <MobileMapWrapper /> */}
         <KeySectors />
         <TestimonialsSlider testimonials={testimonials} />
 
@@ -65,7 +65,7 @@ const HomeWrapper = ({ heroData, testimonials = [] }) => {
         </div>
         <MobileSustainaibility />
 
-        <TestScroll
+        {/* <TestScroll
           videoSrc="/homescroll.mp4"
           timedTexts={[
             { start: 0.6, end: 1.8, title: "1800", subtitle: "ACRES" },
@@ -73,8 +73,8 @@ const HomeWrapper = ({ heroData, testimonials = [] }) => {
             { start: 4.2, end: 5.8, title: "37", subtitle: "PARKS" },
             { start: 7.2, end: 8.3, title: "10", subtitle: "MARKETS" },
           ]}
-        />
-        <TestScroll
+        /> */}
+        {/* <TestScroll
           videoSrc="https://www.apple.com/media/us/mac-pro/2013/16C1b6b5-1d91-4fef-891e-ff2fc1c1bb58/videos/macpro_main_desktop.mp4"
           timedTexts={[
             { start: 0, end: 3, title: "44 MN", subtitle: "SQ FT" },
@@ -84,7 +84,7 @@ const HomeWrapper = ({ heroData, testimonials = [] }) => {
             { start: 27, end: 32, title: "37", subtitle: "PARKS" },
             { start: 33, end: 46, title: "10", subtitle: "MARKETS" },
           ]}
-        />
+        /> */}
         {/* <CardShowcase /> */}
 
         <WhatNew />
