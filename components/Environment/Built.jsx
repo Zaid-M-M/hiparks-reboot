@@ -2,10 +2,10 @@ import React from "react";
 
 const Built = () => {
   return (
-    <div className="relative overflow-hidden xl:py-24 py-12 h-fit">
+    <div className="relative overflow-hidden h-fit">
       {" "}
       <div className="fixup  min-h-full">
-        <div className="flex flex-col gap-[25px] 1024:flex-row items-start justify-center w-full 1024:bg-[url('/environment/built.png')] bg-cover bg-center">
+        <div className="flex flex-col gap-[25px] 1024:flex-row items-start justify-center w-full 1024:bg-[url('/environment/built.png')] xl:py-24 py-12 bg-cover bg-center">
           <div className="w-full 1024:w-1/2 flex flex-col items-start gap-[12px] 1024:gap-[16px] 1280:gap-[20px]">
             <div>
               <h1 className="bw-m text-[35px] leading-[42px] 768:text-[45px] 768:leading-[55px] 1280:text-[56px] 1280:leading-[66px] 1366:text-[64px] 1366:leading-[74px] tracking-[-1.92px] 1280:tracking-[-2.24px] 1366:tracking-[-3.04px]">
