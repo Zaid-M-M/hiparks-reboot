@@ -7,7 +7,7 @@ const Header = () => {
     <div className=" relative overflow-hidden">
       <div className="absolute top-[45px] right-0 z-0 pointer-events-none flex gap-[0px]">
         <motion.div
-          className="w-[100px] h-[100px] sm:w-[200px] sm:h-[200px] xl:w-[219px] xl:h-[226.8px] bg-[#22B148] opacity-[0.15] blur-[69px]"
+          className="w-[100px] h-[100px] sm:w-[200px] sm:h-[200px] xl:w-[219px] xl:h-[226.8px] bg-[#0db14b] opacity-[0.15] blur-[69px]"
           animate={{
             x: [0, 60, 0, -60, 0], // much larger motion
             y: [0, -40, 0, 40, 0],
@@ -40,7 +40,7 @@ const Header = () => {
                 Custom Fit.<br className="block"></br>{" "}
                 <img
                   className="1280:h-[58px] 1280:w-[226px] w-[40%] h-auto"
-                  src="/frm2.png"
+                  src="/abstract_pattern.svg"
                   alt=""
                 />
               </span>

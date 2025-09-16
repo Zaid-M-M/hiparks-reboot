@@ -203,7 +203,7 @@
 //     <section className="py-12 bg-white sm:py-[50px] 1280:py-20 relative">
 //       <div className="absolute inset-0 z-0 pointer-events-none">
 //         <div className="absolute top-0 left-0 flex gap-[25px]">
-//           <div className="w-[100px] h-[100px] sm:w-[200px] sm:h-[200px] xl:w-[295.8px] xl:h-[469.8px] bg-[#22B148] opacity-25 blur-[69px]" />
+//           <div className="w-[100px] h-[100px] sm:w-[200px] sm:h-[200px] xl:w-[295.8px] xl:h-[469.8px] bg-[#0db14b] opacity-25 blur-[69px]" />
 //           <div className="w-[100px] h-[100px] sm:w-[200px] sm:h-[200px] xl:w-[219px] xl:h-[226.8px] bg-[#7F56D9] opacity-25 blur-[69px]" />
 //         </div>
 //       </div>
@@ -342,7 +342,7 @@ const TestimonialsSlider = ({ testimonials = [] }) => {
       {/* Background gradient blurs */}
       <div className="absolute inset-0 z-0 pointer-events-none">
         <div className="absolute top-0 left-0 flex gap-[25px]">
-          <div className="w-[100px] h-[100px] sm:w-[200px] sm:h-[200px] xl:w-[295.8px] xl:h-[469.8px] bg-[#22B148] opacity-25 blur-[69px]" />
+          <div className="w-[100px] h-[100px] sm:w-[200px] sm:h-[200px] xl:w-[295.8px] xl:h-[469.8px] bg-[#0db14b] opacity-25 blur-[69px]" />
           <div className="w-[100px] h-[100px] sm:w-[200px] sm:h-[200px] xl:w-[219px] xl:h-[226.8px] bg-[#7F56D9] opacity-25 blur-[69px]" />
         </div>
       </div>

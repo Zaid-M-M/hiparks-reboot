@@ -33,7 +33,7 @@ const HomeWrapper = ({ heroData, testimonials = [] }) => {
       }}
     >
       <div className="w-full h-full bg-white">
-        <HeroBannerClient heroData={heroData} />
+        {/* <HeroBannerClient heroData={heroData} />
         <Agile />
         <ScrollVideoSection
           videoSrc="/know-us/stats.mp4"
@@ -52,9 +52,9 @@ const HomeWrapper = ({ heroData, testimonials = [] }) => {
             { start: 15, end: 17, title: "9", subtitle: "Markets" },
             { start: 18, end: 23, title: "40", subtitle: "Parks" },
           ]}
-        />
+        /> */}
         <MapWrapper />
-        <IntegratedSolutionsSection />
+        {/* <IntegratedSolutionsSection />
         <MobileMapWrapper />
         <KeySectors />
         <TestimonialsSlider testimonials={testimonials} />
@@ -63,7 +63,7 @@ const HomeWrapper = ({ heroData, testimonials = [] }) => {
         <div className="hidden sm:block">
           <ScrollSection videoSrc="/sustainaibility.mp4" />
         </div>
-        <MobileSustainaibility />
+        <MobileSustainaibility /> */}
 
         {/* <TestScroll
           videoSrc="/homescroll.mp4"
@@ -87,8 +87,8 @@ const HomeWrapper = ({ heroData, testimonials = [] }) => {
         /> */}
         {/* <CardShowcase /> */}
 
-        <WhatNew />
-        <TabbedContentShowcase />
+        {/* <WhatNew />
+        <TabbedContentShowcase /> */}
       </div>
     </ReactLenis>
   );

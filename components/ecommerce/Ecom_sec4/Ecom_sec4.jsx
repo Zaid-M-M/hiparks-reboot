@@ -5,22 +5,29 @@ const Ecom_sec4 = () => {
 
   return (
     <div className="border-b border-[#CECECE]">
-      <div className="relative w-full  overflow-hidden fix 1280:pt-[100px] pt-[45px] ">
+      <div className="relative w-full  overflow-hidden fix 1280:pt-[80px] pt-[45px] ">
 
         <div className="flex xl:flex-row flex-col">
 
           {/* Column 1 */}
           <div className="w-full xl:w-[510px] 1440:w-[650px] xl:pb-[90px]">
             <div className="flex items-left flex-col relative w-fit">
-              <h1 className="text-[26px] leading-[36px] md:text-[45px] md:leading-[55px] lg:text-[46px] lg:leading-[56px] 1440:text-[56px] 1440:leading-[66px]  bw-m bg-gradient-to-r whitespace-nowrap overflow-visible !font-medium capitalize">
-                Enabling India’s growth</h1>
+              <div className="flex gap-[10px] md:gap-[17px]  md:flex-row flex-col">
+                <h1 className="text-[26px] leading-[36px] md:text-[45px] md:leading-[55px] lg:text-[46px] lg:leading-[56px] 1440:text-[56px] 1440:leading-[66px]  bw-m bg-gradient-to-r whitespace-nowrap overflow-visible !font-medium capitalize">
+                  Enabling India’s growth</h1>
+                <img
+                  src="/abstract_pattern.svg"
+                  className="abstract_svg hidden md:block"
+                />
+              </div>
               <h1 className="text-[26px] leading-[36px]  md:text-[45px] md:leading-[55px]  lg:text-[46px] lg:leading-[56px] 1440:text-[56px] 1440:leading-[66px]  bw-r bg-gradient-to-r whitespace-nowrap overflow-visible capitalize">
                 one warehouse, one factory, <br></br> one corridor at a time
               </h1>
               <img
-                src="/ecommerce/sec4_hd_vctr.svg"
-                className="absolute w-[65px] md:w-[130px] right-[-7px] md:right-[-32px] lg:right-[-65px] lg:w-[auto] xl:right-[-65px] 1440:right-[-38px] lg:top-[0px] top-[8px] xl:top-[0px] 1440:top-[6px]"
+                src="/abstract_pattern.svg"
+                className="abstract_svg block md:hidden"
               />
+
             </div>
             <p className="xl:w-[488px] bw-r md:text-[20px] lg:text-[20px] 1280:text-[20px] md:leading-[30px] mb-[24px] mt-[20px]">We’ve supported some of India’s top e-commerce and logistics brands such as Amazon, Flipkart, Blinkit, Reliance, DHL, Delhivery, Maersk, and Rhenus Logistics through peak sale seasons, rapid expansion, and evolving delivery models. With Horizon, you're not just getting a warehouse—you’re getting a team that thinks ahead, scales fast, and adapts with you.</p>
 

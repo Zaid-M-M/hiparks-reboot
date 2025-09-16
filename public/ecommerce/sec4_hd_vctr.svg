@@ -69,7 +69,7 @@
 </pattern>
 <linearGradient id="paint0_linear_4175_17856" x1="-7.48193" y1="29" x2="172.76" y2="29" gradientUnits="userSpaceOnUse">
 <stop offset="0.2" stop-color="#AC38D9"/>
-<stop offset="1" stop-color="#F47922"/>
+<stop offset="1" stop-color="#f47920"/>
 </linearGradient>
 <linearGradient id="paint1_linear_4175_17856" x1="23.5999" y1="32.0695" x2="-9.43635" y2="32.0695" gradientUnits="userSpaceOnUse">
 <stop stop-color="white" stop-opacity="0.05"/>

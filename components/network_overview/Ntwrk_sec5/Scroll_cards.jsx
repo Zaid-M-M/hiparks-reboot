@@ -96,7 +96,7 @@ function Card1({ progress, offsetY }) {
     >
       <motion.div
         style={{ scale, translateY: offsetY, filter: blur }}
-        className="1920:w-[100%] 1280:w-[100%] 1366:w-[100%] 1440:w-[100%] 1536:w-[100%] 1600:w-[100%] w-[97%] bg-[#8A52A0] p-0 flex flex-col justify-between overflow-hidden"
+        className="1920:w-[100%] 1280:w-[100%] 1366:w-[100%] 1440:w-[100%] 1536:w-[100%] 1600:w-[100%] w-[97%] bg-[#8F53A1] p-0 flex flex-col justify-between overflow-hidden"
       >
         <div className="w-full flex flex-col md:flex-row py-[0px] px-[0px] 1920:h-[600px] 1280:h-[550px] h-[480px]">
           <div className="w-[100%] md:w-[50%] lg:px-[70px] lg:py-[0px] py-[30px] px-[20px]  1280:h-[auto] h-[100%]  relative flex items-start md:items-center">
@@ -161,7 +161,7 @@ function Card2({ progress, offsetY }) {
     >
       <motion.div
         style={{ scale, translateY: offsetY, filter: blur1 }}
-        className="1920:w-[100%] 1280:w-[100%] 1366:w-[100%] 1440:w-[100%] 1536:w-[100%] 1600:w-[100%] w-[98%] bg-[#22B148] p-0 flex flex-col justify-between overflow-hidden"
+        className="1920:w-[100%] 1280:w-[100%] 1366:w-[100%] 1440:w-[100%] 1536:w-[100%] 1600:w-[100%] w-[98%] bg-[#0db14b] p-0 flex flex-col justify-between overflow-hidden"
       >
         <div className="w-full flex flex-col md:flex-row py-[0px] px-[0px] 1920:h-[600px] 1280:h-[550px] h-[480px]">
           <div className="w-[100%] md:w-[50%] lg:px-[70px] lg:py-[0px]  py-[30px] px-[20px]  1280:h-[auto] h-[100%]  relative flex items-center">
@@ -221,7 +221,7 @@ function Card3({ progress, offsetY }) {
     >
       <motion.div
         style={{ scale, translateY: offsetY, filter: blur2 }}
-        className="1920:w-[100%] 1280:w-[100%] 1366:w-[100%] 1440:w-[100%] 1536:w-[100%] 1600:w-[100%] w-[99%]  bg-[#8A52A0] p-0 flex flex-col justify-between overflow-hidden"
+        className="1920:w-[100%] 1280:w-[100%] 1366:w-[100%] 1440:w-[100%] 1536:w-[100%] 1600:w-[100%] w-[99%]  bg-[#8F53A1] p-0 flex flex-col justify-between overflow-hidden"
       >
         <div className="w-full flex flex-col md:flex-row py-[0px] px-[0px] 1920:h-[600px] 1280:h-[550px]  md:h-[500px] h-[550px]">
           <div className="w-[100%] md:w-[50%]  lg:px-[45px] 1440:px-[70px]  lg:py-[0px] py-[30px] px-[20px]  1280:h-[auto] h-[100%]  relative flex items-center">

@@ -122,7 +122,7 @@
 //           >
 //             {/* Background Image */}
 //             <Image
-//               src="/rightcon.png"
+//               src="/abstract_pattern.svg"
 //               alt="Right Container"
 //               fill
 //               className="object-cover"
@@ -306,7 +306,7 @@ export default function HeroBannerClient() {
             >
               {/* Background Image */}
               <Image
-                src="/rightcon.png"
+                src="/abstract_pattern.svg"
                 alt="Right Container"
                 fill
                 className="object-cover"

@@ -26,7 +26,7 @@
 //                   Real Estate Location */}
 //                 </h1>
 //                 <img
-//                   src="/state/statefrm.png"
+//                   src="/abstract_pattern.svg"
 //                   className="object-cover h-[58px] lg:w-[318px] md:w-[318px] w-[100px]"
 //                   alt="Grade A Box"
 //                 />
@@ -106,7 +106,7 @@
 //                 </h1>
 
 //                 <img
-//                   src="/state/statefrm.png"
+//                   src="/abstract_pattern.svg"
 //                   className="object-cover lg:h-[58px] h-[40px] lg:w-[318px] md:w-[50%] w-auto"
 //                   alt="Grade A Box"
 //                 />
@@ -182,7 +182,7 @@ const MakeIndia = ({ data }) => {
                 </h1>
 
                 <img
-                  src="/state/statefrm.png"
+                  src="/abstract_pattern.svg"
                   className="object-cover lg:h-[58px] h-[40px] lg:w-[318px] md:w-[50%] w-auto"
                   alt="Grade A Box"
                 />
@@ -196,8 +196,8 @@ const MakeIndia = ({ data }) => {
                 </h1>
 
                 <img
-                  src="/state/statefrm.png"
-                  className="object-cover lg:h-[58px] h-[40px] lg:w-[318px] md:w-[50%] w-auto"
+                  src="/abstract_pattern.svg"
+                  className="abstract_svg"
                   alt="Grade A Box"
                 />
               </div>

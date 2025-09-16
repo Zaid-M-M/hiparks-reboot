@@ -12,7 +12,7 @@
 //               <span className="bw-m block">Indicators</span>
 //             </h1>
 //             <img
-//               src="/state/statefrm.png"
+//               src="/abstract_pattern.svg"
 //               className="object-cover h-[58px] w-[318px]"
 //               alt="Gradient bar"
 //             />
@@ -24,7 +24,7 @@
 //           <div className="sticky top-[100px] flex flex-col gap-10 max-h-[80vh] overflow-y-auto pr-4 no-scrollbar">
 //             {data.map((item, idx) => (
 //               <div key={idx} className="border-b border-gray-200 pb-6">
-//                 <h2 className="text-[76px] bw-sb flex items-baseline gap-2 leading-[1] text-[#F47922]">
+//                 <h2 className="text-[76px] bw-sb flex items-baseline gap-2 leading-[1] text-[#f47920]">
 //                   <span dangerouslySetInnerHTML={{ __html: item.value }} />
 //                 </h2>
 //                 <p
@@ -67,7 +67,7 @@
 //               <span className="bw-m block">Indicators</span>
 //             </h1>
 //             <img
-//               src="/state/statefrm.png"
+//               src="/abstract_pattern.svg"
 //               className="object-cover h-[58px] w-[318px]"
 //               alt="Gradient bar"
 //             />
@@ -87,7 +87,7 @@
 //                 transition={{ duration: 0.6, ease: "easeOut" }}
 //                 viewport={{ once: false, amount: 0.2 }}
 //               >
-//                 <h2 className="text-[76px] bw-sb flex items-baseline gap-2 leading-[1] text-[#F47922]">
+//                 <h2 className="text-[76px] bw-sb flex items-baseline gap-2 leading-[1] text-[#f47920]">
 //                   <span dangerouslySetInnerHTML={{ __html: item.value }} />
 //                 </h2>
 //                 <p
@@ -153,7 +153,7 @@
 //       }}
 //       transition={{ duration: 0.6, ease: "easeOut" }}
 //     >
-//       <h2 className="text-[76px] bw-sb flex items-baseline gap-2 leading-[1] text-[#F47922]">
+//       <h2 className="text-[76px] bw-sb flex items-baseline gap-2 leading-[1] text-[#f47920]">
 //         <span dangerouslySetInnerHTML={{ __html: item.value }} />
 //       </h2>
 //       <p
@@ -176,7 +176,7 @@
 //               <span className="bw-m block">Indicators</span>
 //             </h1>
 //             <img
-//               src="/state/statefrm.png"
+//               src="/abstract_pattern.svg"
 //               className="object-cover h-[58px] w-[318px]"
 //               alt="Gradient bar"
 //             />
@@ -242,7 +242,7 @@
 //       }}
 //       transition={{ duration: 0.6, ease: "easeOut" }}
 //     >
-//       <h2 className="text-[32px] md:text-[48px] lg:text-[76px] bw-sb flex items-baseline gap-2 leading-[1] text-[#F47922]">
+//       <h2 className="text-[32px] md:text-[48px] lg:text-[76px] bw-sb flex items-baseline gap-2 leading-[1] text-[#f47920]">
 //         <span dangerouslySetInnerHTML={{ __html: item.value }} />
 //       </h2>
 //       <p
@@ -270,7 +270,7 @@ const IndicatorItem = ({ item }) => {
   if (isMobile) {
     return (
       <div ref={ref} className="border-b border-gray-200 pb-6">
-        <h2 className="text-[32px] md:text-[48px] lg:text-[76px] bw-sb flex items-baseline gap-2 leading-[1] text-[#F47922]">
+        <h2 className="text-[32px] md:text-[48px] lg:text-[76px] bw-sb flex items-baseline gap-2 leading-[1] text-[#f47920]">
           <span dangerouslySetInnerHTML={{ __html: item.value }} />
         </h2>
         <p
@@ -296,7 +296,7 @@ const IndicatorItem = ({ item }) => {
       }}
       transition={{ duration: 0.6, ease: "easeOut" }}
     >
-      <h2 className="text-[32px] md:text-[48px] lg:text-[76px] bw-sb flex items-baseline gap-2 leading-[1] text-[#F47922]">
+      <h2 className="text-[32px] md:text-[48px] lg:text-[76px] bw-sb flex items-baseline gap-2 leading-[1] text-[#f47920]">
         <span dangerouslySetInnerHTML={{ __html: item.value }} />
       </h2>
       <p
@@ -332,13 +332,13 @@ const IndicatorItem = ({ item }) => {
 //                   <span className="bw-m block">Indicators</span>
 //                 </h1>
 //                 {/* <img
-//                 src="/state/statefrm.png"
+//                 src="/abstract_pattern.svg"
 //                 className="object-cover h-[58px] lg:w-[318px] md:w-[318px] w-[100px]"
 //                 alt="Grade A Box"
 //               /> */}
 
 //                 <img
-//                   src="/state/statefrm.png"
+//                   src="/abstract_pattern.svg"
 //                   className="object-cover lg:h-[58px] h-[40px] lg:w-[318px] md:w-full w-auto"
 //                   alt="Grade A Box"
 //                 />
@@ -389,7 +389,7 @@ const Indicators = ({ data }) => {
                 </h1>
 
                 <img
-                  src="/state/statefrm.png"
+                  src="/abstract_pattern.svg"
                   className="object-cover lg:h-[58px] h-[40px] lg:w-[368px] md:w-full w-auto"
                   alt="Grade A Box"
                 />

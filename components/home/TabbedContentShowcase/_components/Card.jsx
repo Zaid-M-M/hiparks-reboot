@@ -16,7 +16,7 @@ import React from "react";
 
 //     //     <div className="flex flex-col justify-between ">
 //     //       <div className="flex flex-col justify-between w-full h-full gap-[10px]">
-//     //         <h3 className="text-[14px] inter-sb text-[#F47922]">
+//     //         <h3 className="text-[14px] inter-sb text-[#f47920]">
 //     //           {" "}
 //     //           {category || "No Category"}
 //     //         </h3>
@@ -39,7 +39,7 @@ import React from "react";
 //     //     >
 //     //       <path
 //     //         d="M0 92L92 184L92 0L0 92Z"
-//     //         className="fill-[#DEDDCE] group-hover:fill-[#22B148] group-hover:ease-in transition-colors duration-300"
+//     //         className="fill-[#DEDDCE] group-hover:fill-[#0db14b] group-hover:ease-in transition-colors duration-300"
 //     //       />
 //     //     </svg>
 //     //   </div>
@@ -60,7 +60,7 @@ import React from "react";
 //           <div className="flex flex-col justify-between w-full h-full gap-[10px]">
 //             {/* Only show category if it exists */}
 //             {category && (
-//               <h3 className="text-[14px] inter-sb text-[#F47922]">
+//               <h3 className="text-[14px] inter-sb text-[#f47920]">
 //                 {category}
 //               </h3>
 //             )}
@@ -90,7 +90,7 @@ import React from "react";
 //         >
 //           <path
 //             d="M0 92L92 184L92 0L0 92Z"
-//             className="fill-[#DEDDCE] group-hover:fill-[#22B148] group-hover:ease-in transition-colors duration-300"
+//             className="fill-[#DEDDCE] group-hover:fill-[#0db14b] group-hover:ease-in transition-colors duration-300"
 //           />
 //         </svg>
 //       </div>
@@ -117,7 +117,7 @@ const Card = ({ title, image, category, description, link, activeTab }) => {
         <div className="flex flex-col justify-between">
           <div className="flex flex-col justify-between w-full h-full gap-[10px]">
             {category && (
-              <h3 className="text-[14px] inter-sb text-[#F47922]">
+              <h3 className="text-[14px] inter-sb text-[#f47920]">
                 {category}
               </h3>
             )}
@@ -149,7 +149,7 @@ const Card = ({ title, image, category, description, link, activeTab }) => {
         >
           <path
             d="M0 92L92 184L92 0L0 92Z"
-            className="fill-[#DEDDCE] group-hover:fill-[#22B148] group-hover:ease-in transition-colors duration-300"
+            className="fill-[#DEDDCE] group-hover:fill-[#0db14b] group-hover:ease-in transition-colors duration-300"
           />
         </svg>
       </div>

@@ -69,7 +69,7 @@ export default function HeroIntroSector() {
           Grade A{" "}
           <div style={{ width: 133, height: 58, position: "relative" }}>
             <img
-              src="/frame.png"
+              src="/abstract_pattern.svg"
               alt="Frame"
               fill // use fill instead of width/height here
               style={{ objectFit: "contain" }}

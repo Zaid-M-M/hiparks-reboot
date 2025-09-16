@@ -12,18 +12,21 @@ const Ntwrk_sec7 = () => {
           {/* Column 1 */}
           <div className="w-full xl:w-[510px] 1440:w-[570px] xl:pb-[30px] 1440:pb-[70px]">
             <div className="flex items-left flex-col relative w-fit">
-              <h1 className="inline-block w-fit text-[26px] leading-[36px] md:text-[45px] md:leading-[55px] lg:text-[46px] lg:leading-[56px] 1440:text-[56px] 1440:leading-[66px] bw-m bg-[linear-gradient(111deg,#AC38D9,#F47922)] bg-clip-text text-transparent font-medium capitalize whitespace-nowrap">
-                Internationally
-              </h1>
 
+              <div className="flex gap-[10px] md:gap-[17px]">
+                <h1 className="inline-block w-fit text-[26px] leading-[36px] md:text-[45px] md:leading-[55px] lg:text-[46px] lg:leading-[56px] xl:text-[56px] xl:leading-[66px] bw-m bg-[linear-gradient(111deg,#AC38D9,#f47920)] bg-clip-text text-transparent font-medium capitalize whitespace-nowrap">
+                  Internationally
+                </h1>
+                <img
+                  src="/abstract_pattern.svg"
+                  className="abstract_svg"
+                />
+              </div>
 
               <h1 className="text-[26px] leading-[36px]  md:text-[45px] md:leading-[55px] text-white lg:text-[46px] lg:leading-[56px] 1440:text-[56px] 1440:leading-[66px]  bw-r bg-gradient-to-r whitespace-nowrap overflow-visible capitalize">
                 Compliant Infrastructure
               </h1>
-              <img
-                src="/txt_box_249.svg"
-                className="absolute w-[120px] md:w-[200px] right-[-18px] md:right-[-18px] lg:right-[-18px] lg:w-[200px] xl:w-[auto] xl:right-[-65px] 1440:right-[-28px] lg:top-[10px] top-[8px] xl:top-[0px] 1440:top-[6px]"
-              />
+
             </div>
 
             <div className="xl:w-[563px] lg:mt-[35px]">

@@ -188,7 +188,7 @@ export default Sustainaibility;
 //               </motion.h3>
 //               <span className="lg:flex h-[25px] 768:h-[28px] 1024:h-[35px] justify-start xl:h-[52px] xl:w-[180px] overflow-hidden">
 //                 <motion.img
-//                   src="/frm2.png"
+//                   src="/abstract_pattern.svg"
 //                   alt="Truck"
 //                   className="object-cover h-full"
 //                   variants={childVariants}

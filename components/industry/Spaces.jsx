@@ -56,24 +56,24 @@ const Spaces = () => {
         {/* Heading */}
         <div>
           <div className="flex items-center gap-5">
-            <h2 className="inline-block w-fit text-[35px] leading-[45px] md:text-[45px] md:leading-[55px] lg:text-[46px] lg:leading-[56px] xl:tracking-[-2.56px] xl:text-[64px] xl:leading-[74px] bw-m bg-[linear-gradient(111deg,#AC38D9,#F47922)] bg-clip-text text-transparent font-medium capitalize whitespace-nowrap ">
+            <h2 className="inline-block w-fit text-[35px] leading-[45px] md:text-[45px] md:leading-[55px] lg:text-[46px] lg:leading-[56px] xl:tracking-[-2.56px] xl:text-[64px] xl:leading-[74px] bw-m bg-[linear-gradient(111deg,#AC38D9,#f47920)] bg-clip-text text-transparent font-medium capitalize whitespace-nowrap ">
               Solutions That Evolve
             </h2>
 
           </div>
-          <div className="flex items-center gap-5">
+          <div className="flex items-center gap-[10px] md:gap-[17px]">
             <h2 className="text-[35px] leading-[45px]  md:text-[45px] md:leading-[55px] lg:text-[46px] lg:leading-[56px] xl:text-[64px] xl:leading-[74px] xl:tracking-[-2.56px] bw-r text-white">
               With Your Needs
             </h2>
             <img
-              src="/frm2.png"
-              className="lg:w-[226px] lg:flex hidden w-[40%] h-auto lg:h-[58px] object-cover"
+              src="/abstract_pattern.svg"
+              className="abstract_svg hidden md:block"
               alt=""
             />
           </div>
           <img
-            src="/frm2.png"
-            className="lg:w-[226px] lg:hidden flex pt-2 w-[40%] h-auto lg:h-[58px] object-cover"
+            src="/abstract_pattern.svg"
+            className="abstract_svg block md:hidden mt-[10px]"
             alt=""
           />
         </div>
@@ -89,7 +89,7 @@ const Spaces = () => {
               whileHover={isMobile ? undefined : "hover"}
             >
               <div className="group w-full p-6 pt-6 pl-6 z-[10] flex flex-col gap-4 bg-gradient-to-b from-[#212324] to-transparent text-white overflow-hidden">
-                <p className="w-fit text-[20px] leading-[20px] bw-m bg-gradient-to-b bg-clip-text text-transparent bg-[linear-gradient(165deg,#F47922_22.78%,#A66EFF_83.38%)] z-10 relative">
+                <p className="w-fit text-[20px] leading-[20px] bw-m bg-gradient-to-b bg-clip-text text-transparent bg-[linear-gradient(165deg,#f47920_22.78%,#A66EFF_83.38%)] z-10 relative">
                   0{index + 1}
                 </p>
                 <p className="text-[22px] xl:text-[24px] 1440:text-[28px] text-white bw-r md:leading-[120%] leading-[32px] z-10 relative">

@@ -22,7 +22,7 @@
 //           Grade A{" "}
 //           <div style={{ width: 133, height: 58, position: "relative" }}>
 //             <Image
-//               src="/frame.png"
+//               src="/abstract_pattern.svg"
 //               alt="Frame"
 //               fill // use fill instead of width/height here
 //               style={{ objectFit: "contain" }}
@@ -84,7 +84,7 @@
 //             Key Sectors{" "}
 //             {/* <div style={{ width: 233, height: 58, position: "relative" }}>
 //               <Image
-//                 src="/framer.png"
+//                 src="/abstract_pattern.svg"
 //                 alt="Frame"
 //                 fill
 //                 style={{ objectFit: "contain" }}
@@ -263,7 +263,7 @@
 //         Key Sectors{" "}
 //         <div style={{ width: 233, height: 58, position: "relative" }}>
 //           <Image
-//             src="/framer.png"
+//             src="/abstract_pattern.svg"
 //             alt="Frame"
 //             fill
 //             style={{ objectFit: "contain" }}
@@ -361,7 +361,7 @@
 //             Key Sectors{" "}
 //             <div style={{ width: 233, height: 58, position: "relative" }}>
 //               <Image
-//                 src="/framer.png"
+//                 src="/abstract_pattern.svg"
 //                 alt="Frame"
 //                 fill // use fill instead of width/height here
 //                 style={{ objectFit: "contain" }}
@@ -447,7 +447,7 @@
 //     //         Key Sectors{" "}
 //     //         <div style={{ width: 233, height: 58, position: "relative" }}>
 //     //           <Image
-//     //             src="/framer.png"
+//     //             src="/abstract_pattern.svg"
 //     //             alt="Frame"
 //     //             fill
 //     //             style={{ objectFit: "contain" }}
@@ -641,7 +641,7 @@ export default function KeySectors() {
                 transition={{ duration: 1, ease: [0.7, 0, 0.4, 1], delay: 0.5 }}
               >
                 <img
-                  src="/frm2.png"
+                  src="/abstract_pattern.svg"
                   alt="Truck"
                   className="object-cover h-full"
                 />
@@ -654,7 +654,7 @@ export default function KeySectors() {
                 transition={{ duration: 1, ease: [0.7, 0, 0.4, 1], delay: 0.5 }}
               >
                 <img
-                  src="/frm2.png"
+                  src="/abstract_pattern.svg"
                   alt="Truck"
                   className="object-cover h-full"
                 />

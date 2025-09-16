@@ -26,7 +26,7 @@ const Solutions = () => {
             <span className='bw-m lg:items-center flex lg:flex-row flex-col lg:gap-5 gap-2'>
               With Your Needs
               <img
-                src='/frm2.png'
+                src='/abstract_pattern.svg'
                 className='lg:w-[226px] w-[40%] h-auto lg:h-[48px]'
                 alt=''
               />

@@ -54,7 +54,7 @@
 </clipPath><clipPath id="bgblur_6_4073_10990_clip_path" transform="translate(-97 29)"><path d="M140 131L117 131L117 -9L140 -9L140 131Z"/>
 </clipPath><linearGradient id="paint0_linear_4073_10990" x1="-6.46586" y1="61.4389" x2="149.298" y2="61.4389" gradientUnits="userSpaceOnUse">
 <stop offset="0.1875" stop-color="#AC38D9"/>
-<stop offset="1" stop-color="#F47922"/>
+<stop offset="1" stop-color="#f47920"/>
 </linearGradient>
 <linearGradient id="paint1_linear_4073_10990" x1="23" y1="47.3636" x2="-2.08543e-06" y2="47.3636" gradientUnits="userSpaceOnUse">
 <stop offset="0.0001" stop-color="white"/>

@@ -205,7 +205,7 @@ export default function ArrowList() {
           // left: "16px",
           top: vLine.top,
           height: vLine.height,
-          // background: "linear-gradient(180deg, #F47922 0%, #8B37A4 77%)",
+          // background: "linear-gradient(180deg, #f47920 0%, #8B37A4 77%)",
         }}
       />
 
@@ -222,7 +222,7 @@ export default function ArrowList() {
               style={{
                 // left: "16px",
                 width: "40px", // extended to touch arrow
-                background: "linear-gradient(90deg, #8B37A4 0%, #F47922 90%)",
+                background: "linear-gradient(90deg, #8B37A4 0%, #f47920 90%)",
               }}
             />
 
@@ -242,8 +242,8 @@ export default function ArrowList() {
                   x2="100%"
                   y2="0%"
                 >
-                  <stop offset="0%" stopColor="#F47922" />
-                  <stop offset="77%" stopColor="#F47922" />
+                  <stop offset="0%" stopColor="#f47920" />
+                  <stop offset="77%" stopColor="#f47920" />
                 </linearGradient>
               </defs>
               <polygon points="6,4 20,12 6,20" fill={`url(#grad-fill-${i})`} />

@@ -10,7 +10,7 @@
 //     id: 1,
 //     title: "Luhari",
 //     status: "Underconstruction",
-//     statusColor: "text-orange-500",
+//     statusColor: "text-[#f47920]",
 //     image: "/state/test.png",
 //     area: "125 Acres",
 //     potential: "3.2 MN Sq Ft",
@@ -21,7 +21,7 @@
 //     id: 2,
 //     title: "Delhi I",
 //     status: "Active",
-//     statusColor: "text-green-500",
+//     statusColor: "text-[#0db14b]",
 //     image: "/state/test.png",
 //     area: "23 Acres",
 //     potential: "0.5 MN Sq Ft",
@@ -32,7 +32,7 @@
 //     id: 3,
 //     title: "Delhi II",
 //     status: "Underconstruction",
-//     statusColor: "text-orange-500",
+//     statusColor: "text-[#f47920]",
 //     image: "/state/test.png",
 //     area: "14 Acres",
 //     potential: "0.4 MN Sq Ft",
@@ -43,7 +43,7 @@
 //     id: 4,
 //     title: "Delhi I",
 //     status: "Active",
-//     statusColor: "text-green-500",
+//     statusColor: "text-[#0db14b]",
 //     image: "/state/test.png",
 //     area: "23 Acres",
 //     potential: "0.5 MN Sq Ft",
@@ -54,7 +54,7 @@
 //     id: 5,
 //     title: "Delhi II",
 //     status: "Underconstruction",
-//     statusColor: "text-orange-500",
+//     statusColor: "text-[#f47920]",
 //     image: "/state/test.png",
 //     area: "14 Acres",
 //     potential: "0.4 MN Sq Ft",
@@ -190,8 +190,8 @@
 //           status: park.acf?.construction_status || "Unknown",
 //           statusColor:
 //             park.acf?.construction_status?.toLowerCase() === "active"
-//               ? "text-green-500"
-//               : "text-orange-500",
+//               ? "text-[#0db14b]"
+//               : "text-[#f47920]",
 //           image: park.acf?.park_spotlight_image || "/state/test.png",
 //           area: park.acf?.land_area
 //             ? park.acf.land_area.replace(/<[^>]+>/g, "")
@@ -341,8 +341,8 @@ const ParksSlider = () => {
           status: park.acf?.construction_status || "Unknown",
           statusColor:
             park.acf?.construction_status?.toLowerCase() === "active"
-              ? "text-green-500"
-              : "text-orange-500",
+              ? "text-[#0db14b]"
+              : "text-[#f47920]",
           image: park.acf?.park_spotlight_image || "/state/test.png",
           area: park.acf?.land_area
             ? park.acf.land_area.replace(/<[^>]+>/g, "")

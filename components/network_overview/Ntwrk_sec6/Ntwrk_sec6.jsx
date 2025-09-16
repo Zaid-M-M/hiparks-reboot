@@ -9,16 +9,22 @@ const Ntwrk_sec6 = () => {
       <div className="relative w-full fix pt-[45px] md:pt[80px] lg:pt[100px]  pb-[45px] md:pb[55px] xl:pb-[100px]">
 
         <div className="flex flex-col justify-between mb-[30px] xl:mb-[0px] mt-[0px] xl:mt-[48px] lg:mt-[0px] md:gap-[20px] gap-[25px] lg:flex-row ">
-          <div className=" max-w-[600px] md:max-w-[100%] lg:max-w-[45%] mb-[0px] lg:mb-[0px] lg:mt-[10px] mt-[0px]">
-            <div className="flex items-start flex-col md:flex-row md:items-center relative  md:w-[460px] lg:w-[auto] overflow-hidden md:overflow-visible">
+          <div className="mb-[0px] lg:mb-[0px] lg:mt-[10px] mt-[0px]">
+            <div className="flex items-start flex-col md:items-start relative overflow-hidden md:overflow-visible">
               <h1 className="tracking-[-2px] text-[33px] leading-[43px] md:text-[45px] md:leading-[55px] xl:text-[56px] xl:leading-[66px] lg:tracking-[-2.64px] bw-r md:w-[460px] lg:w-[auto] capitalize">
                 Built for Speed, Scale<br></br>
-                <span className="bw-m">and Smarter Growth</span>
               </h1>
-              <img
-                src="/txt_grd_box.svg"
-                className="absolute right-[-11px] md:right-[-30px] lg:right-[-147px] bottom-[5px] w-[70px] md:w-[110px] lg:w-[149px]"
-              />
+
+              <div className="flex gap-[10px] md:gap-[17px]  md:flex-row flex-col">
+                <h1 className="tracking-[-2px] text-[33px] leading-[43px] md:text-[45px] md:leading-[55px] xl:text-[56px] xl:leading-[66px] lg:tracking-[-2.64px] bw-r md:w-[460px] lg:w-[auto] capitalize">
+                  <span className="bw-m">and Smarter Growth</span>
+                </h1>
+                <img
+                  src="/abstract_pattern.svg"
+                  className="abstract_svg"
+                />
+              </div>
+
             </div>
           </div>
         </div>
@@ -64,7 +70,7 @@ const Ntwrk_sec6 = () => {
             </div>
 
             {/* Box 2 */}
-            <div className="bg-[#22b148] h-[260px] md:h-[180px] lg:h-[230px] xl:h-[260px] overflow-hidden relative">
+            <div className="bg-[#0db14b] h-[260px] md:h-[180px] lg:h-[230px] xl:h-[260px] overflow-hidden relative">
               <h3 className="absolute z-1 bw-m text-[26px] lg:text-[25px] md:text-[18px] xk:text-[28px] leading-[32px] lg:leading-[30px] xl:leading-[32px] md:leading-[21px]  text-[#fff] pt-[25px] pl-[25px] md:pl-[14px] md:pt-[17px] xl:pl-[17px] lg:pl-[20px] md:w-[160px] lg:w-[auto] ">
                 Sustainable By Design
               </h3>

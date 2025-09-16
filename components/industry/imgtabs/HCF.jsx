@@ -25,8 +25,8 @@ const HCF = () => {
             <span className="bw-m lg:items-center flex lg:flex-row flex-col lg:gap-5 gap-2">
               Global Benchmarks
               <img
-                src="/frm2.png"
-                className="lg:w-[226px] w-[40%] h-auto lg:h-[58px]"
+                src="/abstract_pattern.svg"
+                className="abstract_svg"
                 alt=""
               />
             </span>
@@ -66,7 +66,7 @@ const HCF = () => {
                 animate={{
                   backgroundImage:
                     activeTab === 1
-                      ? "linear-gradient(to right, #AC38D9, #F47922)"
+                      ? "linear-gradient(to right, #AC38D9, #f47920)"
                       : "linear-gradient(to right, #ffffff, #ffffff)",
                 }}
                 transition={{ duration: 0.4, ease: "easeInOut" }}
@@ -90,7 +90,7 @@ const HCF = () => {
                 animate={{
                   backgroundImage:
                     activeTab === 2
-                      ? "linear-gradient(to right, #AC38D9, #F47922)"
+                      ? "linear-gradient(to right, #AC38D9, #f47920)"
                       : "linear-gradient(to right, #ffffff, #ffffff)",
                 }}
                 transition={{ duration: 0.4, ease: "easeInOut" }}
@@ -149,7 +149,7 @@ export default HCF;
 //             <span className="bw-m lg:items-center flex lg:flex-row flex-col lg:gap-5 gap-2">
 //               To Global Standards
 //               <img
-//                 src="/frm2.png"
+//                 src="/abstract_pattern.svg"
 //                 className="lg:w-[226px] w-[40%] h-auto lg:h-[58px]"
 //                 alt=""
 //               />
@@ -190,7 +190,7 @@ export default HCF;
 //                 animate={{
 //                   backgroundImage:
 //                     activeTab === 1
-//                       ? "linear-gradient(to right, #AC38D9, #F47922)"
+//                       ? "linear-gradient(to right, #AC38D9, #f47920)"
 //                       : "linear-gradient(to right, #ffffff, #ffffff)",
 //                 }}
 //                 transition={{ duration: 0.4, ease: "easeInOut" }}
@@ -214,7 +214,7 @@ export default HCF;
 //                 animate={{
 //                   backgroundImage:
 //                     activeTab === 2
-//                       ? "linear-gradient(to right, #AC38D9, #F47922)"
+//                       ? "linear-gradient(to right, #AC38D9, #f47920)"
 //                       : "linear-gradient(to right, #ffffff, #ffffff)",
 //                 }}
 //                 transition={{ duration: 0.4, ease: "easeInOut" }}

@@ -28,18 +28,20 @@ const BJ_Sec1 = () => {
             </a>
           </div>
 
-          <div className="flex flex-col items-start md:flex-col md:items-start lg:w-fit relative">
+          <div className="flex flex-col items-start md:flex-col md:items-start md:w-fit relative">
             <h1 className="sec_hd bw-r">
               <span className="bw-m">Building for What's Next.</span>
             </h1>
-            <h1 className="sec_hd bw-r">Backed by What Works.</h1>
-            <img
-              src="/txt_box_295.svg"
-              className="hidden sm:block absolute bottom-0 lg:bottom-[10px] right-[-289px] md:right-[65px] lg:right-[-195px] xl:right-[-290px] md:w-[200px] xl:w-[auto]"
-            />
+            <div className="flex gap-[10px] md:gap-[17px]  md:flex-row flex-col">
+              <h1 className="sec_hd bw-r">Backed by What Works.</h1>
+              <img
+                src="/abstract_pattern.svg"
+                className="abstract_svg"
+              />
+            </div>
           </div>
 
-          <div className="flex flex-col justify-between mt-[20px] lg:mt-[40px] xl:mt-[80px]  lg:flex-row ">
+          <div className="flex flex-col justify-between mt-[30px] lg:mt-[40px] xl:mt-[53px]  lg:flex-row ">
             <div className="max-w-[565px] mb-[15px] lg:mb-[0px]">
               <p className="text-[22px] leading-[30px] lg:text-[26px] lg:leading-[37px] xl:text-[30px] xl:leading-[40px] bw-r">
                 We are India’s fastest growing developers of Grade A industrial

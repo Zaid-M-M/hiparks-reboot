@@ -40,11 +40,11 @@ function Sector_scroll({ progress }) {
       <div className="flex-1 " ref={paraRef}>
 
         <div className=' pt-[50px] pb-[10px] bg-[#000]'>
-          <h1 className=" sec_hd bw-r bg-gradient-to-r whitespace-nowrap overflow-visible from-[#AC38D9] to-[#F47922] bg-clip-text text-transparent mb-[41px]">
+          <h1 className=" sec_hd bw-r bg-gradient-to-r whitespace-nowrap overflow-visible from-[#AC38D9] to-[#f47920] bg-clip-text text-transparent mb-[41px]">
             Sector Special <br />
             <span className="bw-m text-[#fff]">Solutions</span>
             <img
-              src="/txt_grd_box.svg"
+              src="/abstract_pattern.svg"
               className="mt-[-32px] w-[100px] 1280:w-[auto] 1280:mt-[-60px] 1280:ml-[300px]"
             />
           </h1>

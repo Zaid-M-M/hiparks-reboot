@@ -68,7 +68,7 @@ const PopupSection = ({
               <div className="pt-6">
                 <button
                   onClick={buttonAction}
-                  className="px-6 py-3 bg-black text-white text-sm md:text-base rounded-lg hover:bg-[#F47922] transition"
+                  className="px-6 py-3 bg-black text-white text-sm md:text-base rounded-lg hover:bg-[#f47920] transition"
                 >
                   {buttonText}
                 </button>

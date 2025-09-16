@@ -16,13 +16,13 @@ const HorizonParks = ({ data }) => {
               </h1>
 
               {/* <img
-                src="/state/statefrm.png"
+                src="/abstract_pattern.svg"
                 className="object-cover h-[58px] lg:w-[318px] md:w-[318px] w-[100px]"
                 alt="Grade A Box"
               /> */}
               <img
-                src="/state/statefrm.png"
-                className="object-cover lg:h-[58px] h-[40px] lg:w-[368px] md:w-[50%] w-auto"
+                src="/abstract_pattern.svg"
+                className="abstract_svg"
                 alt="Grade A Box"
               />
             </div>
@@ -32,7 +32,7 @@ const HorizonParks = ({ data }) => {
               </span>
               <div>
                 <img
-                  src="/state/statefrm.png"
+                  src="/abstract_pattern.svg"
                   className="object-cover h-[58px] lg:w-[318px] md:w-[318px] w-[100px]"
                   alt="Grade A Box"
                 />

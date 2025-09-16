@@ -19,7 +19,7 @@ const FocusHeader = () => {
             viewport={{ amount: 0.25, once: true }}
           >
             <img
-              src="/frm2.png"
+              src="/abstract_pattern.svg"
               className="w-[100px] sm:w-[226px] xl:h-[58px] md:h-[48px] h-[30px] object-cover"
               alt="Decorative Line"
             />

@@ -23,7 +23,7 @@ const Leadership = () => {
         />
 
         <motion.div
-          className="w-[100px] h-[100px] sm:w-[200px] sm:h-[200px] xl:w-[295.8px] xl:h-[469.8px] bg-[#22B148] opacity-[0.13] blur-[69px]"
+          className="w-[100px] h-[100px] sm:w-[200px] sm:h-[200px] xl:w-[295.8px] xl:h-[469.8px] bg-[#0db14b] opacity-[0.13] blur-[69px]"
           animate={{
             x: [0, -80, 0, 80, 0],
             y: [0, 50, 0, -50, 0],

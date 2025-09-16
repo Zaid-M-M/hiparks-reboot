@@ -41,7 +41,7 @@
 //   x = 100, // Default fallback
 //   y = 100, // Default fallback
 //   label = "Unknown",
-//   color = "#22B148", // Default color from dynamic data
+//   color = "#0db14b", // Default color from dynamic data
 //   onClick,
 //   onMouseEnter,
 //   onMouseLeave,

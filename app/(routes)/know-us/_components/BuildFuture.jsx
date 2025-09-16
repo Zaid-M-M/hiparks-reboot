@@ -46,10 +46,10 @@ const BuildFuture = () => {
           className="absolute top-auto bottom-[0px] xl:right-[1%] 1440:right-[3%] 1536:right-[5%] 1600:right-[7%] 1920:right-[15%] xl:w-[100%] 1400:w-[91%] 1536:w-[86%] 1600:w-[80%] 1920:w-[71%] right-[5%] 1024:w-full z-0 h-auto"
           alt=""
         />
-        <div className="absolute bottom-0 -left-3.5 sm:left-0 w-[320px] h-[320px] rotate-[-32.402deg] rounded-full opacity-30 bg-[#22B148] blur-[115px]"></div>
+        <div className="absolute bottom-0 -left-3.5 sm:left-0 w-[320px] h-[320px] rotate-[-32.402deg] rounded-full opacity-30 bg-[#0db14b] blur-[115px]"></div>
 
         <div className="fix1440 z-10">
-          <h1 className="bw-m text-[35px] 768:text-[45px] md:mb-5 h-fit 1280:text-[65px] leading-[40px] sm:leading-normal 1280:leading-[120%] 1366:text-[64px] bg-[linear-gradient(94deg,#AC38D9_10%,#F47922_40%,#F47922_100%)] bg-clip-text text-transparent whitespace-nowrap overflow-visible tracking-[-0.04em]">
+          <h1 className="bw-m text-[35px] 768:text-[45px] md:mb-5 h-fit 1280:text-[65px] leading-[40px] sm:leading-normal 1280:leading-[120%] 1366:text-[64px] bg-[linear-gradient(94deg,#AC38D9_10%,#f47920_40%,#f47920_100%)] bg-clip-text text-transparent whitespace-nowrap overflow-visible tracking-[-0.04em]">
             We're Building <br className="md:hidden flex" /> For The Future
           </h1>
 

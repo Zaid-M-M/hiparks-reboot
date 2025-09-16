@@ -14,7 +14,7 @@ const CO_sec1 = () => {
     // Function to check screen width
     const handleResize = () => {
       const width = window.innerWidth;
-      if (width === 1280 || width === 1366) {
+      if (width >= 1024 && width <= 1390) {
         setShowToggle(true);
       } else {
         setShowToggle(false);
@@ -32,7 +32,7 @@ const CO_sec1 = () => {
       <div className="relative overflow-hidden">
 
         <img className="purple_vctr absolute w-[200px] md:w-[300px] lg:w-[400px] top-[-50px] right-[0px] lg:top-[-80px] lg:right-[140px] " src='/purple_vector.svg' />
-        <img className="orange_vctr absolute w-[200px] md:w-[300px] lg:w-[400px] top-[-50px] right-[0px] lg:top-[-80px] lg:right-[-100px]" src='/orange_vector.svg' />
+        <img className="orange_vctr absolute w-[200px] md:w-[300px] lg:w-[400px] top-[-50px] right-[-50px] lg:top-[-80px] lg:right-[-100px]" src='/orange_vector.svg' />
 
         <div className="relative w-full  overflow-hidden fix pt-[45px] md:pt[80px] lg:pt[100px]  pb-[30px] md:pb[55px] 1440:pb-[70px]  1280:pb-[0px]">
           <div className="bw-m bg-[#F7F7F7] border-[1px] border-[#E3E3E3] px-[8px] py-[3px]  md:px-[10px] md:py-[7px] w-[fit-content] mb-[10px]">
@@ -46,14 +46,21 @@ const CO_sec1 = () => {
           </div>
 
           <div className="flex items-start flex-col w-fit relative">
-            <h1 className="sec_hd bw-r">Flexible, Scalable,</h1>
-            <h1 className="sec_hd bw-r"><span className="bw-m">Tailored Solutions</span></h1>
+            <div className="flex gap-[10px] md:gap-[17px] ">
+              <h1 className="sec_hd bw-r">Flexible, Scalable,</h1>
+              <img
+                src="/abstract_pattern.svg"
+                className="abstract_svg  hidden md:block mt-[5px] md:mt-[0px]"
+              />
+            </div>
+            <h1 className="sec_hd bw-m"><span className="bw-m">Tailored Solutions</span></h1>
             <img
-              src="/txt_box_249.svg"
-              className="absolute top-[12px] md:top-[15px] lg:top-[9px] right-[-10px] w-[100px] md:w-[150px] lg:w-[170px] xl:w-[auto] translate-x-full"
+              src="/abstract_pattern.svg"
+              className="abstract_svg  block md:hidden mt-[7px]"
             />
+
           </div>
-          <div className="flex flex-col mt-[10px] lg:mt-[40px] gap-[40px] lg:flex-row ">
+          <div className="flex flex-col mt-[10px] lg:mt-[40px] md:gap-[40px] gap-[20px] lg:flex-row ">
             <div className=" max-w-[600px] md:max-w-[100%] lg:max-w-[45%] mb-[0px] lg:mb-[0px] lg:mt-[10px] mt-[20px]">
               <img
                 className="w-[100%]"
@@ -61,18 +68,15 @@ const CO_sec1 = () => {
               ></img>
             </div>
             <div className="1280:max-w-[590px] 1366:max-w-[700px] 1440:max-w-[700px] 1536:max-w-[700px] md:max-w-[100%] lg:max-w-[55%] max-w-[658px]">
-              <p className="bw-r md:text-[20px] lg:text-[28px] 1280:text-[25px] 1440:text-[28px] md:leading-[38px] xl:leading-[32px] 1440:leading-[38px] mb-[13px]">
-                From factory and warehousing solutions to cold storage and in-city logistics—we’ve got you covered.
-              </p>
-              <p className="bw-r md:text-[17px] lg:text-[17px] 1280:text-[20px] md:leading-[30px] mb-[14px]">
-                Whether you're scaling up your operations or setting up your first box, optimising logistics or planning a long-term shift in supply chain strategy, our flexible offerings are built to match your ambition and augment your growth.
+              <p className="bw-r md:text-[20px] lg:text-[25px] 1280:text-[25px] 1440:text-[28px] md:leading-[38px] xl:leading-[32px] 1440:leading-[38px] mb-[13px]">
+                From factory and logistics real estate solutions to last mile warehousing—we’ve got you covered.
               </p>
               <p className="bw-r md:text-[17px] lg:text-[17px] 1280:text-[20px] md:leading-[30px] mb-[14px]">
                 Horizon Industrial Parks specialises in built-to-suit (BTS) and plug and play infrastructure, offering industry-ready solutions that are built for speed and scale.
               </p>
-              {/* <p className="bw-r md:text-[17px] lg:text-[17px] 1280:text-[20px] md:leading-[30px]">
-                We provide custom factory integrations, develop large regional fulfilment centres, urban mid-mile distribution facilities and in-city warehouses, with infrastructure solutions combine deep sector insight with delivery certainty—ensuring your operations launch faster and run smarter.
-              </p> */}
+              <p className="bw-r md:text-[17px] lg:text-[17px] 1280:text-[20px] md:leading-[30px] mb-[14px]">
+                Our core offerings include custom factory developments, large fulfilment centres, urban mid-mile distribution facilities and in-city centers, with infrastructure solutions that combine deep sector insight and delivery certainty—ensuring your operations launch faster and run smarter.
+              </p>
 
 
               {/* Last Paragraph with animation */}
@@ -102,10 +106,7 @@ const CO_sec1 = () => {
                     transition={{ duration: 0.4, ease: "easeInOut" }}
                   >
                     <p className="bw-r md:text-[17px] lg:text-[17px] 1280:text-[20px] md:leading-[30px] mt-2 xl:mb-[20px] 1440:mb-[0px]">
-                      We provide custom factory integrations, develop large regional fulfilment centres,
-                      urban mid-mile distribution facilities and in-city warehouses, with infrastructure
-                      solutions combine deep sector insight with delivery certainty—ensuring your operations
-                      launch faster and run smarter.
+                      Whether you're scaling up your operations or setting up your first box, optimising logistics or planning a long-term shift in supply chain strategy, our capabilities match your ambition and augment your growth.
                     </p>
                   </motion.div>
                 )}

@@ -158,7 +158,7 @@
 //                     y2="-37.7765"
 //                     gradientUnits="userSpaceOnUse"
 //                   >
-//                     <stop offset="0.186217" stopColor="#F47922" />
+//                     <stop offset="0.186217" stopColor="#f47920" />
 //                     <stop offset="1" stopColor="#8B37A4" />
 //                   </linearGradient>
 //                 </defs>
@@ -257,14 +257,14 @@
 //     paragraph:
 //       "Solutions that perfectly fit your logistics needs: across first-mile, mid-mile, and last-mile operations, in strategic locations, and with options ranging from ready-to-move facilities to 100% built-to-suit developments.",
 //     link: "/know-us/arrup.svg",
-//     fill: "#8A52A0",
+//     fill: "#8F53A1",
 //   },
 //   {
 //     title: "Hands-On",
 //     paragraph:
 //       "We adopt a consultative, customer-first approach led by seasoned industry experts, with proven experience across multiple sectors to deliver Grade A parks designed to meet unique customer needs.",
 //     link: "/know-us/integration.svg",
-//     fill: "#F47922",
+//     fill: "#f47920",
 //   },
 //   {
 //     title: "Efficient",
@@ -278,7 +278,7 @@
 //     paragraph:
 //       "Green warehousing through energy-efficient design, biodiversity and resource management, fostering inclusive communities via education, healthcare, and jobs for the differently abled, and upholding ethical governance across our partner network. ",
 //     link: "/know-us/green.svg",
-//     fill: "#22B148",
+//     fill: "#0db14b",
 //   },
 // ];
 
@@ -459,14 +459,14 @@ const sectionsContent = [
     paragraph:
       "Solutions that perfectly fit your logistics needs: across first-mile, mid-mile, and last-mile operations, in strategic locations, and with options ranging from ready-to-move facilities to 100% built-to-suit developments.",
     link: "/know-us/arrup.svg",
-    fill: "#8A52A0",
+    fill: "#8F53A1",
   },
   {
     title: "Hands-On",
     paragraph:
       "We adopt a consultative, customer-first approach led by seasoned industry experts, with proven experience across multiple sectors to deliver Grade A parks designed to meet unique customer needs.",
     link: "/know-us/integration.svg",
-    fill: "#F47922",
+    fill: "#f47920",
   },
   {
     title: "Efficient",
@@ -480,7 +480,7 @@ const sectionsContent = [
     paragraph:
       "Green warehousing through energy-efficient design, biodiversity and resource management, fostering inclusive communities via education, healthcare, and jobs for the differently abled, and upholding ethical governance across our partner network. ",
     link: "/know-us/green.svg",
-    fill: "#22B148",
+    fill: "#0db14b",
   },
 ];
 
@@ -1008,9 +1008,8 @@ export default function ScrollFocusSections() {
                   opacity: isFocused ? 1 : 0.5,
                 }}
                 transition={{ duration: 0.6, ease: [0.65, 0, 0.35, 1] }}
-                className={`h-fit pl-3 sm:px-2 pb-[80px] ${
-                  isFocused ? "text-black" : "text-gray-500"
-                }`}
+                className={`h-fit pl-3 sm:px-2 pb-[80px] ${isFocused ? "text-black" : "text-gray-500"
+                  }`}
               >
                 <h2 className="bw-r text-[32px] 768:text-[40px] whitespace-nowrap 1024:text-[40px] 1280:text-[42px] 1366:text-[46px] leading-[46px] sm:leading-[76px] mb-1 bw-m tracking-[-4%]">
                   {section.title}

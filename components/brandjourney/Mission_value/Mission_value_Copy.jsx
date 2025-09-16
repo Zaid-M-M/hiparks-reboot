@@ -27,7 +27,7 @@ export default function Mission_value() {
         <div className="flex flex-col md:flex-row md:gap-[20px]">
           {/* Purpose Div Mob     */}
           <div className="mb-[30px] md:flex-1">
-            <div className="relative w-full overflow-hidden pt-[20px] pb-[65px] px-[15px] bg-[#22B148]  md:h-[240px]">
+            <div className="relative w-full overflow-hidden pt-[20px] pb-[65px] px-[15px] bg-[#0db14b]  md:h-[240px]">
               <h3 className="bw-m text-[43px] leading-[52px] mb-[10px] text-white ">
                 <span className="bw-l">Our</span> Purpose{" "}
               </h3>
@@ -48,7 +48,7 @@ export default function Mission_value() {
 
           {/* Mission Div Mob     */}
           <div className="mb-[30px] md:flex-1">
-            <div className="relative w-full overflow-hidden pt-[20px] pb-[65px] px-[15px] bg-[#F47922] md:h-[240px]">
+            <div className="relative w-full overflow-hidden pt-[20px] pb-[65px] px-[15px] bg-[#f47920] md:h-[240px]">
               <h3 className="bw-m text-[43px] leading-[52px] mb-[10px] text-white ">
                 <span className="bw-l">Our</span> Mission{" "}
               </h3>
@@ -155,14 +155,14 @@ function Purpose({ progress }) {
 
   // Purpose box
   const prps_dv_height = useTransform(progress, [0, 0.4], ["350px", "218px"]);
-  const prps_dv_bg = useTransform(progress, [0, 0.4], ["#22B148", "#fff"]);
+  const prps_dv_bg = useTransform(progress, [0, 0.4], ["#0db14b", "#fff"]);
   const prps_dv_hd = useTransform(progress, [0, 0.4], ["#fff", "#000"]);
   const prps_dv_p = useTransform(progress, [0, 0.4], ["1", "0"]);
   const prps_dv_vctr = useTransform(progress, [0, 0.4], ["1", "0"]);
 
   // Mission box
   const msn_dv_height = useTransform(progress, [0, 0.4], ["218px", "350px"]);
-  const msn_dv_bg = useTransform(progress, [0, 0.4], ["#FFFFFF", "#F47922"]);
+  const msn_dv_bg = useTransform(progress, [0, 0.4], ["#FFFFFF", "#f47920"]);
   const msn_dv_hd = useTransform(progress, [0, 0.4], ["#000", "#fff"]);
   // const msn_dv_p = useTransform(progress, [0, 0.4], ['0', '1']);
   const msn_dv_vctr = useTransform(progress, [0, 0.4], ["0", "1"]);

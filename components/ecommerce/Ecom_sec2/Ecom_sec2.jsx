@@ -13,18 +13,22 @@ const Ecom_sec2 = () => {
 
         <div className="flex flex-col justify-between mt-[0px] xl:mt-[48px] lg:mt-[0px] md:gap-[20px] gap-[25px] lg:flex-row ">
           <div className=" max-w-[600px] md:max-w-[100%] lg:max-w-[45%] mb-[0px] lg:mb-[0px] lg:mt-[10px] mt-[0px]">
-            <div className="flex items-end flex-col md:flex-row md:items-center relative  md:w-[460px] lg:w-[auto]">
+            <div className="flex items-left flex-col md:items-left relative  md:w-[460px] lg:w-[auto]">
 
 
-              <h1 className="tracking-[-2px] text-[33px] leading-[43px] md:text-[45px] md:leading-[55px] xl:text-[56px] xl:leading-[66px] lg:tracking-[-2.64px] bw-r md:w-[460px] lg:w-[auto] capitalize">
+              <h1 className="tracking-[-2px] text-[33px] leading-[43px] md:text-[43px] md:leading-[55px] xl:text-[52px] 1440:text-[56px] xl:leading-[62px] 1440:leading-[66px] lg:tracking-[-2.64px] bw-r md:w-[460px] lg:w-[auto] capitalize">
                 Today’s E-Commerce Ecosystem Moves Fast<br></br>
-                <span className="bw-m">And So Do We</span>
               </h1>
+              <div className="flex gap-[10px] md:gap-[17px]  md:flex-row flex-col">
+                <h1 className="tracking-[-2px] text-[33px] leading-[43px] md:text-[43px] md:leading-[55px] xl:text-[52px] 1440:text-[56px] xl:leading-[62px] 1440:leading-[66px] lg:tracking-[-2.64px] bw-r lg:w-[auto] capitalize">
+                  <span className="bw-m">And So Do We</span>
+                </h1>
 
-              <img
-                src="/txt_box_226.svg"
-                className="absolute xl:w-[auto] lg:w-[130px] md:w-[130px] w-[100px] right-[53px] md:right-[65px] lg:right-[10px] xl:right-[-41px] 1366:right-[-6px] 1440:right-[23px] 1536:right-[50px] lg:bottom-[0px] bottom-[6px]"
-              />
+                <img
+                  src="/abstract_pattern.svg"
+                  className="abstract_svg md:mt-[10px]"
+                />
+              </div>
             </div>
           </div>
           <div className="1280:max-w-[550px] 1366:max-w-[600px] 1440:max-w-[658px] 1536:max-w-[700px] md:max-w-[100%] lg:max-w-[55%] max-w-[658px]">

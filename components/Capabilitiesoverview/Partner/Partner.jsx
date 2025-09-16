@@ -9,7 +9,7 @@ const Partner = () => {
     <>
       <div
         className="h-[280px] md:h-[250px] lg:h-[312px] overflow-hidden w-full relative bg-cover  bg-center"
-        style={{ backgroundImage: "url('/whatnew.jpg')" }}
+        style={{ backgroundImage: "url('/Cap_Overview/partner_us_bg.jpg')" }}
       >
         <div className="flex-col flex sm:flex-row items-start sm:items-center h-full justify-center gap-[22px] sm:gap-0 sm:justify-between fix w-full">
           <div className="flex flex-col leading-[40px] sm:leading-[69px]">

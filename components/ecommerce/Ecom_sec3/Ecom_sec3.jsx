@@ -8,22 +8,24 @@ const Ecom_sec3 = () => {
       <div className="relative w-full  overflow-hidden fix 1280:pt-[100px] 1280:pb-[100px] pt-[45px] pb-[45px]">
 
         <div className="flex items-left flex-col relative w-fit">
-          <h1 className="sec_hd !font-medium bw-m bg-gradient-to-r whitespace-nowrap overflow-visible from-[#AC38D9] to-[#F47922] bg-clip-text text-transparent capitalize">
+          <h1 className="sec_hd !font-medium bw-m bg-gradient-to-r whitespace-nowrap overflow-visible from-[#AC38D9] to-[#f47920] bg-clip-text text-transparent capitalize">
             What Makes Our Parks </h1>
-          <h1 className="sec_hd bw-r bg-gradient-to-r whitespace-nowrap overflow-visible text-white capitalize">
-            Stand Out?
-          </h1>
-          <img
-            src="/txt_grd_box.svg"
-            className="absolute xl:right-[88px] lg:right-[45px] right-[45px] bottom-[0px] xl:w-[auto] w-[100px] md:w-[130px]"
-          />
+          <div className="flex gap-[10px] md:gap-[17px]">
+            <h1 className="sec_hd bw-r bg-gradient-to-r whitespace-nowrap overflow-visible text-white capitalize">
+              Stand Out?
+            </h1>
+            <img
+              src="/abstract_pattern.svg"
+              className="abstract_svg mt-[5px]"
+            />
+          </div>
         </div>
 
         <div className="flex md:mt-[49px] mt-[40px] gap-[20px] h-[auto] xl:h-[610px] flex-col xl:flex-row">
 
           {/* column 1 */}
           <div className="w-full xl:w-[370px] h-[100%]">
-            <div className="text-white bg-[#F47922] relative pt-[30px] pb-[20px] lg:pt-[38px] xl:pt-[30px] 1366:pt-[38px] lg:pb-[48px] px-[20px] lg:px-[24px] flex flex-col h-[100%]">
+            <div className="text-white bg-[#f47920] relative pt-[30px] pb-[20px] lg:pt-[38px] xl:pt-[30px] 1366:pt-[38px] lg:pb-[48px] px-[20px] lg:px-[24px] flex flex-col h-[100%]">
               <div>
                 <div className="flex gap-[17px] xl:gap-[20px] xl:mb-[25px] md:mb-[10px]  mb-[25px] items-center">
                   <img className='w-[60px] xl:w-[70px] 1440:w-[80px]' src='/ecommerce/orange_box_icon.svg' />
@@ -56,7 +58,7 @@ const Ecom_sec3 = () => {
             </div>
 
             {/* 2 */}
-            <div className="md:flex-1 xl:flex-none text-white bg-[#22B148] relative pt-[30px] pb-[20px] lg:pt-[38px] xl:pt-[30px] 1366:pt-[38px] lg:pb-[48px] px-[20px] lg:px-[24px] flex md:h-[auto] lg:h-[296px] h-[auto]">
+            <div className="md:flex-1 xl:flex-none text-white bg-[#0db14b] relative pt-[30px] pb-[20px] lg:pt-[38px] xl:pt-[30px] 1366:pt-[38px] lg:pb-[48px] px-[20px] lg:px-[24px] flex md:h-[auto] lg:h-[296px] h-[auto]">
               <div>
                 <div className="flex gap-[17px] xl:gap-[20px] xl:mb-[25px] md:mb-[10px] mb-[25px] items-center">
                   <img className='w-[60px] xl:w-[70px] 1440:w-[80px]' src='/ecommerce/green_box_icon.svg' />
@@ -73,7 +75,7 @@ const Ecom_sec3 = () => {
           {/* column 3 */}
           <div className="flex flex-col md:flex-row xl:flex-col gap-[20px] flex-1 w-full xl:w-[465px] h-[100%]">
             {/* 1 */}
-            <div className="md:flex-1 xl:flex-none text-white bg-[#8A52A0] relative pt-[30px] pb-[20px] lg:pt-[38px]  xl:pt-[30px] 1366:pt-[38px] lg:pb-[48px] px-[20px] lg:px-[24px] flex md:h-[auto] lg:h-[296px] h-[auto]">
+            <div className="md:flex-1 xl:flex-none text-white bg-[#8F53A1] relative pt-[30px] pb-[20px] lg:pt-[38px]  xl:pt-[30px] 1366:pt-[38px] lg:pb-[48px] px-[20px] lg:px-[24px] flex md:h-[auto] lg:h-[296px] h-[auto]">
               <div>
                 <div className="flex gap-[17px] xl:gap-[20px] xl:mb-[25px] md:mb-[10px]  mb-[25px] items-center">
                   <img className='w-[60px] xl:w-[70px] 1440:w-[80px]' src='/ecommerce/purple_box_icon.svg' />

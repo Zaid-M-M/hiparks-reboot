@@ -36,7 +36,7 @@ const Slider = () => {
   const filtered = images.filter((img) => img.category === activeCategory);
 
   return (
-    <div className="w-full relative pt-[45px] lg:pt-[100px]">
+    <div className="w-full relative pt-[45px] lg:pt-[100px] overflow-hidden">
 
       <img className="green_vctr absolute w-[200px] md:w-[200px] lg:w-[300px] xl:w-[400px] top-[-50px] md:left-[auto]  md:right-[0px] left-[-80px] md:top-[0px] lg:top-[-120px] xl:left-[-180px] 1920:left-[-50px]" src='/green_vector.svg' />
       <img className="orange_vctr absolute w-[200px] md:w-[200px] lg:w-[300px] xl:w-[400px] top-[-50px]  md:left-[auto] md:right-[0px] left-[0px] md:top-[-80px] lg:top-[-120px] xl:left-[100px] 1920:left-[100px]" src='/orange_vector.svg' />
@@ -64,7 +64,7 @@ const Slider = () => {
                 initial={false}
                 animate={{
                   backgroundImage: isActive
-                    ? "linear-gradient(to right, #AC38D9, #F47922)"
+                    ? "linear-gradient(to right, #AC38D9, #f47920)"
                     : "linear-gradient(to right, #ffffff, #ffffff)",
                 }}
                 transition={{ duration: 0.4, ease: "easeInOut" }}

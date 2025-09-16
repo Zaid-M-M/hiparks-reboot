@@ -13,17 +13,22 @@ const Ntwrk_sec2 = () => {
 
         <div className="flex flex-col justify-between mt-[0px] xl:mt-[48px] lg:mt-[0px] md:gap-[20px] gap-[25px] lg:flex-row ">
           <div className=" max-w-[600px] md:max-w-[100%] lg:max-w-[47%] mb-[0px] lg:mb-[0px] lg:mt-[10px] mt-[0px]">
-            <div className="flex items-start flex-col md:flex-row md:items-center relative  md:w-[460px] lg:w-[auto]">
+            <div className="flex items-start flex-col md:items-start relative  md:w-[460px] lg:w-[auto]">
 
 
-              <h1 className="tracking-[-2px] text-[33px] leading-[43px] md:text-[45px] lg:text-[40px] md:leading-[55px] xl:text-[56px] xl:leading-[66px] lg:tracking-[-2.64px] bw-r md:w-[460px] lg:w-[auto] capitalize">
+              <h1 className="tracking-[-2px] text-[33px] leading-[43px] md:text-[45px] lg:text-[40px] md:leading-[55px] xl:text-[55px] xl:leading-[65px] lg:tracking-[-2.64px] bw-r md:w-[460px] lg:w-[auto] capitalize">
                 Expand With Confidence<br></br>
-                <span className="bw-m">Anywhere in India</span>
               </h1>
-              <img
-                src="/txt_grd_box.svg"
-                className="absolute xl:w-[165px] md:w-[130px] w-[100px] right-[0px] lg:right-[-33px] xl:right-[-30px] bottom-[5px] xl:bottom-[3px]"
-              />
+
+              <div className="flex gap-[10px] md:gap-[17px]  md:flex-col flex-col">
+                <h1 className="tracking-[-2px] text-[33px] leading-[43px] md:text-[45px] lg:text-[40px] md:leading-[55px] xl:text-[55px] xl:leading-[65px] lg:tracking-[-2.64px] bw-r md:w-[460px] lg:w-[auto] capitalize">
+                  <span className="bw-m">Anywhere in India</span>
+                </h1>
+                <img
+                  src="/abstract_pattern.svg"
+                  className="abstract_svg w-fit"
+                />
+              </div>
 
             </div>
           </div>

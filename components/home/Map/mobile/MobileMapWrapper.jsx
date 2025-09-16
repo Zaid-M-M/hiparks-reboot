@@ -115,7 +115,7 @@ export default function MobileMapWrapper() {
         viewport={{ once: true, amount: 0.2 }}
         className="overflow-hidden"
       >
-        <motion.h2 className="text-[36px] !w-[100%] fix bg-gradient-to-r bw-m pt-0 from-[#AC38D9] to-[#F47922] bg-clip-text text-transparent whitespace-nowrap tracking-[-0.04em] leading-[100%]">
+        <motion.h2 className="text-[36px] !w-[100%] fix bg-gradient-to-r bw-m pt-0 from-[#AC38D9] to-[#f47920] bg-clip-text text-transparent whitespace-nowrap tracking-[-0.04em] leading-[100%]">
           Park Finder
         </motion.h2>
       </motion.div>

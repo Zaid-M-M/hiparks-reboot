@@ -70,7 +70,7 @@ const WhoAreWe = () => {
               viewport={{ amount: 0.25, once: true }}
             >
               <img
-                src="/frm2.png"
+                src="/abstract_pattern.svg"
                 className="w-[100px] xl:h-[58px] sm:w-auto md:h-[48px] h-[30px] object-cover"
                 alt=""
               />
@@ -122,7 +122,7 @@ const WhoAreWe = () => {
                   viewport={{ amount: 0.25, once: true }}
                 >
                   <img
-                    src="/frm2.png"
+                    src="/abstract_pattern.svg"
                     className="w-[100px] xl:w-[207px] xl:h-[58px] sm:w-auto md:h-[48px] h-[30px] object-cover"
                     alt=""
                   />

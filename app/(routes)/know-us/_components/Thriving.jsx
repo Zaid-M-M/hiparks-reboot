@@ -29,7 +29,7 @@ const Thriving = () => {
               A Thriving <span className="bw-r">Culture</span>
               <img
                 className="1280:w-[330px] 1280:!h-[58px] w-[100px] sm:w-[40%] h-[30px] mt-2.5 sm:mt-5"
-                src="/frm2.png"
+                src="/abstract_pattern.svg"
                 alt="Patra"
               />
             </h1>
@@ -43,7 +43,7 @@ const Thriving = () => {
               {/* Card 1 */}
               <div
                 className={`cursor-pointer border-t border-r flex justify-end pr-1 pt-2 relative aspect-square w-full max-w-[280px] sm:max-w-[200px] md:max-w-[260px] lg:max-w-[320px] transition-all duration-300 ${activeCard === 1
-                  ? "bg-[#F47922] border-[#F47922]"
+                  ? "bg-[#f47920] border-[#f47920]"
                   : "border-[#BFBFBF]"
                   }`}
                 onClick={() => handleCardClick(1)}
@@ -88,7 +88,7 @@ const Thriving = () => {
               {/* Card 2 */}
               <div
                 className={`border-t border-r flex justify-end pr-2 pt-2 relative aspect-square w-full max-w-[280px] sm:max-w-[200px] md:max-w-[260px] lg:max-w-[320px] transition-all duration-300 ${activeCard === 2
-                  ? "bg-[#22B148] border-[#22B148]"
+                  ? "bg-[#0db14b] border-[#0db14b]"
                   : "border-[#BFBFBF]"
                   }`}
                 onClick={() => handleCardClick(2)}
@@ -184,7 +184,7 @@ const Thriving = () => {
             {/* Row 1 */}
             <div className="flex">
               {/* Card 1 */}
-              <div className="cursor-pointer  border-t group hover:border-[#F47922] flex justify-end pr-1 pt-2 border-r relative border-[#BFBFBF] aspect-square w-full max-w-[160px] sm:max-w-[200px] md:max-w-[280px] lg:max-w-[320px] hover:bg-[#F47922] transition-all duration-300">
+              <div className="cursor-pointer  border-t group hover:border-[#f47920] flex justify-end pr-1 pt-2 border-r relative border-[#BFBFBF] aspect-square w-full max-w-[160px] sm:max-w-[200px] md:max-w-[280px] lg:max-w-[320px] hover:bg-[#f47920] transition-all duration-300">
                 <div className="absolute w-[142%] h-[1px] bg-[#BFBFBF] top-1/2 -left-[21%] rotate-45 transition-opacity duration-300 group-hover:opacity-0"></div>
                 <p className="absolute opacity-0 group-hover:opacity-100 text-white z-20 text-center top-1/2 -translate-y-1/2 bw-r text-[14px] lg:text-[20px] px-0 transition-opacity duration-300">
                   At Horizon, collaboration is at the heart of how we work and
@@ -218,7 +218,7 @@ const Thriving = () => {
                 </div>
               </div>
               {/* Card 2 */}
-              <div className="cursor-pointer border-t group hover:border-[#22B148] flex justify-end pr-2 pt-2 border-r relative border-[#BFBFBF] aspect-square w-full max-w-[160px] sm:max-w-[200px] md:max-w-[280px] lg:max-w-[320px] hover:bg-[#22B148] transition-all duration-300">
+              <div className="cursor-pointer border-t group hover:border-[#0db14b] flex justify-end pr-2 pt-2 border-r relative border-[#BFBFBF] aspect-square w-full max-w-[160px] sm:max-w-[200px] md:max-w-[280px] lg:max-w-[320px] hover:bg-[#0db14b] transition-all duration-300">
                 <div className="absolute w-[142%] h-[1px] bg-[#BFBFBF] top-1/2 -left-[21%] rotate-45 transition-opacity duration-300 group-hover:opacity-0"></div>
                 <p className="absolute opacity-0 group-hover:opacity-100 text-white z-20 text-center top-1/2 -translate-y-1/2 bw-r text-[14px] sm:text-[20px] px-2 transition-opacity duration-300">
                   Agility is more than a workplace trait—it is a mindset that

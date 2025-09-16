@@ -19,8 +19,8 @@ const Milestone = () => {
 
       <div className="relative fix ">
         <div>
-          <h1 className="bw-m text-[33px] 768:text-[45px] leading-[41px] 768:leading-[55px] 1280:leading-[75px] 1280:text-[65px] 1366:text-[64px] bg-[linear-gradient(94deg,#AC38D9_10%,#F47922_40%,#F47922_100%)] bg-clip-text text-transparent whitespace-nowrap overflow-visible tracking-[-0.04em]">
-            {/* <h1 className="bw-m  bg-[linear-gradient(94deg,#AC38D9_10%,#F47922_40%,#F47922_100%)] bg-clip-text text-transparent whitespace-nowrap overflow-visible sec_hd"> */}
+          <h1 className="bw-m text-[33px] 768:text-[45px] leading-[41px] 768:leading-[55px] 1280:leading-[75px] 1280:text-[65px] 1366:text-[64px] bg-[linear-gradient(94deg,#AC38D9_10%,#f47920_40%,#f47920_100%)] bg-clip-text text-transparent whitespace-nowrap overflow-visible tracking-[-0.04em]">
+            {/* <h1 className="bw-m  bg-[linear-gradient(94deg,#AC38D9_10%,#f47920_40%,#f47920_100%)] bg-clip-text text-transparent whitespace-nowrap overflow-visible sec_hd"> */}
             Milestones That Made Us
           </h1>
 

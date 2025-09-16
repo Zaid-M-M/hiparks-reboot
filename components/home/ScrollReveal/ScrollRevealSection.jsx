@@ -158,7 +158,7 @@
 //                   </p>
 //                   <motion.div className="lg:flex h-[22px] 768:h-[30px] justify-start xl:h-[40px] mt-2 1280:mt-4 1366:h-[45px] overflow-hidden">
 //                     <img
-//                       src="/frm2.png"
+//                       src="/abstract_pattern.svg"
 //                       alt="Truck"
 //                       className="object-cover h-full"
 //                     />
@@ -372,7 +372,7 @@ export default function ScrollVideoSection({ videoSrc, timedTexts = [] }) {
                   </p>
                   <motion.div className="lg:flex h-[22px] 768:h-[30px] justify-start xl:h-[40px] mt-2 1280:mt-4 1366:h-[45px] overflow-hidden">
                     <img
-                      src="/frm2.png"
+                      src="/abstract_pattern.svg"
                       alt="Truck"
                       className="object-cover h-full"
                     />

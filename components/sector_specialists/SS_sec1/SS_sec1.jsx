@@ -12,7 +12,8 @@ const SS_sec1 = () => {
     // Function to check screen width
     const handleResize = () => {
       const width = window.innerWidth;
-      if (width === 1280 || width === 1366) {
+      // if (width === 1280 || width === 1366 || width === 1024) {
+      if (width >= 1024 && width <= 1390) {
         setShowToggle(true);
       } else {
         setShowToggle(false);
@@ -51,7 +52,7 @@ const SS_sec1 = () => {
             <span className="bw-m">Your Industry Works</span>
           </h1>
           <img
-            src="/txt_box_226.svg"
+            src="/abstract_pattern.svg"
             className="absolute top-[12px] md:top-[5px] lg:top-[9px] right-[45px] xl:right-[80px] w-[100px] md:w-[150px] lg:w-[170px] xl:w-[auto] translate-x-full"
           />
         </div>

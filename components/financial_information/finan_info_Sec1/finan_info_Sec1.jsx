@@ -28,14 +28,18 @@ const Finan_info_Sec1 = () => {
 
         <div className="flex flex-col justify-between mt-[15px] lg:mt-[15px] md:flex-row 1280:items-center items-start">
           <div className="max-w-[565px] mb-[15px] lg:mb-[0px] relative">
-            <h1 className="1280:text-[76px] 1280:leading-[86px] 1280:tracking-[-3.04px] md:text-[42px] md:leading-[50px] md:tracking-[-2.04px] text-[35px] leading-[40px] tracking-[-1px]  bw-r">
-              Financial<br></br>
-              <span className="bw-m">Information</span>
+            <div className="flex gap-[10px] md:gap-[17px]">
+              <h1 className="1280:text-[76px] 1280:leading-[86px] 1280:tracking-[-3.04px] md:text-[42px] md:leading-[50px] md:tracking-[-2.04px] text-[35px] leading-[40px] tracking-[-1px]  bw-r">
+                Financial
+              </h1>
+              <img
+                src="/abstract_pattern.svg"
+                className="abstract_svg"
+              />
+            </div>
+            <h1 className="1280:text-[76px] 1280:leading-[86px] 1280:tracking-[-3.04px] md:text-[42px] md:leading-[50px] md:tracking-[-2.04px] text-[35px] leading-[40px] tracking-[-1px]  bw-m">
+              Information
             </h1>
-            <img
-              src="/Invester/invt_ttl_img.svg"
-              className="absolute md:w-[130px] md:right-[-110px] md:top-[17px] 1280:w-[auto] 1280:right-[-233px] 1280:top-[15px] 1440:w-[260px] 1440:right-[-200px] 1440:top-[23px] w-[100px] right-[-83px] top-[13px] "
-            />
           </div>
           <div className="max-w-[556px] md:w-[350px] lg:w-[500px] 1280:w-[600px]">
             {/* <p className="1280:text-[24px] 1280:leading-[34px] lg:text-[22px] lg:leading-[32px] md:text-[20px] md:leading-[28px] bw-r ">

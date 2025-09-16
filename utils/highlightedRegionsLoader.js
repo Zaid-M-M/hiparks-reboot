@@ -20,7 +20,7 @@
 //           potential: park.acf?.development_potential || "",
 //           certification: park.acf?.igbc_status || "",
 //           coordinates: park.acf?.coordinates_no || "",
-//           color: "#22B148",
+//           color: "#0db14b",
 //         })),
 //       ];
 //     }
@@ -68,7 +68,7 @@
 //           coordinates: park.acf?.coordinates_no || "", // Keep for debugging
 //           x: parseFloat(park.acf?.svg_x) || 100, // Map svg_x to x
 //           y: parseFloat(park.acf?.svg_y) || 100, // Map svg_y to y
-//           color: "#22B148",
+//           color: "#0db14b",
 //         })),
 //       ];
 //     }
@@ -138,7 +138,7 @@
 //               staticLocation?.y_zoomed ||
 //               parseFloat(park.acf?.svg_y) ||
 //               100,
-//             color: "#22B148",
+//             color: "#0db14b",
 //           };
 //         }),
 //       ];
@@ -209,7 +209,7 @@
 //               staticLocation?.y_zoomed ||
 //               parseFloat(park.acf?.svg_y) ||
 //               100,
-//             color: "#22B148",
+//             color: "#0db14b",
 //           };
 //         }),
 //       ];

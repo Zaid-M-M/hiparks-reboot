@@ -249,7 +249,7 @@ import { buildDynamicHighlightedRegions } from "@/utils/highlightedRegionsLoader
 //           // whileInView={{ width: "100%" }}
 //           // transition={{ duration: 1.4, ease: [0.7, 0, 0.4, 1] }}
 //           // viewport={{ once: true, amount: 0.2 }}
-//           className="text-[36px] fix  bg-gradient-to-r bw-m pt-0 from-[#AC38D9] to-[#F47922] bg-clip-text text-transparent  whitespace-nowrap tracking-[-0.04em] leading-[100%]"
+//           className="text-[36px] fix  bg-gradient-to-r bw-m pt-0 from-[#AC38D9] to-[#f47920] bg-clip-text text-transparent  whitespace-nowrap tracking-[-0.04em] leading-[100%]"
 //         >
 //           Explore Park <span className=" bw-r">Finder</span>
 //         </motion.h2>
@@ -403,7 +403,7 @@ import { buildDynamicHighlightedRegions } from "@/utils/highlightedRegionsLoader
 //         viewport={{ once: true, amount: 0.2 }}
 //         className="overflow-hidden"
 //       >
-//         <motion.h2 className="text-[36px] fix bg-gradient-to-r bw-m pt-0 from-[#AC38D9] to-[#F47922] bg-clip-text text-transparent whitespace-nowrap tracking-[-0.04em] leading-[100%]">
+//         <motion.h2 className="text-[36px] fix bg-gradient-to-r bw-m pt-0 from-[#AC38D9] to-[#f47920] bg-clip-text text-transparent whitespace-nowrap tracking-[-0.04em] leading-[100%]">
 //           Explore Park <span className="bw-r">Finder</span>
 //         </motion.h2>
 //       </motion.div>
@@ -548,7 +548,7 @@ export default function MobileMapWrapper() {
         viewport={{ once: true, amount: 0.2 }}
         className="overflow-hidden"
       >
-        <motion.h2 className="text-[36px] fix bg-gradient-to-r bw-m pt-0 from-[#AC38D9] to-[#F47922] bg-clip-text text-transparent whitespace-nowrap tracking-[-0.04em] leading-[100%]">
+        <motion.h2 className="text-[36px] fix bg-gradient-to-r bw-m pt-0 from-[#AC38D9] to-[#f47920] bg-clip-text text-transparent whitespace-nowrap tracking-[-0.04em] leading-[100%]">
           Explore Park <span className="bw-r">Finder</span>
         </motion.h2>
       </motion.div>

@@ -27,7 +27,7 @@
 //       <div className="flex md:flex-row flex-col">
 //         <div className="xl:py-[105px] lg:py-[60px] md:pr-[30px] md:pt-[30px] md:pb-[70px] lg:pr-[100px] xl:pr-[170px] flex-1 mb-[40px] xl:mb-[0px]">
 //           <div className="pb-[30px]">
-//             <h2 className="bw-m text-[66px] capitalize leading-[76px] tracking-[-0.04em] bg-[linear-gradient(90deg,#AC38D9,#F47922)] bg-clip-text text-transparent">
+//             <h2 className="bw-m text-[66px] capitalize leading-[76px] tracking-[-0.04em] bg-[linear-gradient(90deg,#AC38D9,#f47920)] bg-clip-text text-transparent">
 //               Sector-Specific
 //             </h2>
 
@@ -37,7 +37,7 @@
 //           </div>
 //           <p className="bw-r xl:text-[20px] md:text-[16px] md:leading-[26px] lg:leading-[30px]  md:mb-[15px] mb-[15px] text-[#E0E0E0]">
 //             Today, over{" "}
-//             {/* <span className="bw-b text-[24px] text-[#F47922] leading-[30px]"> */}
+//             {/* <span className="bw-b text-[24px] text-[#f47920] leading-[30px]"> */}
 //             50%
 //             {/* </span>{" "} */}
 //             developments delivered by Horizon are build-to-suit (BTS). These
@@ -137,7 +137,7 @@ const SS_sec2 = () => {
           {/* ---- Left Content ---- */}
           <div className="w-full 1024:w-1/2 lg:pt-[76px] lg:pb-[80px]  md:mb-0">
             <div className="768:pb-[15px] pb-[20px] xl:pb-[30px]">
-              <h2 className="bw-m text-[38px] leading-[45px] 768:text-[48px] 768:leading-[52px] 1024:text-[52px] 1024:leading-[52px] xl:text-[66px] xl:leading-[76px] capitalize  tracking-[-0.04em] bg-clip-text text-transparent bg-[linear-gradient(97deg,#AC38D9_13.98%,#F47922_67.51%)]">
+              <h2 className="bw-m text-[38px] leading-[45px] 768:text-[48px] 768:leading-[52px] 1024:text-[52px] 1024:leading-[52px] xl:text-[66px] xl:leading-[76px] capitalize  tracking-[-0.04em] txt_gradient">
                 Sector-Specific
               </h2>
               <h3 className="bw-r capitalize text-[35px] leading-[45px] 768:text-[45px] 768:leading-[52px] 1024:text-[48px] 1024:leading-[52px] xl:text-[66px] xl:leading-[76px]  text-white tracking-[-0.04em]">

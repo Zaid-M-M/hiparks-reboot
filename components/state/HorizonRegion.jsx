@@ -260,8 +260,8 @@ const HorizonRegion = ({ data = [] }) => {
               Horizon
             </h2>
             <img
-              src="/txt_box_226.svg"
-              className="object-cover h-[58px] lg:w-[236px] w-[100px] lg:!flex !hidden"
+              src="/abstract_pattern.svg"
+              className="abstract_svg lg:!flex !hidden"
               alt="Grade A Box"
             />
           </div>
@@ -269,13 +269,13 @@ const HorizonRegion = ({ data = [] }) => {
             in Other Regions
           </h3>
           {/* <img
-            src="/state/statefrm.png"
+            src="/abstract_pattern.svg"
             className="object-cover h-[40px] md:w-[30%] w-auto mt-5 lg:!hidden !flex"
             alt="Grade A Box"
           /> */}
           <img
-            src="/txt_box_226.svg"
-            className="object-cover h-[38px] mt-2 lg:w-[236px] w-[156px] lg:!hidden !flex"
+            src="/abstract_pattern.svg"
+            className="abstract_svg lg:!hidden !flex"
             alt="Grade A Box"
           />
         </div>

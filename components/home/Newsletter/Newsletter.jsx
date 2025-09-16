@@ -11,12 +11,12 @@ const Newsletter = () => {
   return (
     <div
       className="h-full lg:h-[464px] overflow-hidden w-full relative bg-cover  bg-center"
-      style={{ backgroundImage: "url('/newsbg.webp')" }}
+      style={{ backgroundImage: "url('/newletter_bg.jpg')" }}
     >
-      <div className="lg:max-w-[1340px] ">
+      <div className="lg:max-w-[1340px] lg:m-[auto]">
         <div className="flex items-center sm:items-end md:justify-center lg:justify-between ">
           {/* Left Section */}
-          <div className="flex flex-1 items-end pl-4 md:pl-[30px] lg:pl-[40px] xl:pl-[69px] py-[45px] md:py-[70px]">
+          <div className="flex flex-1 items-end pl-4 md:pl-[30px] lg:pl-[40px] xl:pl-[40px] py-[45px] md:py-[70px]">
             <div className="flex flex-col gap-[12px] sm:gap-[18px] md:gap-[20px]">
               {/* Title */}
               <div className="flex flex-col gap-0 md:gap-0 lg:gap-[4px]">
@@ -91,7 +91,7 @@ const Newsletter = () => {
           </div>
 
           {/* Right Image */}
-          <div className="relative hidden sm:flex items-end justify-center flex-auto md:-ml-36 xl:-mr-24 2xl:ml-44 1920:-mr-[460px]">
+          <div className="relative hidden sm:flex items-end justify-center flex-auto md:-ml-36 xl:-mr-24 2xl:ml-44">
             <motion.div
               initial={{ opacity: 0 }}
               whileInView={{ opacity: 1 }}

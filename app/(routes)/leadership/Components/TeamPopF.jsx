@@ -87,7 +87,7 @@
 //               </h2>
 //               <p
 //                 className="text-[14px] sm:text-[22px] bw-m mt-2 md:mt-[25px]"
-//                 style={{ color: "#F47922", fontFamily: "Inter" }}
+//                 style={{ color: "#f47920", fontFamily: "Inter" }}
 //               >
 //                 {member.role}
 //               </p>
@@ -213,7 +213,7 @@
 //               </h2>
 //               <p
 //                 className="text-[14px] sm:text-[22px] bw-m mt-2 md:mt-[25px]"
-//                 style={{ color: "#F47922", fontFamily: "Inter" }}
+//                 style={{ color: "#f47920", fontFamily: "Inter" }}
 //               >
 //                 {member.role}
 //               </p>
@@ -341,7 +341,7 @@
 //               </h2>
 //               <p
 //                 className="text-[14px] sm:text-[22px] bw-m mt-2"
-//                 style={{ color: "#F47922", fontFamily: "Inter" }}
+//                 style={{ color: "#f47920", fontFamily: "Inter" }}
 //               >
 //                 {member.role}
 //               </p>
@@ -459,7 +459,7 @@ const TeamPopF = ({ isOpen, onClose, member }) => {
               <h2 className="text-[25px] sm:text-[35px] 1280:text-[41px] 2xl:text-[41px] bw-sb leading-[110%]">
                 {member.name}
               </h2>
-              <p className="text-[16px] sm:text-[18px] bw-m md:mt-2 mt-1 text-[#F47922]">
+              <p className="text-[16px] sm:text-[18px] bw-m md:mt-2 mt-1 text-[#f47920]">
                 {member.role}
               </p>
             </div>

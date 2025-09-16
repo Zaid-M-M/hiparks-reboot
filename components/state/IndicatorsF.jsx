@@ -16,7 +16,7 @@
 //   if (isMobile) {
 //     return (
 //       <div ref={ref} className="border-b border-gray-200 pb-6">
-//         <h2 className="text-[32px] md:text-[48px] lg:text-[76px] lg:leading-[86px] bw-sb flex items-baseline gap-2 leading-[1] text-[#F47922]">
+//         <h2 className="text-[32px] md:text-[48px] lg:text-[76px] lg:leading-[86px] bw-sb flex items-baseline gap-2 leading-[1] text-[#f47920]">
 //           <span dangerouslySetInnerHTML={{ __html: item.value }} />
 //         </h2>
 //         <p
@@ -40,7 +40,7 @@
 //       }}
 //       transition={{ duration: 0.5, ease: [0.7, 0, 0.4, 1] }}
 //     >
-//       <h2 className="text-[32px] indhead md:text-[48px] lg:text-[76px] lg:leading-[86px] bw-sb flex items-baseline gap-2 leading-[1] text-[#F47922]">
+//       <h2 className="text-[32px] indhead md:text-[48px] lg:text-[76px] lg:leading-[86px] bw-sb flex items-baseline gap-2 leading-[1] text-[#f47920]">
 //         <span dangerouslySetInnerHTML={{ __html: item.value }} />
 //       </h2>
 //       <p
@@ -67,7 +67,7 @@
 //                 </h1>
 
 //                 <img
-//                   src="/state/statefrm.png"
+//                   src="/abstract_pattern.svg"
 //                   className="object-cover lg:h-[58px] h-[40px] lg:w-[368px] md:w-full w-auto"
 //                   alt="Grade A Box"
 //                 />
@@ -113,7 +113,7 @@ const IndicatorItem = ({ item, isLast }) => {
   if (isMobile) {
     return (
       <div ref={ref} className={`${borderClass} border-gray-200 ${mpbclass}`}>
-        <h2 className="text-[32px] lg:!h-[86px] indhead md:text-[48px] lg:text-[76px] lg:leading-[86px] bw-sb flex items-baseline gap-2 leading-[1] text-[#F47922]">
+        <h2 className="text-[32px] lg:!h-[86px] indhead md:text-[48px] lg:text-[76px] lg:leading-[86px] bw-sb flex items-baseline gap-2 leading-[1] text-[#f47920]">
           <span dangerouslySetInnerHTML={{ __html: item.value }} />
         </h2>
         <p
@@ -137,7 +137,7 @@ const IndicatorItem = ({ item, isLast }) => {
       }}
       transition={{ duration: 0.5, ease: [0.7, 0, 0.4, 1] }}
     >
-      <h2 className="text-[32px] indhead md:text-[48px] lg:text-[76px] lg:leading-[86px] bw-sb flex items-baseline gap-2 leading-[1] text-[#F47922]">
+      <h2 className="text-[32px] indhead md:text-[48px] lg:text-[76px] lg:leading-[86px] bw-sb flex items-baseline gap-2 leading-[1] text-[#f47920]">
         <span dangerouslySetInnerHTML={{ __html: item.value }} />
       </h2>
       <p
@@ -164,8 +164,8 @@ const IndicatorsF = ({ data }) => {
                     <span className="bw-m block">Indicators</span>
                   </h1>
                   <img
-                    src="/state/statefrm.png"
-                    className="object-cover lg:h-[58px] h-[40px] lg:w-[368px] md:w-full w-auto"
+                    src="/abstract_pattern.svg"
+                    className="abstract_svg"
                     alt="Grade A Box"
                   />
                 </div>

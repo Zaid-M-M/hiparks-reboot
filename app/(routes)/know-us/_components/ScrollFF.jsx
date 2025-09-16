@@ -11,7 +11,7 @@ const sectionsContent = [
     paragraph:
       "Solutions that perfectly fit your logistics needs: across first-mile, mid-mile, and last-mile operations, in strategic locations, and with options ranging from ready-to-move facilities to 100% built-to-suit developments.",
     link: "/know-us/arrup.svg",
-    fill: "#8A52A0",
+    fill: "#8F53A1",
     // fill: "#000000",
     isStroke: false,
   },
@@ -20,7 +20,7 @@ const sectionsContent = [
     paragraph:
       "We adopt a consultative, customer-first approach led by seasoned industry experts, with proven experience across multiple sectors to deliver Grade A parks designed to meet unique customer needs.",
     link: "/know-us/integration.svg",
-    fill: "#F47922",
+    fill: "#f47920",
     // fill: "#000000",
 
     isStroke: false, // thumbs-up → stroke
@@ -40,7 +40,7 @@ const sectionsContent = [
     paragraph:
       "Green warehousing through energy-efficient design, biodiversity and resource management, fostering inclusive communities via education, healthcare, and jobs for the differently abled, and upholding ethical governance across our partner network. ",
     link: "/know-us/green.svg",
-    fill: "#22B148",
+    fill: "#0db14b",
     // fill: "#000000",
 
     isStroke: false, // leaf → filled
@@ -252,7 +252,7 @@ export default function ScrollFF() {
                     }}
                   />
                   <motion.div
-                    className="absolute w-[100px] left-10 h-[100px] sm:w-[200px] sm:h-[200px] xl:w-[295.8px] xl:h-[469.8px] bg-[#22B148] opacity-[0.13] blur-[69px]"
+                    className="absolute w-[100px] left-10 h-[100px] sm:w-[200px] sm:h-[200px] xl:w-[295.8px] xl:h-[469.8px] bg-[#0db14b] opacity-[0.13] blur-[69px]"
                     animate={{
                       x: [0, -80, 0, 80, 0],
                       y: [0, 50, 0, -50, 0],

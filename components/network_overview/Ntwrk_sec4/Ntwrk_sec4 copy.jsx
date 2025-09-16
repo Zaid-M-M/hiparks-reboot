@@ -44,7 +44,7 @@ const Ntwrk_sec4 = () => {
                 <span className="bw-m">Built for Productivity.</span>
               </h1>
               <img
-                src="/txt_box_295.svg"
+                src="/abstract_pattern.svg"
                 className=""
               />
             </div>

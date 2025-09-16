@@ -4,15 +4,15 @@
 <path d="M77 186C48.7007 186 32.2561 186 5.05975 186C2.83076 186 1.02313 187.822 1.05142 190.051L2.29547 288.051C2.32326 290.24 4.10582 292 6.29516 292H77" stroke="url(#paint2_linear_5444_34397)" stroke-width="2"/>
 <defs>
 <linearGradient id="paint0_linear_5444_34397" x1="73.1802" y1="599.706" x2="-51.0975" y2="590.467" gradientUnits="userSpaceOnUse">
-<stop stop-color="#F47922"/>
+<stop stop-color="#f47920"/>
 <stop offset="0.774038" stop-color="#8B37A4"/>
 </linearGradient>
 <linearGradient id="paint1_linear_5444_34397" x1="73.1802" y1="464.699" x2="-50.0905" y2="450.249" gradientUnits="userSpaceOnUse">
-<stop stop-color="#F47922"/>
+<stop stop-color="#f47920"/>
 <stop offset="0.774038" stop-color="#8B37A4"/>
 </linearGradient>
 <linearGradient id="paint2_linear_5444_34397" x1="73.1802" y1="323.366" x2="-39.9104" y2="286.721" gradientUnits="userSpaceOnUse">
-<stop stop-color="#F47922"/>
+<stop stop-color="#f47920"/>
 <stop offset="0.774038" stop-color="#8B37A4"/>
 </linearGradient>
 </defs>

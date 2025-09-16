@@ -9,12 +9,12 @@ const Cardsec = () => {
 
       <div className='fix '>
         <div className='bg-[#000]'>
-          <h1 className='relative z-20 sec_hd bw-r bg-gradient-to-r whitespace-nowrap overflow-visible from-[#AC38D9] from-20% to-[#F47922] to-100% bg-clip-text text-transparent mb-[41px]'>
+          <h1 className='relative z-20 sec_hd bw-r bg-gradient-to-r whitespace-nowrap overflow-visible from-[#AC38D9] from-20% to-[#f47920] to-100% bg-clip-text text-transparent mb-[41px]'>
             What We <br />
             <span className='flex gap-2 items-center max-w-fit'>
               <span className='bw-m text-[#fff]'>Offer</span>
               <img
-                src='/frm2.png'
+                src='/abstract_pattern.svg'
                 className='1280:h-[58px] 1280:w-[226px] w-[40%] h-auto'
               />
             </span>
@@ -22,7 +22,7 @@ const Cardsec = () => {
         </div>
         <div className='flex relative z-20 justify-between md:mt-[49px] mt-[40px] flex-col gap-[34px]'>
           <div className='flex gap-[34px] md:flex-row flex-col'>
-            <div className=' text-white md:w-1/2 bg-[#F47922] relative lg:p-[30px] sm:p-5 p-3 lg:h-[296px] sm:h-[330px] flex items-center'>
+            <div className=' text-white md:w-1/2 bg-[#f47920] relative lg:p-[30px] sm:p-5 p-3 lg:h-[296px] sm:h-[330px] flex items-center'>
               <div className='flex h-full flex-col justify-between'>
                 <h3 className='text-[27px] capitalize lg:text-[40px] leading-[34px] lg:leading-[40px] bw-m mb-[14px]'>
                   Fitouts That Work from Day One
@@ -49,7 +49,7 @@ const Cardsec = () => {
                 src='/Cap_Overview/cards_arrow.svg'
               /> */}
             </div>
-            <div className=' text-white md:w-1/2 bg-[#8A52A0] relative lg:p-[30px] sm:p-5 p-3 lg:h-[296px] sm:h-[330px]  flex items-center'>
+            <div className=' text-white md:w-1/2 bg-[#8F53A1] relative lg:p-[30px] sm:p-5 p-3 lg:h-[296px] sm:h-[330px]  flex items-center'>
               <div className='flex h-full flex-col justify-between'>
                 <h3 className='text-[27px] capitalize lg:text-[40px] leading-[34px] lg:leading-[40px]  bw-m mb-[14px]'>
                   Capex Support Where It Matters
@@ -69,7 +69,7 @@ const Cardsec = () => {
             </div>
           </div>
           <div className='flex gap-[34px] md:flex-row flex-col'>
-            <div className=' text-white md:w-1/2 bg-[#22B148] relative lg:p-[30px] sm:p-5 p-3 lg:h-[296px] sm:h-[330px] flex items-center'>
+            <div className=' text-white md:w-1/2 bg-[#0db14b] relative lg:p-[30px] sm:p-5 p-3 lg:h-[296px] sm:h-[330px] flex items-center'>
               <div className='flex h-full flex-col justify-between'>
                 <h3 className='text-[27px] capitalize lg:text-[40px] leading-[34px] lg:leading-[40px] bw-m mb-[14px]'>
                   Spaces That <br className='lg:hidden flex' /> Scale with You

@@ -52,17 +52,17 @@ const TeamSecF = () => {
 
       <div className="fix py-[70px]">
         {/* Header */}
-        <div className="flex justify-between items-center flex-col lg:flex-row mb-[55px] gap-5">
+        <div className="flex justify-between items-center flex-col lg:flex-row md:mb-[55px] mb-[25px] md:gap-5 gap-[0px]">
           <div className="flex flex-col lg:w-auto w-full items-start">
 
-            <div className="flex md:gap-[25px] gap-[20px] xl:mt-0 mt-5 items-center justify-start text-[#101828] font-[Barlow] w-full md:w-fit lg:h-[96px]">
+            <div className="flex gap-[10px] md:gap-[17px] xl:mt-0 mt-5 items-center justify-start text-[#101828] font-[Barlow] w-full md:w-fit xl:h-[96px]">
               <div className="">
                 <motion.div
                   initial={{ width: 0 }}
                   whileInView={{ width: "fit-content" }} // Animate to 100% of the wrapper's width
                   transition={{ duration: 1, ease: [0.7, 0, 0.4, 1] }}
                   viewport={{ amount: 0.25, once: true }} // amount: 0.25 is often a good starting point
-                  className="md:w-[auto] text-4xl lg:text-[66px] 1440:text-[66px] overflow-hidden whitespace-nowrap font-normal tracking-[-2.64px] leading-[150%]"
+                  className="md:w-[auto] text-[35px] md:text-[45px] xl:text-[66px] overflow-hidden whitespace-nowrap bw-r tracking-[-2.64px] xl:leading-[76px] leading-[45px] md:leading-[55px]"
                 >
                   Team of
                 </motion.div>
@@ -76,8 +76,8 @@ const TeamSecF = () => {
                   viewport={{ amount: 0.25, once: true }}
                 >
                   <img
-                    src="/txt_box_295.svg"
-                    className="w-full xl:h-[58px] md:h-[48px] h-[40px] object-cover"
+                    src="/abstract_pattern.svg"
+                    className="abstract_svg"
                     alt=""
                   />
                 </motion.div>
@@ -88,7 +88,7 @@ const TeamSecF = () => {
               whileInView={{ width: "fit-content" }} // Animate to 100% of the wrapper's width
               transition={{ duration: 1, ease: [0.7, 0, 0.4, 1] }}
               viewport={{ amount: 0.25, once: true }} // amount: 0.25 is often a good starting point
-              className="text-[#101828] overflow-hidden whitespace-nowrap w-full bw-m text-4xl xl:text-[66px] lg:text-[56px] md:tracking-[-2.64px] md:leading-[110%] xl:leading-[83px] xl:mt-[-15px]"
+              className="text-[#101828] overflow-hidden whitespace-nowrap w-full bw-m text-[35px] md:text-[45px] xl:text-[66px] md:tracking-[-2.64px] xl:leading-[76px] leading-[45px] md:leading-[55px] xl:mt-[-15px]"
             >
               Industry Veterans
             </motion.h2>
@@ -101,7 +101,7 @@ const TeamSecF = () => {
             viewport={{ amount: 0.25, once: true }} // amount: 0.25 is often a good starting point
             className="flex items-end md:w-fit min-h-full"
           >
-            <p className="text-black bw-r md:text-[22px] leading-[150%] lg:max-w-xl sm:mt-2 mt-5">
+            <p className="text-black bw-r md:text-[22px] leading-[150%] lg:max-w-xl sm:mt-2 md:mt-5 mt-[15px]">
               We see things differently, proactively find opportunities with an
               agile team, and create exceptional value for our customers,
               partners, and employees.

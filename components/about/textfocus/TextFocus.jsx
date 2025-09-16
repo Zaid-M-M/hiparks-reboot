@@ -118,7 +118,7 @@ export default function ScrollFocusSections() {
                   y2="-37.7765"
                   gradientUnits="userSpaceOnUse"
                 >
-                  <stop offset="0.186217" stopColor="#F47922" />
+                  <stop offset="0.186217" stopColor="#f47920" />
                   <stop offset="1" stopColor="#8B37A4" />
                 </linearGradient>
               </defs>
@@ -144,9 +144,8 @@ export default function ScrollFocusSections() {
                   opacity: isFocused ? 1 : 0.5,
                 }}
                 transition={{ duration: 0.5, ease: [0.65, 0, 0.35, 1] }}
-                className={`h-[232px] px-2 ${
-                  isFocused ? "text-black" : "text-gray-500"
-                }`}
+                className={`h-[232px] px-2 ${isFocused ? "text-black" : "text-gray-500"
+                  }`}
               >
                 <h2 className="text-[46px] mb-1 bw-m tracking-[-4%]">
                   Right Fitted

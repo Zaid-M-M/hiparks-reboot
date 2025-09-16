@@ -15,7 +15,7 @@
 //           </span>
 //           <div style={{ width: 133, height: 58, position: "relative" }}>
 //             <Image
-//               src="/frame.png"
+//               src="/abstract_pattern.svg"
 //               alt="Frame"
 //               fill // use fill instead of width/height here
 //               style={{ objectFit: "contain" }}
@@ -79,7 +79,7 @@
 //             transition={{ delay: 0.4, duration: 0.4, ease: "easeOut" }}
 //           >
 //             <Image
-//               src="/frame.png"
+//               src="/abstract_pattern.svg"
 //               alt="Frame"
 //               fill
 //               style={{ objectFit: "contain" }}
@@ -105,7 +105,7 @@
 //             style={{ width: 133, height: 58, position: "relative" }}
 //           >
 //             <Image
-//               src="/frame.png"
+//               src="/abstract_pattern.svg"
 //               alt="Frame"
 //               fill // use fill instead of width/height here
 //               style={{ objectFit: "contain" }}
@@ -196,7 +196,7 @@ const Header = () => {
             viewport={{ once: true, amount: 0.6 }}
             transition={{ duration: 1, ease: [0.7, 0, 0.4, 1], delay: 0.5 }}
           >
-            <img src="/frm.png" alt="Truck" className="object-cover h-full" />
+            <img src="/abstract_pattern.svg" alt="Truck" className="object-cover h-full" />
           </motion.div>
           <motion.div
             className="lg:hidden flex justify-start items-center mb-2.5 sm:mb-0 sm:justify-start h-[35px] sm:h-[40px] overflow-hidden"
@@ -205,7 +205,7 @@ const Header = () => {
             viewport={{ once: true, amount: 0.6 }}
             transition={{ duration: 1, ease: [0.7, 0, 0.4, 1], delay: 0.5 }}
           >
-            <img src="/frm.png" alt="Truck" className="object-cover h-full" />
+            <img src="/abstract_pattern.svg" alt="Truck" className="object-cover h-full" />
           </motion.div>
         </motion.div>
         <motion.p

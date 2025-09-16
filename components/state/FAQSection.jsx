@@ -149,7 +149,7 @@
 //     <section className="w-full min-h-[100vh] md:py-[80px] lg:py-[100px]  py-[45px] bg-black text-white  px-4 sm:px-8">
 //       <div className="max-w-6xl mx-auto">
 //         {/* Heading */}
-//         <h2 className="text-center text-3xl sm:text-[56px] tracking-[-0.04em] leading-[70px] bw-m mb-12 bg-gradient-to-r from-[#AC38D9] to-[#F47922]   bg-clip-text text-transparent">
+//         <h2 className="text-center text-3xl sm:text-[56px] tracking-[-0.04em] leading-[70px] bw-m mb-12 bg-gradient-to-r from-[#AC38D9] to-[#f47920]   bg-clip-text text-transparent">
 //           Frequently Asked Questions
 //         </h2>
 
@@ -255,11 +255,11 @@ const FAQSection = ({ data }) => {
     <section className="w-full min-h-[100vh] md:py-[80px] lg:py-[100px] py-[45px] bg-black text-white F">
       <div className="fix">
         {/* Heading */}
-        {/* <h2 className="text-center text-[32px] xl:text-[64px] xl:leading-[74px] lg:text-[56px] tracking-[-0.04em] leading-[42px] lg:leading-[66px] bw-m mb-12 bg-gradient-to-r from-[#AC38D9] to-[#F47922] bg-clip-text text-transparent">
+        {/* <h2 className="text-center text-[32px] xl:text-[64px] xl:leading-[74px] lg:text-[56px] tracking-[-0.04em] leading-[42px] lg:leading-[66px] bw-m mb-12 bg-gradient-to-r from-[#AC38D9] to-[#f47920] bg-clip-text text-transparent">
           Frequently Asked Questions
         </h2> */}
         <div className="flex md:justify-center">
-          <h2 className="md:text-center max-w-fit text-[32px] lg:text-[56px] xl:text-[64px] pb-4 leading-[42px] lg:leading-[66px] xl:leading-[74px] tracking-[-0.04em] bw-m bg-gradient-to-r from-[#AC38D9] from-40% to-60% to-[#F47922] bg-clip-text text-transparent">
+          <h2 className="md:text-center max-w-fit text-[32px] lg:text-[56px] xl:text-[64px] pb-4 leading-[42px] lg:leading-[66px] xl:leading-[74px] tracking-[-0.04em] bw-m bg-gradient-to-r from-[#AC38D9] from-40% to-60% to-[#f47920] bg-clip-text text-transparent">
             Frequently Asked Questions
           </h2>
         </div>

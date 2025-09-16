@@ -7,7 +7,7 @@ const Agile = () => {
   return (
     <div
       className="h-full overflow-hidden  w-full relative py-[45px] sm:py-[80px] 1366:py-[100px] bg-white"
-      //   style={{ backgroundImage: "url('/whatnew.webp')" }}
+    //   style={{ backgroundImage: "url('/whatnew.webp')" }}
     >
       <div className="flex-col flex sm:flex-row items-start  h-full justify-center gap-[22px] sm:gap-0 sm:justify-between fix w-full">
         <div className="flex flex-col justify-between h-full">
@@ -32,34 +32,34 @@ const Agile = () => {
               <motion.div className="relative inline-block overflow-hidden  sm:align-middle w-full max-w-[249px] h-auto">
                 <motion.div
                   className="lg:flex hidden justify-start items-end h-[58px] overflow-hidden"
-                  // initial={{ width: 0 }}
-                  // whileInView={{ width: "257px" }}
-                  // viewport={{ once: true, amount: 0.6 }}
-                  // transition={{
-                  //   duration: 1,
-                  //   ease: [0.7, 0, 0.4, 1],
-                  //   delay: 0.5,
-                  // }}
+                // initial={{ width: 0 }}
+                // whileInView={{ width: "257px" }}
+                // viewport={{ once: true, amount: 0.6 }}
+                // transition={{
+                //   duration: 1,
+                //   ease: [0.7, 0, 0.4, 1],
+                //   delay: 0.5,
+                // }}
                 >
                   <img
-                    src="/frm2.png"
+                    src="/abstract_pattern.svg"
                     alt="Truck"
                     className="object-cover h-[35px] sm:h-[40px]"
                   />
                 </motion.div>
                 <motion.div
                   className="lg:hidden flex items-center justify-start sm:justify-start h-[35px] sm:h-[40px] overflow-hidden"
-                  // initial={{ width: 0 }}
-                  // whileInView={{ width: "102px" }}
-                  // viewport={{ once: true, amount: 0.6 }}
-                  // transition={{
-                  //   duration: 1,
-                  //   ease: [0.7, 0, 0.4, 1],
-                  //   delay: 0.5,
-                  // }}
+                // initial={{ width: 0 }}
+                // whileInView={{ width: "102px" }}
+                // viewport={{ once: true, amount: 0.6 }}
+                // transition={{
+                //   duration: 1,
+                //   ease: [0.7, 0, 0.4, 1],
+                //   delay: 0.5,
+                // }}
                 >
                   <img
-                    src="/frm2.png"
+                    src="/abstract_pattern.svg"
                     alt="Truck"
                     className="object-cover h-full"
                   />

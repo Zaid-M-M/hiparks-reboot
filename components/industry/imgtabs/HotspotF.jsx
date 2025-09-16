@@ -254,10 +254,10 @@ const HotspotF = ({ title, description, position, iwidth, fwidth }) => {
         initial={false}
         animate={{
           borderWidth: hovered ? "0px" : "8px",
-          borderColor: hovered ? "#ffffff00" : "#7F56D9",
+          borderColor: hovered ? "#ffffff00" : "#8F53A1",
           height: hovered ? "15px" : "25px",
           width: hovered ? "15px" : "25px",
-          backgroundColor: hovered ? "#7F56D9" : "#FFFFFF",
+          backgroundColor: hovered ? "#8F53A1" : "#FFFFFF",
           zIndex: hovered ? 60 : 0, // ⬅ dot on top while hovered
         }}
         transition={{ duration: 0.3, ease: [0.4, 0, 0.2, 1] }}
@@ -277,9 +277,8 @@ const HotspotF = ({ title, description, position, iwidth, fwidth }) => {
           zIndex: hovered ? 55 : 0, // ⬅ tooltip behind dot but above others
         }}
         transition={{ duration: 0.3, ease: [0.4, 0, 0.2, 1] }}
-        className={`absolute top-1/2 -translate-y-1/2 p-2 bg-white/70 backdrop-blur-md overflow-hidden border-0 outline-none ${
-          position === "left" ? "hidden" : "block"
-        }`}
+        className={`absolute top-1/2 -translate-y-1/2 p-2 bg-white/70 backdrop-blur-md overflow-hidden border-0 outline-none ${position === "left" ? "hidden" : "block"
+          }`}
       >
         <p
           className="text-[14px] bw-sb whitespace-nowrap text-black leading-tight overflow-hidden"
@@ -314,9 +313,8 @@ const HotspotF = ({ title, description, position, iwidth, fwidth }) => {
           zIndex: hovered ? 55 : 0,
         }}
         transition={{ duration: 0.3, ease: [0.4, 0, 0.2, 1] }}
-        className={`absolute top-1/2 -translate-y-1/2 p-2 bg-white/70 backdrop-blur-md overflow-hidden border-0 outline-none ${
-          position === "left" ? "block" : "hidden"
-        }`}
+        className={`absolute top-1/2 -translate-y-1/2 p-2 bg-white/70 backdrop-blur-md overflow-hidden border-0 outline-none ${position === "left" ? "block" : "hidden"
+          }`}
       >
         <p
           className="text-[14px] bw-sb text-black leading-tight overflow-hidden whitespace-nowrap"

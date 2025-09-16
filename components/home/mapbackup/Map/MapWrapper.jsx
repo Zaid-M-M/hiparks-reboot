@@ -157,7 +157,7 @@
 //               whileInView={{ width: "100%" }}
 //               viewport={{ once: true }}
 //               transition={{ duration: 1.4, ease: [0.7, 0, 0.4, 1] }}
-//               className="text-[56px] bg-gradient-to-r whitespace-nowrap overflow-visible from-[#AC38D9] to-[#F47922] bg-clip-text text-transparent tracking-[-0.04em] w-auto bw-m"
+//               className="text-[56px] bg-gradient-to-r whitespace-nowrap overflow-visible from-[#AC38D9] to-[#f47920] bg-clip-text text-transparent tracking-[-0.04em] w-auto bw-m"
 //             >
 //               Explore Park <span className="bw-r">Finder</span>
 //             </motion.h2>
@@ -241,7 +241,7 @@
 //                           <style>
 //                             {`
 //           .group-hover-bg-orange:hover {
-//             background-color: #F47922 !important;
+//             background-color: #f47920 !important;
 //           }
 //         `}
 //                           </style>
@@ -257,7 +257,7 @@
 //                               delay: hasParentMounted ? 0.1 : 0,
 //                               ease: "easeInOut",
 //                             }}
-//                             className="group absolute top-0 left-0 w-full h-[90%] px-3 bg-[#1D1D1D50]  group-hover:bg-[#F47922] group-hover-bg-orange border-[1.5px] border-[#ffffff30] shadow-lg flex items-center justify-start gap-4 z-[50] transition-colors duration-300"
+//                             className="group absolute top-0 left-0 w-full h-[90%] px-3 bg-[#1D1D1D50]  group-hover:bg-[#f47920] group-hover-bg-orange border-[1.5px] border-[#ffffff30] shadow-lg flex items-center justify-start gap-4 z-[50] transition-colors duration-300"
 //                           >
 //                             {displayLocation.image && (
 //                               <img
@@ -322,7 +322,7 @@
 //                                 </div>
 
 //                                 {/* Explore Park box, hidden by default, shown on hover */}
-//                                 <div className="absolute w-full text-white/80 px-[7px] h-[89px] cursor-pointer rounded-[4px] flex justify-between items-end py-[11px] bg-gradient-to-b from-[#F47922] to-[#FF974D] backdrop-blur-[2px] opacity-0 pointer-events-none group-hover:opacity-100 group-hover:pointer-events-auto transition-opacity duration-300">
+//                                 <div className="absolute w-full text-white/80 px-[7px] h-[89px] cursor-pointer rounded-[4px] flex justify-between items-end py-[11px] bg-gradient-to-b from-[#f47920] to-[#FF974D] backdrop-blur-[2px] opacity-0 pointer-events-none group-hover:opacity-100 group-hover:pointer-events-auto transition-opacity duration-300">
 //                                   <h3 className="inter-sb">Explore Park</h3>
 //                                   <span>
 //                                     <img src="/home/map/maparr.svg" alt="" />
@@ -558,7 +558,7 @@ export default function NewMapF() {
               whileInView={{ width: "100%" }}
               viewport={{ once: true }}
               transition={{ duration: 1.4, ease: [0.7, 0, 0.4, 1] }}
-              className="text-[56px] bg-gradient-to-r whitespace-nowrap overflow-visible from-[#AC38D9] to-[#F47922] bg-clip-text text-transparent tracking-[-0.04em] w-auto bw-m"
+              className="text-[56px] bg-gradient-to-r whitespace-nowrap overflow-visible from-[#AC38D9] to-[#f47920] bg-clip-text text-transparent tracking-[-0.04em] w-auto bw-m"
             >
               Explore Park <span className="bw-r">Finder</span>
             </motion.h2>
@@ -642,15 +642,14 @@ export default function NewMapF() {
                           <style>
                             {`
             .group-hover-bg-orange:hover {
-              background-color: #F47922 !important;
+              background-color: #f47920 !important;
             }
           `}
                           </style>
 
                           <motion.div
-                            key={`${
-                              displayLocation.id || displayLocation.label
-                            }-${displayLocation.city}`}
+                            key={`${displayLocation.id || displayLocation.label
+                              }-${displayLocation.city}`}
                             initial={{ y: "100%" }}
                             animate={{ y: 0 }}
                             exit={{ y: "-100%" }}
@@ -659,7 +658,7 @@ export default function NewMapF() {
                               delay: hasParentMounted ? 0.1 : 0,
                               ease: "easeInOut",
                             }}
-                            className="group absolute top-0 left-0 w-full h-full px-3 bg-[#1D1D1D50] border-b border-b-red-600 group-hover:bg-[#F47922] group-hover-bg-orange border-[1.5px] border-[#ffffff30] shadow-lg flex items-center gap-6 z-[50] transition-colors duration-300"
+                            className="group absolute top-0 left-0 w-full h-full px-3 bg-[#1D1D1D50] border-b border-b-red-600 group-hover:bg-[#f47920] group-hover-bg-orange border-[1.5px] border-[#ffffff30] shadow-lg flex items-center gap-6 z-[50] transition-colors duration-300"
                           >
                             {/* Image */}
                             {displayLocation.image && (
@@ -729,7 +728,7 @@ export default function NewMapF() {
                                 </div>
 
                                 {/* Explore Park box */}
-                                <div className="absolute inset-0 text-white/80 px-[7px] h-[89px] cursor-pointer rounded-none flex justify-between items-end py-[11px] bg-gradient-to-b from-[#F47922] to-[#FF974D] backdrop-blur-[2px] opacity-0 pointer-events-none group-hover:opacity-100 group-hover:pointer-events-auto transition-opacity duration-300">
+                                <div className="absolute inset-0 text-white/80 px-[7px] h-[89px] cursor-pointer rounded-none flex justify-between items-end py-[11px] bg-gradient-to-b from-[#f47920] to-[#FF974D] backdrop-blur-[2px] opacity-0 pointer-events-none group-hover:opacity-100 group-hover:pointer-events-auto transition-opacity duration-300">
                                   <h3 className="inter-sb">Explore Park</h3>
                                   <span>
                                     <img src="/home/map/maparr.svg" alt="" />
@@ -758,10 +757,10 @@ export default function NewMapF() {
                     {activeRegionId
                       ? highlightedRegions[activeRegionId]?.locations.length
                       : Object.values(highlightedRegions || {}).reduce(
-                          (sum, region) =>
-                            sum + (region.locations?.length || 0),
-                          0
-                        )}
+                        (sum, region) =>
+                          sum + (region.locations?.length || 0),
+                        0
+                      )}
                   </div>
                   <div className="text-[16px] bw-r text-white/80 mt-[4px]">
                     Parks

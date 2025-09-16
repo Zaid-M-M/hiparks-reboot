@@ -118,7 +118,7 @@
 </pattern>
 <linearGradient id="paint0_linear_4073_10315" x1="-15.01" y1="78.5" x2="346.586" y2="78.5" gradientUnits="userSpaceOnUse">
 <stop offset="0.1875" stop-color="#AC38D9"/>
-<stop offset="1" stop-color="#F47922"/>
+<stop offset="1" stop-color="#f47920"/>
 </linearGradient>
 <linearGradient id="paint1_linear_4073_10315" x1="33.5999" y1="62.07" x2="0.563652" y2="62.07" gradientUnits="userSpaceOnUse">
 <stop stop-color="white" stop-opacity="0.05"/>

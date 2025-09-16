@@ -276,7 +276,7 @@ const Socials = () => {
           //     group flex flex-col-reverse justify-between
           //     p-[16px] sm:p-[20px]
           //     transition-all duration-500 ease-in-out
-          //     hover:bg-gradient-to-r from-[#AC38D9] to-[#F47922]
+          //     hover:bg-gradient-to-r from-[#AC38D9] to-[#f47920]
           //     active:bg-[radial-gradient(circle_at_bottom_left,_#D96D6A_0%,_#893DA2_100%)]
           //     border-b border-[#CDCDCD]
           //     ${!isLastInRow ? "border-r" : ""}

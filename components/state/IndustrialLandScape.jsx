@@ -8,7 +8,7 @@
 //         <h1
 //           className="text-[56px] leading-[66px] bw-m tracking-[-0.04em] bg-clip-text text-transparent"
 //           style={{
-//             backgroundImage: "linear-gradient(94deg, #AC38D9 0%, #F47922 100%)",
+//             backgroundImage: "linear-gradient(94deg, #AC38D9 0%, #f47920 100%)",
 //             WebkitBackgroundClip: "text",
 //             WebkitTextFillColor: "transparent",
 //           }}
@@ -67,7 +67,7 @@
 //     <div className="bg-black py-[100px]">
 //       <div className="fixup">
 //         <h1
-//           className="lg:text-[56px] xl:text-[64px] text-[32px] leading-[42px] lg:leading-[66px] bw-m tracking-[-0.04em] bg-clip-text text-transparent bg-[linear-gradient(97deg,#AC38D9_13.98%,#F47922_67.51%)]"
+//           className="lg:text-[56px] xl:text-[64px] text-[32px] leading-[42px] lg:leading-[66px] bw-m tracking-[-0.04em] bg-clip-text text-transparent bg-[linear-gradient(97deg,#AC38D9_13.98%,#f47920_67.51%)]"
 //           dangerouslySetInnerHTML={{ __html: data.title }}
 //         />
 //       </div>
@@ -121,7 +121,7 @@
 //       <div className="fixup">
 //         {/* Sticky Title */}
 //         <h1
-//           className="lg:text-[56px] xl:text-[64px] text-[32px] leading-[42px] lg:leading-[66px] bw-m tracking-[-0.04em] bg-clip-text text-transparent bg-[linear-gradient(97deg,#AC38D9_13.98%,#F47922_67.51%)] sticky top-10"
+//           className="lg:text-[56px] xl:text-[64px] text-[32px] leading-[42px] lg:leading-[66px] bw-m tracking-[-0.04em] bg-clip-text text-transparent bg-[linear-gradient(97deg,#AC38D9_13.98%,#f47920_67.51%)] sticky top-10"
 //           dangerouslySetInnerHTML={{ __html: data.title }}
 //         />
 //       </div>
@@ -177,7 +177,7 @@
 //     <div className="bg-black py-[45px] lg:py-[100px]">
 //       {/* <div className="fixup">
 //         <h1
-//           className="lg:text-[56px] xl:text-[64px] text-[32px] leading-[42px] lg:leading-[66px] bw-m tracking-[-0.04em] bg-clip-text text-transparent bg-[linear-gradient(97deg,#AC38D9_13.98%,#F47922_67.51%)] sticky top-10"
+//           className="lg:text-[56px] xl:text-[64px] text-[32px] leading-[42px] lg:leading-[66px] bw-m tracking-[-0.04em] bg-clip-text text-transparent bg-[linear-gradient(97deg,#AC38D9_13.98%,#f47920_67.51%)] sticky top-10"
 //           dangerouslySetInnerHTML={{ __html: data.title }}
 //         />
 //       </div> */}
@@ -185,7 +185,7 @@
 //         <h1
 //           className="lg:text-[56px] max-w-fit xl:text-[64px] text-[32px] leading-[42px] lg:leading-[66px] bw-m tracking-[-0.04em]
 //                bg-clip-text text-transparent
-//                bg-[linear-gradient(94deg,#AC38D9_26.11%,#F47922_67.85%)]
+//                bg-[linear-gradient(94deg,#AC38D9_26.11%,#f47920_67.85%)]
 //                sticky top-10"
 //           dangerouslySetInnerHTML={{ __html: data.title }}
 //         />
@@ -257,7 +257,7 @@ const IndustrialLandScape = ({ data }) => {
         <h1
           className="lg:text-[56px] max-w-fit xl:text-[64px] text-[32px] leading-[150%] -mt-5 bw-m tracking-[-0.04em]
                bg-clip-text text-transparent
-               bg-[linear-gradient(94deg,#AC38D9_26.11%,#F47922_67.85%)]
+               bg-[linear-gradient(94deg,#AC38D9_26.11%,#f47920_67.85%)]
                sticky top-10"
           dangerouslySetInnerHTML={{ __html: data.title }}
         />
@@ -341,7 +341,7 @@ export default IndustrialLandScape;
 //         <h1
 //           className="lg:text-[56px] max-w-fit xl:text-[64px] text-[32px] leading-[42px] lg:leading-[66px] bw-m tracking-[-0.04em]
 //                bg-clip-text text-transparent
-//                bg-[linear-gradient(94deg,#AC38D9_26.11%,#F47922_67.85%)]"
+//                bg-[linear-gradient(94deg,#AC38D9_26.11%,#f47920_67.85%)]"
 //           dangerouslySetInnerHTML={{ __html: data.title }}
 //         />
 //       </div>

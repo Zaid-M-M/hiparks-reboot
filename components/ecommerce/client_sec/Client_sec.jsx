@@ -18,7 +18,7 @@ const Client_sec = () => {
                 one warehouse, one factory, <br></br> one corridor at a time
               </h1>
               <img
-                src="/txt_grd_box.svg"
+                src="/abstract_pattern.svg"
                 className="absolute right-[88px] bottom-[0px]"
               />
             </div>

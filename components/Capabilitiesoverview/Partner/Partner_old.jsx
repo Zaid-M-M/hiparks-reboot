@@ -19,14 +19,14 @@ const Partner_old = () => {
             <span className="bw-m">With Us</span>
           </h1>
           <img
-            src="/txt_grd_box.svg"
+            src="/abstract_pattern.svg"
             className="mb-[12px] mt-[-66px] md:mt-[-32px] w-[100px] 1280:w-[auto]  1280:mt-[-55px] 1280:ml-[20px] md:ml-[13px] ml-[115px]"
           />
         </div>
 
         <div className="flex justify-between md:mt-[49px] mt-[40px] flex-col gap-[34px]">
           <div className="flex gap-[34px] md:flex-row flex-col">
-            <div className="text-center text-white bg-[#F47922] relative pt-[30px] pb-[40px] lg:pt-[38px] lg:pb-[48px] px-[24px] flex items-center">
+            <div className="text-center text-white bg-[#f47920] relative pt-[30px] pb-[40px] lg:pt-[38px] lg:pb-[48px] px-[24px] flex items-center">
               <div>
                 <h3 className="text-[27px] md:text-[30px] lg:text-[40px] leading-[34px] md:leading-[50px] lg:leading-[40px] bw-m mb-[14px]">
                   For You
@@ -42,7 +42,7 @@ const Partner_old = () => {
                 src="/Cap_Overview/cards_arrow.svg"
               />
             </div>
-            <div className="text-center text-white bg-[#22B148] relative pt-[30px] pb-[40px] lg:pt-[38px] lg:pb-[48px] px-[24px]  flex items-center">
+            <div className="text-center text-white bg-[#0db14b] relative pt-[30px] pb-[40px] lg:pt-[38px] lg:pb-[48px] px-[24px]  flex items-center">
               <div>
                 <h3 className="text-[27px] md:text-[30px] lg:text-[40px] leading-[34px] md:leading-[50px] lg:leading-[40px]  bw-m mb-[14px]">
                   For Your Customers

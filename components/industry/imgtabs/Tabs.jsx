@@ -64,7 +64,7 @@
 //           <div className="p-10 flex flex-col h-full gap-y-10 items-start justify-center flex-1 transition-all duration-300">
 //             <h3
 //               className={`text-[32px] bw-r transition-all duration-300 ${
-//                 activeTab === tab.id ? "text-[#8E45D0]" : "text-black"
+//                 activeTab === tab.id ? "text-[#8F53A1]" : "text-black"
 //               }`}
 //             >
 //               {tab.title}
@@ -161,7 +161,7 @@ const Tabs = ({ activeTab, setActiveTab }) => {
           {/* Card Content */}
           <div className="p-5 1440:p-10 flex flex-col h-full gap-y-2 1440:gap-y-10 items-start justify-center flex-1">
             <h3
-              className={`text-[24px] 1440:text-[32px] bw-r transition-colors duration-300 ${activeTab === tab.id ? "text-[#8E45D0]" : "text-black"
+              className={`text-[24px] 1440:text-[32px] bw-r transition-colors duration-300 ${activeTab === tab.id ? "text-[#8F53A1]" : "text-black"
                 }`}
             >
               {tab.title}
@@ -238,7 +238,7 @@ export default Tabs;
 //           <div className="1440:p-10 gap-x-10 1440:gap-x-0 p-4 flex flex-row 1440:flex-col h-full 1440:gap-y-10 items-end 1440:items-start 1440:justify-center flex-1">
 //             <h3
 //               className={`text-[24px] whitespace-nowrap 1440:text-[32px] bw-r transition-colors duration-300 ${
-//                 activeTab === tab.id ? "text-[#8E45D0]" : "text-black"
+//                 activeTab === tab.id ? "text-[#8F53A1]" : "text-black"
 //               }`}
 //             >
 //               {tab.title}

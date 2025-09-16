@@ -31,12 +31,12 @@ const Ntwrk_sec4 = () => {
         <div className="relative w-full fix pt-[45px] md:pt[80px] lg:pt[70px] pb-[45px] md:pb[55px] xl:pb-[70px]">
           <div className="flex flex-col justify-between xl:mt-[15px] lg:mt-[0px] md:gap-[20px] gap-[25px] lg:flex-row ">
             <div className=" max-w-[600px] lg:max-w-[45%]">
-              <div className="flex items-start flex-col relative gap-[8px] lg:gap-[23px] md:w-[480px]">
+              <div className="flex items-start flex-col relative gap-[8px] lg:gap-[15px] md:w-[480px]">
                 <h1 className="tracking-[-2px] bw-m text-[33px] leading-[43px] md:text-[45px] md:leading-[55px] xl:text-[56px] xl:leading-[66px] lg:tracking-[-2.64px] bw-r capitalize">
                   Designed for People <br />
                   <span className="bw-r">Built for Productivity.</span>
                 </h1>
-                <img src="/txt_box_295.svg" alt="decor" className="w-[200px] lg:w-[auto]" />
+                <img src="/abstract_pattern.svg" alt="decor" className="abstract_svg" />
               </div>
             </div>
             <div className="1280:max-w-[auto] 1366:max-w-[600px] 1440:max-w-[658px] 1536:max-w-[700px] lg:max-w-[55%] max-w-[658px]">

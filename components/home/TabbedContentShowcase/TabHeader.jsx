@@ -35,7 +35,7 @@ export default function TabHeader({ activeTab, setActiveTab }) {
             variants={{}} // enable nested hover animations
             className={clsx(
               "relative flex items-center justify-between md:px-[12px] lg:px-[20px] xl:px-[23px]  xl:py-[20px] border-r border-[#CDCDCD] transition-all duration-300 overflow-hidden cursor-pointer focus:outline-none",
-              isActive && "bg-gradient-to-r from-[#AC38D9] to-[#F47922]"
+              isActive && "bg-gradient-to-r from-[#AC38D9] to-[#f47920]"
             )}
           >
             <div className="flex items-center justify-between w-full gap-2">

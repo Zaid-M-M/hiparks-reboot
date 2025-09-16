@@ -31,7 +31,7 @@ const SS_sec2 = () => {
 
         <div className="xl:py-[105px] lg:py-[60px] md:pr-[30px] md:pt-[30px] md:pb-[70px] lg:pr-[100px] xl:pr-[170px] flex-1 mb-[40px] xl:mb-[0px]">
 
-          <p className="bw-r xl:text-[20px] md:text-[16px] md:leading-[26px] lg:leading-[30px]  md:mb-[15px] mb-[15px] text-[#E0E0E0]">Today, over <span className="bw-b text-[24px] text-[#F47922] leading-[30px]">50%</span> developments delivered by Horizon are tailored Build-to-Suit (BTS). These numbers reflect more than the volume or technical capability—they show our commitment to sector-specific, responsive design.</p>
+          <p className="bw-r xl:text-[20px] md:text-[16px] md:leading-[26px] lg:leading-[30px]  md:mb-[15px] mb-[15px] text-[#E0E0E0]">Today, over <span className="bw-b text-[24px] text-[#f47920] leading-[30px]">50%</span> developments delivered by Horizon are tailored Build-to-Suit (BTS). These numbers reflect more than the volume or technical capability—they show our commitment to sector-specific, responsive design.</p>
 
           <p className="bw-r xl:text-[20px] md:text-[16px] md:leading-[26px] lg:leading-[30px] text-[#E0E0E0]">Where needed, we also offer temporary space solutions to help customers manage seasonal surges—because we understand that flexibility isn't a feature; it is a necessity.</p>
         </div>

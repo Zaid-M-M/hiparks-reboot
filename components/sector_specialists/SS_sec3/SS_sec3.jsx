@@ -89,19 +89,21 @@ const SS_sec3 = () => {
           <h1 className="sec_hd bw-r">
             Our Experience
           </h1>
-          <h1 className="sec_hd bw-r">
-            <span className="bw-m">In Action</span>
-          </h1>
-          <img
-            src="/txt_box_226.svg"
-            className="absolute bottom-[5px] lg:bottom-[0] right-[-24px] md:right-[-50px] lg:right-[-55px] xl:right-[-82px] w-[100px] md:w-[150px] xl:w-[auto]"
-          />
+          <div className="flex gap-[10px] md:gap-[17px]">
+            <h1 className="sec_hd bw-r">
+              <span className="bw-m">In Action</span>
+            </h1>
+            <img
+              src="/abstract_pattern.svg"
+              className="abstract_svg"
+            />
+          </div>
         </div>
-        <div className="flex flex-col justify-between mt-[10px] md:mt-[40px] lg:mt-[48px] gap-[24px] ">
+        <div className="flex flex-col justify-between mt-[15px] md:mt-[40px] lg:mt-[48px] gap-[24px] ">
           {exp_data.map((exp_data, index) => (
             <div className="group flex md:flex-row flex-col md:gap-[25px] xl:gap-[50px] lg:gap-[30px] gap-[25px] px-[20px] py-[35px] md:py-[30px] md:px-[30px] bg-[#fff] relative">
               <img
-                className="absolute top-[0] right-[0] transition duration-300 [filter:brightness(0)_saturate(100%)_invert(93%)_sepia(7%)_saturate(241%)_hue-rotate(17deg)_brightness(95%)_contrast(87%)] group-hover:filter-none"
+                className="absolute top-[0] right-[0] transition duration-300 [filter:brightness(0)_saturate(100%)_invert(93%)_sepia(7%)_saturate(241%)_hue-rotate(17deg)_brightness(95%)_contrast(87%)] group-hover:filter-none w-[30px] md:w-[auto]"
                 src="/sector_specialist/green_arrow.svg"
                 alt="arrow"
               />

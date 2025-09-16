@@ -164,7 +164,7 @@
 //       <div
 //         className={`w-full h-full flex flex-col pt-[30px] px-[22px] justify-between ${baseClass} transition-colors duration-300 ${
 //           hovered
-//             ? "bg-[radial-gradient(143.41%_138.14%_at_33.19%_174.66%,_#F47922_0%,_#8B37A4_100%)]"
+//             ? "bg-[radial-gradient(143.41%_138.14%_at_33.19%_174.66%,_#f47920_0%,_#8B37A4_100%)]"
 //             : ""
 //         }`}
 //       >
@@ -238,7 +238,7 @@
 //           transition-colors duration-300
 //           ${
 //             hovered && isDesktop
-//               ? "bg-[radial-gradient(143.41%_138.14%_at_33.19%_174.66%,_#F47922_0%,_#8B37A4_100%)]"
+//               ? "bg-[radial-gradient(143.41%_138.14%_at_33.19%_174.66%,_#f47920_0%,_#8B37A4_100%)]"
 //               : ""
 //           }
 //         `}
@@ -330,7 +330,7 @@ export default function SectorCard({ sector, gridStyle, index, variants }) {
     //       transition-colors duration-300
     //       ${
     //         hovered && isDesktop
-    //           ? "bg-gradient-to-r from-[#AC38D9] to-[#F47922]"
+    //           ? "bg-gradient-to-r from-[#AC38D9] to-[#f47920]"
     //           : ""
     //       }
     //     `}
@@ -412,11 +412,10 @@ export default function SectorCard({ sector, gridStyle, index, variants }) {
       pt-[30px] px-[22px] xl:px-[12px] 2xl:px-[22px] pb-[15px]
       ${baseClass}
       transition-colors duration-300
-      ${
-        hovered && isDesktop
-          ? "bg-gradient-to-r from-[#AC38D9] to-[#F47922]"
-          : ""
-      }
+      ${hovered && isDesktop
+            ? "bg-gradient-to-r from-[#AC38D9] to-[#f47920]"
+            : ""
+          }
     `}
       >
         <motion.h3

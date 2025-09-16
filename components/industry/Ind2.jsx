@@ -21,8 +21,8 @@ const Ind2 = () => {
                 <span className='bw-m w-full flex items-center gap-[10px] md:gap-5'>
                   Grade A
                   <img
-                    src='/txt_grd_box.svg'
-                    className='xl:w-auto lg:w-[130px] md:w-[130px] w-[100px]'
+                    src='/abstract_pattern.svg'
+                    className='abstract_svg'
                     alt='Grade A Box'
                   />
                 </span>

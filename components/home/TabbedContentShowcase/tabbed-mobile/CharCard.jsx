@@ -13,7 +13,7 @@ import React from "react";
 //         />
 //       </div>
 //       <div className="relative flex flex-col  px-[15px] gap-[15px]">
-//         <p className="md:text-[18px] text-[14px] inter-sb text-[#F47922]  ">
+//         <p className="md:text-[18px] text-[14px] inter-sb text-[#f47920]  ">
 //           {charcont}
 //         </p>
 //         <h4 className="text-[#111111] bw-sb  text-[18px] line-clamp-2">
@@ -46,7 +46,7 @@ const CharCard = ({ charImage, charcont, charTitle, description, type }) => {
 
       <div className="relative flex flex-col px-[15px] gap-[10px]">
         {showCategory && (
-          <p className="md:text-[18px] text-[14px] inter-sb text-[#F47922]">
+          <p className="md:text-[18px] text-[14px] inter-sb text-[#f47920]">
             {charcont}
           </p>
         )}

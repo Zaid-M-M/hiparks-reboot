@@ -15,16 +15,16 @@ export const staticRegionData = {
     stroke: "#000",
     strokeWidth: 0.8,
     numberBox: { x: 320, y: 460 },
-    zoom: { scale: 5, x: 600, y: -380 },
+    zoom: { scale: 3.6, x: 400, y: -240 },
     numberBoxMobile: {
       label: "12",
       x: 320,
       y: 460,
     },
     locationStyle: {
-      circleRadius: 2, // <== circle radius
-      fontSize: 3.6, // <== font size for labels
-      yOffset: 3.3,
+      circleRadius: 1.8, // <== circle radius
+      fontSize: 3.8, // <== font size for labels
+      yOffset: 3.8,
     },
   },
   gujarat: {
@@ -39,11 +39,11 @@ export const staticRegionData = {
       y: 370,
     },
     locationStyle: {
-      circleRadius: 3,
+      circleRadius: 2,
       fontSize: 5.6,
-      yOffset: 5,
+      yOffset: 4.3,
     },
-    zoom: { scale: 3, x: 440, y: -30 },
+    zoom: { scale: 3, x: 460, y: 30 },
   },
   NCR: {
     label: "Delhi",
@@ -57,11 +57,11 @@ export const staticRegionData = {
       y: 246,
     },
     locationStyle: {
-      circleRadius: 1,
+      circleRadius: 0.8,
       fontSize: 1.8,
       yOffset: 1.8,
     },
-    zoom: { scale: 10, x: 1200, y: 1400 },
+    zoom: { scale: 8, x: 860, y: 1160 },
   },
   telangana: {
     label: "Telangana",
@@ -74,11 +74,11 @@ export const staticRegionData = {
       y: 490,
     },
     locationStyle: {
-      circleRadius: 1.2,
-      fontSize: 2.3,
-      yOffset: 2.2,
+      circleRadius: 1.5,
+      fontSize: 3.5,
+      yOffset: 3.4,
     },
-    zoom: { scale: 8, x: 460, y: -860 },
+    zoom: { scale: 4, x: 160, y: -360 },
   },
   goa: {
     label: "Goa",
@@ -92,10 +92,10 @@ export const staticRegionData = {
     // zoom: { scale: 6, x: 720, y: -820 },
     locationStyle: {
       circleRadius: 0.8,
-      fontSize: 1.8,
-      yOffset: 1.2,
+      fontSize: 2,
+      yOffset: 1.6,
     },
-    zoom: { scale: 12, x: 1800, y: -2000 },
+    zoom: { scale: 8, x: 1200, y: -1300 },
   },
   karnataka: {
     label: "Karnataka",
@@ -108,11 +108,11 @@ export const staticRegionData = {
       y: 560,
     },
     locationStyle: {
-      circleRadius: 1.6,
-      fontSize: 3,
+      circleRadius: 1.35,
+      fontSize: 3.5,
       yOffset: 3,
     },
-    zoom: { scale: 5, x: 610, y: -810 },
+    zoom: { scale: 4, x: 350, y: -650 },
   },
   tamilnadu: {
     label: "Tamil Nadu",

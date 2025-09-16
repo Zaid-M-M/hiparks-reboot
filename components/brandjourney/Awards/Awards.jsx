@@ -109,7 +109,7 @@
 //               <span className="inline-flex bw-m items-center">
 //                 Building for What’s Next.{" "}
 //                 <img
-//                   src="/txt_grd_box.svg"
+//                   src="/abstract_pattern.svg"
 //                   alt=""
 //                   className="ml-2 w-[100px] md:w-[120px] lg:w-auto"
 //                 />
@@ -140,7 +140,7 @@
 //                     <span className="inline-flex bw-m items-center">
 //                       Building for What’s Next.{" "}
 //                       <img
-//                         src="/txt_grd_box.svg"
+//                         src="/abstract_pattern.svg"
 //                         alt=""
 //                         className="ml-2 w-[100px] md:w-[120px] lg:w-auto"
 //                       />
@@ -153,7 +153,7 @@
 //                     <span className="inline-flex bw-m items-center">
 //                       Building for What’s Next.{" "}
 //                       <img
-//                         src="/txt_grd_box.svg"
+//                         src="/abstract_pattern.svg"
 //                         alt=""
 //                         className="ml-2 w-[100px] md:w-[120px] lg:w-auto"
 //                       />
@@ -219,12 +219,12 @@
 //                           textTransform: "none",
 //                           ":hover": {
 //                             background:
-//                               "linear-gradient(131deg, #AC38D9 24.37%, #F47922 80.46%)",
+//                               "linear-gradient(131deg, #AC38D9 24.37%, #f47920 80.46%)",
 //                             color: "#fff",
 //                           },
 //                           "&.Mui-selected": {
 //                             background:
-//                               "linear-gradient(131deg, #AC38D9 24.37%, #F47922 80.46%)",
+//                               "linear-gradient(131deg, #AC38D9 24.37%, #f47920 80.46%)",
 //                             color: "#fff",
 //                             border: "none",
 //                           },
@@ -380,7 +380,7 @@ const Awards = () => {
               <span className="inline-flex bw-m items-center">
                 Building for What’s Next.{" "}
                 <img
-                  src="/txt_grd_box.svg"
+                  src="/abstract_pattern.svg"
                   alt=""
                   className="ml-2 w-[100px] md:w-[120px] lg:w-auto"
                 />
@@ -399,7 +399,7 @@ const Awards = () => {
                     <span className="inline-flex bw-m items-center">
                       Building for What’s Next.{" "}
                       <img
-                        src="/txt_grd_box.svg"
+                        src="/abstract_pattern.svg"
                         alt=""
                         className="ml-2 xl:!flex !hidden w-[100px] md:w-[120px] lg:w-auto"
                       />
@@ -408,7 +408,7 @@ const Awards = () => {
                     Recognised for What We Deliver.
                     <span className="xl:!hidden !flex">
                       <img
-                        src="/txt_grd_box.svg"
+                        src="/abstract_pattern.svg"
                         alt=""
                         className="mt-5 w-[100px] md:w-[120px] lg:w-auto"
                       />
@@ -466,12 +466,12 @@ const Awards = () => {
                           textTransform: "none",
                           ":hover": {
                             background:
-                              "linear-gradient(131deg, #AC38D9 24.37%, #F47922 80.46%)",
+                              "linear-gradient(131deg, #AC38D9 24.37%, #f47920 80.46%)",
                             color: "#fff",
                           },
                           "&.Mui-selected": {
                             background:
-                              "linear-gradient(131deg, #AC38D9 24.37%, #F47922 80.46%)",
+                              "linear-gradient(131deg, #AC38D9 24.37%, #f47920 80.46%)",
                             color: "#fff",
                             border: "none",
                           },
@@ -488,7 +488,7 @@ const Awards = () => {
                     <span className="inline-flex bw-m items-center">
                       Building for What’s Next.{" "}
                       {/* <img
-                        src="/txt_grd_box.svg"
+                        src="/abstract_pattern.svg"
                         alt=""
                         className="ml-2 xl:!flex !hidden w-[100px] md:w-[120px] lg:w-auto"
                       /> */}
@@ -497,7 +497,7 @@ const Awards = () => {
                     Recognised for What We Deliver.
                     <span className="">
                       <img
-                        src="/txt_box_295.svg"
+                        src="/abstract_pattern.svg"
                         alt=""
                         className="lg:mt-5 mt-2 w-[100px] md:w-[120px] lg:w-auto"
                       />
@@ -564,7 +564,7 @@ const Awards = () => {
 
                                 "&.Mui-selected": {
                                   background:
-                                    "linear-gradient(131deg, #AC38D9 24.37%, #F47922 80.46%)",
+                                    "linear-gradient(131deg, #AC38D9 24.37%, #f47920 80.46%)",
                                   color: "#fff",
                                   border: "none",
                                 },

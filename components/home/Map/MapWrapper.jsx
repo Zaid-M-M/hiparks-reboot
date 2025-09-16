@@ -164,7 +164,7 @@ export default function NewMapF() {
               whileInView={{ width: "fit-content" }}
               viewport={{ once: true }}
               transition={{ duration: 1.4, ease: [0.7, 0, 0.4, 1] }}
-              className="lg:leading-[55px] text-[64px] bg-gradient-to-r whitespace-nowrap overflow-visible bg-[linear-gradient(97deg,#AC38D9_13.98%,#F47922_67.51%)] bg-clip-text text-transparent tracking-[-0.04em] w-auto bw-m"
+              className="lg:leading-[55px] text-[64px] bg-gradient-to-r whitespace-nowrap overflow-visible bg-[linear-gradient(97deg,#AC38D9_13.98%,#f47920_67.51%)] bg-clip-text text-transparent tracking-[-0.04em] w-auto bw-m"
             >
               Park Finder
             </motion.h2>
@@ -230,6 +230,114 @@ export default function NewMapF() {
                 </AnimatePresence>
                 <AnimatePresence>
                   {displayLocation && (
+                    //             <motion.div
+                    //               key="info-parent"
+                    //               initial={{ y: "100%" }}
+                    //               animate={{ y: 0 }}
+                    //               exit={{
+                    //                 y: "100%",
+                    //                 transition: { duration: 1, ease: "easeInOut" },
+                    //               }}
+                    //               transition={{ duration: 1, ease: "easeInOut" }}
+                    //               className="absolute top-0 left-0  w-full h-[92%] z-[40] mt-4 overflow-hidden border-1 border-[#3C3C3C]"
+                    //               onAnimationComplete={() => setHasParentMounted(true)}
+                    //             >
+                    //               <AnimatePresence mode="wait">
+                    //                 <>
+                    //                   <style>
+                    //                     {`
+                    //   .group-hover-bg-orange:hover {
+                    //     background-color: #f47920 !important;
+                    //   }
+                    // `}
+                    //                   </style>
+                    //                   <motion.div
+                    //                     key={`${displayLocation.id || displayLocation.label
+                    //                       }-${displayLocation.city}`}
+                    //                     initial={{ y: "100%" }}
+                    //                     animate={{ y: 0 }}
+                    //                     exit={{ y: "-100%" }}
+                    //                     transition={{
+                    //                       duration: 0.5,
+                    //                       delay: hasParentMounted ? 0.1 : 0,
+                    //                       ease: "easeInOut",
+                    //                     }}
+                    //                     className="group absolute top-0 left-0 w-full h-[100%] px-3  group-hover:bg-[#f47920] group-hover-bg-orange group-hover:border group-hover:border-white shadow-lg flex items-center justify-start gap-4 z-[50] transition-colors duration-300"
+                    //                   >
+                    //                     {displayLocation.image && (
+                    //                       <img
+                    //                         src={displayLocation.image}
+                    //                         alt={displayLocation.label}
+                    //                         className="w-[140px] h-[140px] object-cover"
+                    //                       />
+                    //                     )}
+
+                    //                     <div className="flex flex-col justify-between w-full max-w-[450px] gap-2 text-sm">
+                    //                       <div>
+                    //                         <h3 className="text-lg bw-r text-[#F47920] group-hover:text-white transition-colors duration-300">
+                    //                           {displayLocation.label}
+                    //                           {displayLocation.city && (
+                    //                             <span className="text-[14px] text-[#F47920] group-hover:text-white transition-colors duration-300">
+                    //                               , {displayLocation.city}
+                    //                             </span>
+                    //                           )}
+                    //                         </h3>
+                    //                         {displayLocation.purpose && (
+                    //                           <p className="text-[14px] bw-r text-gray-400 group-hover:text-white transition-colors duration-300" >
+                    //                             {displayLocation.purpose}
+                    //                           </p>
+                    //                         )}
+                    //                       </div>
+
+                    //                       {/* Container for toggling between the two boxes */}
+                    //                       <div className="relative w-full h-[89px]">
+                    //                         {/* Default info box, shown by default, hidden on hover */}
+                    //                         <div className="absolute w-full text-white/80 bg-[#313131] px-[7px] rounded-[4px] py-[11px] group-hover:opacity-0 group-hover:pointer-events-none transition-opacity duration-300">
+                    //                           {displayLocation.area && (
+                    //                             <div className="flex justify-between mb-[4px]">
+                    //                               <p className="bw-r text-[14px]">
+                    //                                 Total Area:
+                    //                               </p>
+                    //                               <p className="bw-m text-[12px]">
+                    //                                 {displayLocation.area}
+                    //                               </p>
+                    //                             </div>
+                    //                           )}
+                    //                           {displayLocation.potential && (
+                    //                             <div className="flex justify-between mb-[4px]">
+                    //                               <p className="bw-r text-[14px]">
+                    //                                 Potential:
+                    //                               </p>
+                    //                               <p className="bw-m text-[12px]">
+                    //                                 {displayLocation.potential}
+                    //                               </p>
+                    //                             </div>
+                    //                           )}
+                    //                           {displayLocation.certification && (
+                    //                             <div className="flex justify-between gap-1">
+                    //                               <p className="bw-r text-[14px]">
+                    //                                 Certification:
+                    //                               </p>
+                    //                               <p className="bw-m text-[12px]  text-end ">
+                    //                                 {displayLocation.certification}
+                    //                               </p>
+                    //                             </div>
+                    //                           )}
+                    //                         </div>
+
+                    //                         {/* Explore Park box, hidden by default, shown on hover */}
+                    //                         <div className="absolute w-full text-white/80 px-[7px] h-[89px] cursor-pointer rounded-[4px] flex justify-between items-end py-[11px] bg-gradient-to-b from-[#f47920] to-[#FF974D] backdrop-blur-[2px] opacity-0 pointer-events-none group-hover:opacity-100 group-hover:pointer-events-auto transition-opacity duration-300">
+                    //                           <h3 className="inter-sb">Explore Park</h3>
+                    //                           <span>
+                    //                             <img src="/home/map/maparr.svg" alt="" />
+                    //                           </span>
+                    //                         </div>
+                    //                       </div>
+                    //                     </div>
+                    //                   </motion.div>
+                    //                 </>
+                    //               </AnimatePresence>
+                    //             </motion.div>
                     <motion.div
                       key="info-parent"
                       initial={{ y: "100%" }}
@@ -247,13 +355,12 @@ export default function NewMapF() {
                           <style>
                             {`
           .group-hover-bg-orange:hover {
-            background-color: #F47922 !important;
+            background-color: #f47920 !important;
           }
         `}
                           </style>
                           <motion.div
-                            key={`${displayLocation.id || displayLocation.label
-                              }-${displayLocation.city}`}
+                            key={`${displayLocation.id || displayLocation.label}-${displayLocation.city}`}
                             initial={{ y: "100%" }}
                             animate={{ y: 0 }}
                             exit={{ y: "-100%" }}
@@ -262,7 +369,7 @@ export default function NewMapF() {
                               delay: hasParentMounted ? 0.1 : 0,
                               ease: "easeInOut",
                             }}
-                            className="group absolute top-0 left-0 w-full h-[100%] px-3  group-hover:bg-[#F47922] group-hover-bg-orange group-hover:border group-hover:border-white shadow-lg flex items-center justify-start gap-4 z-[50] transition-colors duration-300"
+                            className="group absolute top-0 left-0 w-full h-[100%] px-3  group-hover:bg-[#f47920] group-hover-bg-orange group-hover:border group-hover:border-white shadow-lg flex items-center justify-start gap-4 z-[50] transition-colors duration-300"
                           >
                             {displayLocation.image && (
                               <img
@@ -295,29 +402,25 @@ export default function NewMapF() {
                                 <div className="absolute w-full text-white/80 bg-[#313131] px-[7px] rounded-[4px] py-[11px] group-hover:opacity-0 group-hover:pointer-events-none transition-opacity duration-300">
                                   {displayLocation.area && (
                                     <div className="flex justify-between mb-[4px]">
-                                      <p className="bw-r text-[14px]">
-                                        Total Area:
-                                      </p>
-                                      <p className="bw-m text-[12px]">
-                                        {displayLocation.area}
-                                      </p>
+                                      <p className="bw-r text-[14px]">Total Area:</p>
+                                      <p
+                                        className="bw-m text-[12px]"
+                                        dangerouslySetInnerHTML={{ __html: displayLocation.area }}
+                                      />
                                     </div>
                                   )}
                                   {displayLocation.potential && (
                                     <div className="flex justify-between mb-[4px]">
-                                      <p className="bw-r text-[14px]">
-                                        Potential:
-                                      </p>
-                                      <p className="bw-m text-[12px]">
-                                        {displayLocation.potential}
-                                      </p>
+                                      <p className="bw-r text-[14px]">Potential:</p>
+                                      <p
+                                        className="bw-m text-[12px]"
+                                        dangerouslySetInnerHTML={{ __html: displayLocation.potential }}
+                                      />
                                     </div>
                                   )}
                                   {displayLocation.certification && (
                                     <div className="flex justify-between gap-1">
-                                      <p className="bw-r text-[14px]">
-                                        Certification:
-                                      </p>
+                                      <p className="bw-r text-[14px]">Certification:</p>
                                       <p className="bw-m text-[12px]  text-end ">
                                         {displayLocation.certification}
                                       </p>
@@ -326,7 +429,7 @@ export default function NewMapF() {
                                 </div>
 
                                 {/* Explore Park box, hidden by default, shown on hover */}
-                                <div className="absolute w-full text-white/80 px-[7px] h-[89px] cursor-pointer rounded-[4px] flex justify-between items-end py-[11px] bg-gradient-to-b from-[#F47922] to-[#FF974D] backdrop-blur-[2px] opacity-0 pointer-events-none group-hover:opacity-100 group-hover:pointer-events-auto transition-opacity duration-300">
+                                <div className="absolute w-full text-white/80 px-[7px] h-[89px] cursor-pointer rounded-[4px] flex justify-between items-end py-[11px] bg-gradient-to-b from-[#f47920] to-[#FF974D] backdrop-blur-[2px] opacity-0 pointer-events-none group-hover:opacity-100 group-hover:pointer-events-auto transition-opacity duration-300">
                                   <h3 className="inter-sb">Explore Park</h3>
                                   <span>
                                     <img src="/home/map/maparr.svg" alt="" />
@@ -338,6 +441,7 @@ export default function NewMapF() {
                         </>
                       </AnimatePresence>
                     </motion.div>
+
                   )}
                 </AnimatePresence>
               </div>

@@ -20,7 +20,7 @@ const Culture = () => {
               viewport={{ amount: 0.25, once: true }}
             >
               <img
-                src="/frm2.png"
+                src="/abstract_pattern.svg"
                 className="w-full xl:h-[58px] md:h-[48px] h-[40px] object-cover"
                 alt=""
               />

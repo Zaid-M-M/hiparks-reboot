@@ -43,7 +43,7 @@
 //       <div className="absolute w-[438.795px] h-[454.148px] bg-[#7F56D9] bottom-6 left-0 opacity-15 blur-[92px]"></div>
 //       {/* <div className="absolute w-[200.795px] h-[150.148px] bg-[#7F56D9] bottom-2 left-0 opacity-15 blur-[92px]"></div> */}
 
-//       <div className="absolute w-[278.128px] h-[442.8px] bg-[#22B148] bottom-0.5 left-5 opacity-10 blur-[92px] 1920:text-9xl "></div>
+//       <div className="absolute w-[278.128px] h-[442.8px] bg-[#0db14b] bottom-0.5 left-5 opacity-10 blur-[92px] 1920:text-9xl "></div>
 //       <div className="relative hidden min-h-full md:block">
 //         <div className="fix">
 //           <TabHeader activeTab={activeTab} setActiveTab={setActiveTab} />
