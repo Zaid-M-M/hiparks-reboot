@@ -17,6 +17,7 @@
     "@react-google-maps/api": "^2.20.7",
     "@studio-freight/lenis": "^1.0.42",
     "@types/mapbox-gl": "^3.4.1",
+    "@vimeo/player": "^2.29.7",
     "autoprefixer": "^10.4.21",
     "clsx": "^2.1.1",
     "dompurify": "^3.2.6",
