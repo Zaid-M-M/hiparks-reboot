@@ -1,4 +1,4 @@
-// import DOMPurify from "isomorphic-dompurify"; // runs on server too
+import DOMPurify from "isomorphic-dompurify";
 
 export function formatStatePage(item) {
   const acf = item.acf || {};
@@ -26,6 +26,7 @@ export function formatStatePage(item) {
         alt: a.amenities_image_alt || "",
       })),
     },
+
     indicators: (acf.indicator_data || []).map((ind) => ({
       // sanitized but keep <sup>, %, etc. intact
       value: DOMPurify.sanitize(ind.indicator_no || "", {
@@ -81,14 +82,18 @@ export function formatStatePage(item) {
       }),
       label: DOMPurify.sanitize(ind.indicator_description || ""),
     })),
+
     industrialLandscape: {
       title: acf.section_title1,
-      // paragraph: DOMPurify.sanitize(acf.paragraph1 || ""),
       paragraph: acf.paragraph1 || "",
+      // you can sanitize here too if needed
+      // paragraph: DOMPurify.sanitize(acf.paragraph1 || ""),
     },
+
     focusSectors: (acf.incentivised_list || []).map((s) =>
       DOMPurify.sanitize(s.list_text || "")
     ),
+
     parks: {
       title: acf.section_title_parks,
       stitle1: acf.state_park_title_1,
@@ -152,12 +157,14 @@ export function formatStatePage(item) {
       title: DOMPurify.sanitize(f.faq_title || ""),
       desc: DOMPurify.sanitize(f.faq_description || ""),
     })),
+
     regionSlider: (acf.region_slider || []).map((r) => ({
       name: r.state_name_region,
       image: r.state_image_region,
       url: r.state_url,
       alt: r.region_image_alt || "",
     })),
+
     meta: {
       title: acf.meta_title,
       description: acf.meta_description,
