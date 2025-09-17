@@ -1,5 +1,3 @@
-// export const dynamic = "force-dynamic";
-
 // import { notFound } from "next/navigation";
 
 // import HeroSection from "@/components/state/HeroSection";
@@ -73,7 +71,6 @@
 //   // Neither state nor park → 404
 //   notFound();
 // }
-export const dynamic = "force-dynamic";
 import { notFound } from "next/navigation";
 
 import HeroSection from "@/components/state/HeroSection";
@@ -88,8 +85,7 @@ import IndustrialLandScape from "@/components/state/IndustrialLandScape";
 import IndicatorsF from "@/components/state/IndicatorsF";
 
 async function fetchAllParks() {
-  const baseUrl =
-    "https://phpstack-725513-2688800.cloudwaysapps.com/cms/wp-json/wp/v2/parks";
+  const baseUrl = "https://phpstack-725513-2688800.cloudwaysapps.com/cms/wp-json/wp/v2/parks";
   let allParks = [];
   let page = 1;
   let totalPages = 1;
@@ -100,6 +96,7 @@ async function fetchAllParks() {
     });
 
     if (!res.ok) {
+      console.error(`fetchAllParks failed: Status ${res.status} ${res.statusText}, page ${page}`);
       throw new Error(`Failed to fetch parks (page ${page})`);
     }
 
@@ -110,15 +107,17 @@ async function fetchAllParks() {
     page++;
   } while (page <= totalPages);
 
+  console.log(`fetchAllParks: Retrieved ${allParks.length} parks`);
   return allParks;
 }
 
 export default async function CombinedPage({ params }) {
   const { slug } = params;
+  console.log(`Processing slug: ${slug}`);
 
-  // 1. Try fetching state
+  // Try to fetch as a state first
   const stateData = await fetchState(slug);
-
+  console.log(`fetchState result for ${slug}:`, JSON.stringify(stateData, null, 2));
   if (stateData) {
     return (
       <main>
@@ -134,14 +133,18 @@ export default async function CombinedPage({ params }) {
     );
   }
 
-  // 2. If not a state, try fetching park
+  console.log(`No state found for ${slug}, trying parks...`);
+  // If not a state, try parks
   const allParks = await fetchAllParks();
+  console.log(`fetchAllParks result: ${allParks.length} parks found`);
   const park = allParks.find((p) => p.slug === slug);
 
   if (park) {
+    console.log(`Park found for slug: ${slug}`);
     return <PDMain allParks={allParks} park={park} />;
   }
 
-  // 3. Neither → 404
+  console.log(`No state or park found for slug: ${slug}`);
+  // Neither state nor park → 404
   notFound();
 }
