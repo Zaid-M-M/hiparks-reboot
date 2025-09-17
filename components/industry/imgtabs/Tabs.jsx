@@ -38,7 +38,7 @@
 //               >
 //                 <path
 //                   d="M46 0H0L15.6495 15.0974H30.8247V30.1949L46 46V0Z"
-//                   fill="#8B37A4"
+//                   fill="#8F53A1"
 //                   className="transition-all duration-300"
 //                 />
 //               </svg>
@@ -153,7 +153,7 @@ const Tabs = ({ activeTab, setActiveTab }) => {
               <path
                 className="transition-all duration-300"
                 d="M46 0H0L15.6495 15.0974H30.8247V30.1949L46 46V0Z"
-                fill={activeTab === tab.id ? "#8B37A4" : "#D1D5DB"}
+                fill={activeTab === tab.id ? "#8F53A1" : "#D1D5DB"}
               />
             </svg>
           </div>
@@ -229,7 +229,7 @@ export default Tabs;
 //               <path
 //                 className="transition-all duration-300"
 //                 d="M46 0H0L15.6495 15.0974H30.8247V30.1949L46 46V0Z"
-//                 fill={activeTab === tab.id ? "#8B37A4" : "#D1D5DB"}
+//                 fill={activeTab === tab.id ? "#8F53A1" : "#D1D5DB"}
 //               />
 //             </svg>
 //           </div>

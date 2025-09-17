@@ -1,43 +1,8 @@
-// export const cards = [
-//   {
-//     title: "Powering Minds, Lighting Futures",
-//     subtitle: "Solar energy for brighter education",
-//     date: "29 June 2025",
-//     image: "/social/c1.png", // Image of the girl with a lamp
-//     description:
-//       "In collaboration with Green India Initiatives, Team Horizon helped assemble and distribute solar lamps to children in Deoband, a rural community where access to reliable electricity is still quite limited. Across India, millions of students lose out on learning opportunities due to power outages. For them, a steady source of light isn't just convenient—it's life-changing. These solar lamps offer more than illumination: they bring possibility, dignity, and hope. This initiative was about more than green energy. It was about putting our values into action—of coming together to create impact where it's needed most.",
-//   },
-//   {
-//     title:
-//       "A Sure New Direction to Work Culture at Horizon and Life’s Balance | Lighting Up Young Futures | Horizon x Green India Initiatives",
-//     subtitle: "Solar energy for brighter education",
-
-//     date: "30 June 2025",
-//     image: "/social/c2.png", // Image of the school building
-//     description:
-//       "Horizon partnered with Green India Initiatives to enhance work culture and life balance through community engagement. By distributing solar lamps to schools, we empowered students and staff alike, fostering a sustainable environment. This effort reflects our commitment to integrating social impact with professional growth, creating a harmonious balance for all involved.",
-//   },
-//   {
-//     title: "Lighting Up Young Futures | Horizon x Green India Initiatives",
-//     date: "28 June 2025",
-//     image: "/social/c3.png", // Image of the girl standing alone
-//     description:
-//       "Team Horizon, in collaboration with Green India Initiatives, supported rural students by providing solar lamps in Deoband. This initiative addresses the lack of electricity, enabling continuous learning despite power cuts. Beyond light, it instills hope and resilience, showcasing our dedication to uplifting young lives through sustainable solutions.",
-//   },
-//   {
-//     title: "Lighting Up Young Futures | Horizon x Green India Initiatives",
-//     date: "27 June 2025",
-//     image: "/social/c1.png", // Image of the team portrait
-//     description:
-//       "Through a partnership with Green India Initiatives, Horizon assembled and distributed solar lamps to enhance educational access in rural India. This project not only provides a reliable light source but also promotes community unity and environmental consciousness, aligning with our mission to create lasting positive change.",
-//   },
-// ];
-
 export const cards = [
   {
     title: "Powering Minds, Lighting Futures",
     subtitle: "Solar energy for brighter education",
-    date: "29 June 2025",
+    date: "June 2025",
     image: "/social/c1.jpg",
     description: (
       <>
@@ -60,10 +25,11 @@ export const cards = [
     ),
     video: "https://player.vimeo.com/video/1108958245",
   },
+    
   {
     title: "More Than Hygiene. A Gateway to Education",
     subtitle: "Upgrading school toilets for improving student retention",
-    date: "30 June 2025",
+    date: "Oct 2024",
     image: "/social/c2.jpg",
     description: (
       <>
@@ -86,34 +52,9 @@ export const cards = [
     video: "https://player.vimeo.com/video/1118744463",
   },
   {
-    title: "Turning Plastic Waste into Purpose",
-    subtitle: "Recycling for schools, recycling for tomorrow",
-    date: "28 June 2025",
-    image: "/social/c3.jpg",
-    description: (
-      <>
-        <p>
-          To support World Environment Day 2023’s campaign
-          #BeatPlasticPollution, Horizon partnered with 19 tenants in our NCR
-          and Chakan parks to collect and recycle plastic waste. The waste was
-          repurposed into durable, eco-friendly furniture for the Zilla Parishad
-          School in Sadumbare, Chakan, and the Government Model Sanskriti
-          Primary School in Palhawas, Rewari (Haryana).
-        </p>
-        <p>
-          This initiative demonstrates how collective action can turn waste into
-          value - reducing plastic footprint while creating tangible benefits
-          for local communities. For us, sustainability is not a slogan but a
-          practice: real measures, real outcomes, and a greener tomorrow.
-        </p>
-      </>
-    ),
-    video: "https://player.vimeo.com/video/1118745747",
-  },
-  {
     title: "Building Skills, Shaping Futures",
     subtitle: "Training youth for tomorrow’s careers",
-    date: "27 June 2025",
+    date: "May 2025",
     image: "/social/c4.jpg",
     description: (
       <>
@@ -135,4 +76,30 @@ export const cards = [
     ),
     video: "https://player.vimeo.com/video/1118745602",
   },
+  {
+    title: "Turning Plastic Waste into Purpose",
+    subtitle: "Recycling for schools, recycling for tomorrow",
+    date: "August 2023",
+    image: "/social/c3.jpg",
+    description: (
+      <>
+        <p>
+          To support World Environment Day 2023’s campaign
+          #BeatPlasticPollution, Horizon partnered with 19 tenants in our NCR
+          and Chakan parks to collect and recycle plastic waste. The waste was
+          repurposed into durable, eco-friendly furniture for the Zilla Parishad
+          School in Sadumbare, Chakan, and the Government Model Sanskriti
+          Primary School in Palhawas, Rewari (Haryana).
+        </p>
+        <p>
+          This initiative demonstrates how collective action can turn waste into
+          value - reducing plastic footprint while creating tangible benefits
+          for local communities. For us, sustainability is not a slogan but a
+          practice: real measures, real outcomes, and a greener tomorrow.
+        </p>
+      </>
+    ),
+    video: "https://player.vimeo.com/video/1118745747",
+  },
+
 ];

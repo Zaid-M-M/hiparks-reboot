@@ -71,7 +71,7 @@ export default function Mission_value() {
 
         {/* Values Div Mob     */}
         <div className="flex flex-col md:flex-row">
-          <div className="relative overflow-hidden pt-[30px] pb-[40px] px-[15px] w-[100%] bg-[#8B37A4]">
+          <div className="relative overflow-hidden pt-[30px] pb-[40px] px-[15px] w-[100%] bg-[#8F53A1]">
             <h3 className="text-white bw-m text-[43px] leading-[52px] mb-[10px]">
               <span className="bw-l">Our</span> Values{" "}
             </h3>
@@ -318,7 +318,7 @@ function Purpose({ progress }) {
             >
               <div className="relative flex gap-[20px] pl-[20px] mt-[0px]  h-[570px]">
                 {/*------------ Value box ------------*/}
-                <div className="relative overflow-hidden py-[25px] px-[30px] w-[50%] bg-[#8B37A4]">
+                <div className="relative overflow-hidden py-[25px] px-[30px] w-[50%] bg-[#8F53A1]">
                   <h3
                     style={{ color: prps_dv_hd }}
                     transition={{ duration: 0.8, ease: "easeOut" }}

@@ -6,7 +6,7 @@ import { cards } from "./data/CommunityData";
 const CommunityPrograms = () => {
   const [activeIndex, setActiveIndex] = useState(null);
   return (
-    <div className="bg-black relative min-h-[100vh] py-[45px] xl:py-24">
+    <div className="bg-black relative min-h-[100vh] py-[45px] xl:py-24" id='community-programs'>
       <div className="absolute top-0 right-0">
         <img src="/social/circle.svg" alt="" />
       </div>

@@ -164,7 +164,7 @@
 //       <div
 //         className={`w-full h-full flex flex-col pt-[30px] px-[22px] justify-between ${baseClass} transition-colors duration-300 ${
 //           hovered
-//             ? "bg-[radial-gradient(143.41%_138.14%_at_33.19%_174.66%,_#f47920_0%,_#8B37A4_100%)]"
+//             ? "bg-[radial-gradient(143.41%_138.14%_at_33.19%_174.66%,_#f47920_0%,_#8F53A1_100%)]"
 //             : ""
 //         }`}
 //       >
@@ -238,7 +238,7 @@
 //           transition-colors duration-300
 //           ${
 //             hovered && isDesktop
-//               ? "bg-[radial-gradient(143.41%_138.14%_at_33.19%_174.66%,_#f47920_0%,_#8B37A4_100%)]"
+//               ? "bg-[radial-gradient(143.41%_138.14%_at_33.19%_174.66%,_#f47920_0%,_#8F53A1_100%)]"
 //               : ""
 //           }
 //         `}

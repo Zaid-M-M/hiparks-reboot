@@ -1,54 +1,4 @@
-// import PDMain from "@/components/parkdetial/PDMain";
-// import React from "react";
-
-// async function fetchAllParks() {
-//   const baseUrl =
-//     "https://phpstack-725513-2688800.cloudwaysapps.com/cms/wp-json/wp/v2/parks";
-//   let allParks = [];
-//   let page = 1;
-//   let totalPages = 1;
-
-//   do {
-//     const res = await fetch(`${baseUrl}?per_page=100&page=${page}`, {
-//       cache: "no-store",
-//     });
-
-//     if (!res.ok) {
-//       throw new Error(`Failed to fetch parks (page ${page})`);
-//     }
-
-//     const data = await res.json();
-//     allParks = [...allParks, ...data];
-
-//     // WP gives total pages in headers
-//     totalPages = parseInt(res.headers.get("X-WP-TotalPages")) || 1;
-//     page++;
-//   } while (page <= totalPages);
-
-//   return allParks;
-// }
-
-// export default async function ParkPage({ params }) {
-//   const { parks } = params; // slug from URL
-
-//   // Fetch all parks via pagination
-//   const allParks = await fetchAllParks();
-
-//   // Find park by slug
-//   const park = allParks.find((p) => p.slug === parks);
-
-//   if (!park) {
-//     console.log(`No park found for slug: ${parks}`);
-//     return <div>Park not found</div>;
-//   }
-
-//   // ✅ Pass the park object into PDMain
-//   return <PDMain allParks={allParks} park={park} />;
-// }
-
 import { notFound } from "next/navigation";
-
-export const dynamic = "force-dynamic"; // 👈 ensure always dynamic
 import HeroSection from "@/components/state/HeroSection";
 import MakeIndia from "@/components/state/MakeIndia";
 import HorizonParks from "@/components/state/HorizonParks";
@@ -57,7 +7,7 @@ import RelatedLinks from "@/components/state/RelatedLinks";
 import HorizonRegion from "@/components/state/HorizonRegion";
 // import Indicators from "@/components/state/Indicators";
 
-// import PDMain from "@/components/parkdetial/PDMain";
+import PDMain from "@/components/parkdetial/PDMain";
 import { fetchState } from "@/lib/wp/fetchStatePage";
 import IndustrialLandScape from "@/components/state/IndustrialLandScape";
 import IndicatorsF from "@/components/state/IndicatorsF";
@@ -110,12 +60,12 @@ export default async function CombinedPage({ params }) {
   }
 
   // If not a state, try parks
-  // const allParks = await fetchAllParks();
-  // const park = allParks.find((p) => p.slug === slug);
+  const allParks = await fetchAllParks();
+  const park = allParks.find((p) => p.slug === slug);
 
-  // if (park) {
-  //   return <PDMain allParks={allParks} park={park} />;
-  // }
+  if (park) {
+    return <PDMain allParks={allParks} park={park} />;
+  }
 
   // Neither state nor park → 404
   notFound();

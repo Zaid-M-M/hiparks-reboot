@@ -71,7 +71,7 @@ export default function Mission_value() {
 
         {/* Values Div Mob     */}
         <div className="flex flex-col md:flex-row">
-          <div className="relative overflow-hidden pt-[30px] pb-[40px] px-[15px] w-[100%] bg-[#8B37A4]">
+          <div className="relative overflow-hidden pt-[30px] pb-[40px] px-[15px] w-[100%] bg-[#8F53A1]">
             <img
               src="/brand_journey/value_arrow.svg"
               className="absolute right-[22px] top-[auto] bottom-[-2px] w-[310px]"

@@ -188,7 +188,7 @@ const MakeIndia = ({ data }) => {
                 />
               </div> */}
               <div className="flex items-start gap-2 lg:gap-5 flex-col">
-                <h1 className="lg:text-[52px] wmhead lg:leading-[60px] tracking-[-1.92px] lg:tracking-[-2.24px] leading-[42px] text-[32px] flex flex-col max-h-fit justify-start capitalize">
+                <h1 className="xl:text-[52px] wmhead xl:leading-[60px] tracking-[-1.92px] lg:tracking-[-2.24px] leading-[45px] text-[35px] md:leading-[53px] md:text-[43px] flex flex-col max-h-fit justify-start capitalize xl:w-[500px]">
                   <span
                     className="bw-r w-full"
                     dangerouslySetInnerHTML={{ __html: data.heading }}

@@ -7,24 +7,18 @@ const HorizonParks = ({ data }) => {
       <div className="flex flex-col pb-8 lg:pb-[60px] justify-between md:gap-[20px] gap-[25px] 1366:gap-[60px] xl:flex-row ">
         <div className=" max-w-[600px] md:max-w-[100%] xl:max-w-[45%]">
           <div className="flex flex-col md:flex-col  relative  md:w-[460px] lg:w-[auto]">
-            <div className="flex items-start gap-2 lg:gap-5 flex-col">
-              <h1 className="text-[32px] hparkhead leading-[42px] lg:leading-[66px] lg:text-[56px] xl:text-[53px] xl:leading-[63px] flex flex-col max-h-fit justify-start bw-r md:w-[460px] lg:w-[auto] capitalize">
-                <span
-                  className="bw-r w-full tracking-[-0.04em] gap-5"
-                  dangerouslySetInnerHTML={{ __html: data.title }}
-                />
-              </h1>
+            <div className="flex items-start gap-2 lg:gap-[0px] xl:gap-5 flex-col">
 
-              {/* <img
-                src="/abstract_pattern.svg"
-                className="object-cover h-[58px] lg:w-[318px] md:w-[318px] w-[100px]"
-                alt="Grade A Box"
-              /> */}
-              <img
-                src="/abstract_pattern.svg"
-                className="abstract_svg"
-                alt="Grade A Box"
-              />
+              <h1 className="text-[32px] hparkhead leading-[42px] lg:leading-[66px] md:text-[45px] xl:text-[48px] 1366:text-[54px] 1440:text-[59px] xl:leading-[58px] 1366:leading-[64px] 1440:leading-[69px] flex flex-col max-h-fit justify-start bw-m lg:w-[auto] capitalize tracking-[-0.04em]" dangerouslySetInnerHTML={{ __html: data.stitle1 }}></h1>
+
+              <div className="flex gap-[10px] md:gap-[17px] flex-row xl:mt-[-15px]">
+                <h1 className="text-[32px] hparkhead leading-[33px] md:leading-[55px] md:text-[45px] xl:text-[48px] 1366:text-[54px] 1440:text-[59px] xl:leading-[58px] 1366:leading-[64px] 1440:leading-[69px] flex flex-col max-h-fit justify-start bw-r  lg:w-[auto] capitalize tracking-[-0.04em]" dangerouslySetInnerHTML={{ __html: data.stitle2 }}></h1>
+                <img
+                  src="/abstract_pattern.svg"
+                  className="abstract_svg mt-[2px] xl:mt-[5px]"
+                  alt="Grade A Box"
+                />
+              </div>
             </div>
             {/* <div className="flex items-center justify-start gap-5">
               <span className="text-[56px] bw-r tracking-[-0.04em] leading-[74px] flex items-center ">

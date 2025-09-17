@@ -1,4 +1,4 @@
-import DOMPurify from "isomorphic-dompurify"; // runs on server too
+// import DOMPurify from "isomorphic-dompurify"; // runs on server too
 
 export function formatStatePage(item) {
   const acf = item.acf || {};
@@ -9,6 +9,7 @@ export function formatStatePage(item) {
       name: acf.state_name,
       image: acf.state_image,
     },
+
     makeindia: {
       heading: acf.section_title,
       sub: acf.sub_title,
@@ -90,6 +91,8 @@ export function formatStatePage(item) {
     ),
     parks: {
       title: acf.section_title_parks,
+      stitle1: acf.state_park_title_1,
+      stitle2: acf.state_park_title_2,
       paragraph: DOMPurify.sanitize(acf.paragraph_parks || "", {
         ALLOWED_TAGS: [
           "sup",

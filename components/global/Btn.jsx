@@ -27,6 +27,7 @@ const Btn = ({ text, href, className = "" }) => {
     return (
       <Link href={href} className={classes}>
         {text}
+        <img className='w-[23px] md:w-[24px] lg:w-[25px] ' src='/btn_whit_arrow.svg' />
       </Link>
     );
   }
@@ -41,6 +42,7 @@ const Btn = ({ text, href, className = "" }) => {
         rel="noopener noreferrer"
       >
         {text}
+        <img className='w-[23px] md:w-[24px] lg:w-[25px] ' src='/btn_whit_arrow.svg' />
       </a>
     );
   }

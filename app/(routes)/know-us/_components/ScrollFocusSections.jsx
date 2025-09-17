@@ -159,7 +159,7 @@
 //                     gradientUnits="userSpaceOnUse"
 //                   >
 //                     <stop offset="0.186217" stopColor="#f47920" />
-//                     <stop offset="1" stopColor="#8B37A4" />
+//                     <stop offset="1" stopColor="#8F53A1" />
 //                   </linearGradient>
 //                 </defs>
 //                 <motion.path

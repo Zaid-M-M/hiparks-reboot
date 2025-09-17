@@ -255,29 +255,21 @@ const HorizonRegion = ({ data = [] }) => {
       <img className="orange_vctr absolute w-[200px] md:w-[200px] lg:w-[300px] xl:w-[400px] top-[-50px]  md:left-auto right-[0px] md:top-[-80px] lg:top-[-120px] xl:right-[100px] 1920:right-[100px]" src='/orange_vector.svg' />
       <div className="fixup pb-5 lg:pb-[50px]">
         <div className="flex flex-col">
-          <div className="flex items-center gap-[24px]">
-            <h2 className="bw-m text-[32px] lg:text-[56px] xl:text-[64px] xl:leading-[64px] tracking-[-0.04em] leading-[42px] lg:leading-[64px]">
+          <div className="flex items-center gap-[10px] md:gap-[17px]">
+            <h2 className="bw-m text-[35px] md:text-[45px] xl:text-[64px] xl:leading-[64px] tracking-[-0.04em] leading-[45px] md:leading-[55px]">
               Horizon
             </h2>
             <img
               src="/abstract_pattern.svg"
-              className="abstract_svg lg:!flex !hidden"
+              className="abstract_svg "
               alt="Grade A Box"
             />
           </div>
-          <h3 className="bw-r text-[32px] lg:text-[56px] leading-[32px] lg:leading-[64px] tracking-[-0.04em]  xl:text-[64px] xl:leading-[64px]">
+          <h3 className="bw-r text-[35px] md:text-[45px] leading-[45px] md:leading-[55px] tracking-[-0.04em]  xl:text-[64px] xl:leading-[64px]">
             in Other Regions
           </h3>
-          {/* <img
-            src="/abstract_pattern.svg"
-            className="object-cover h-[40px] md:w-[30%] w-auto mt-5 lg:!hidden !flex"
-            alt="Grade A Box"
-          /> */}
-          <img
-            src="/abstract_pattern.svg"
-            className="abstract_svg lg:!hidden !flex"
-            alt="Grade A Box"
-          />
+
+
         </div>
       </div>
 

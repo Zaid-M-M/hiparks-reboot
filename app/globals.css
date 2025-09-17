@@ -45,6 +45,7 @@
 * {
   transition-timing-function: cubic-bezier(0.7, 0, 0.4, 1);
   font-family: var(--font-barlow);
+  scroll-behavior: smooth !important;
 }
 
 body {
@@ -359,7 +360,42 @@ body {
   box-sizing: border-box;
 }
 
-.abstract_svg {}
+.indhead sub,
+.indhead sup {
+  font-weight: 400 !important;
+  font-size: 30px !important;
+}
+
+.indhead sup {
+  vertical-align: super !important;
+}
+
+.wmhead span span,
+.hparkhead span span {
+  font-weight: 500 !important;
+  width: 100% !important;
+  display: flex;
+}
+
+.indhead span span {
+  font-weight: 400 !important;
+  color: #000 !important;
+}
+
+.cscroll::-webkit-scrollbar-thumb {
+  background: #ffffff;
+  border-radius: 5px;
+}
+
+.cscroll::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px #323232;
+  border-radius: 5px;
+  background-color: #4d4d4d;
+}
+
+.cscroll::-webkit-scrollbar {
+  width: 5px;
+}
 
 .txt_gradient {
   background: linear-gradient(92deg, #8F53A1 37.32%, #F47922 98.38%);
@@ -989,7 +1025,7 @@ span.MuiTabs-indicator.css-jkmkwa {
 }
 
 .section_color {
-  background: linear-gradient(126deg, #AC38D9 1.92%, #f47920 102.8%), radial-gradient(254.89% 182.84% at 33.19% 174.66%, #f47920 0%, #8B37A4 100%), #FFF;
+  background: linear-gradient(126deg, #AC38D9 1.92%, #f47920 102.8%), radial-gradient(254.89% 182.84% at 33.19% 174.66%, #f47920 0%, #8F53A1 100%), #FFF;
 }
 
 .ntwrk_sec9_bg {
@@ -1345,7 +1381,7 @@ select option:hover {
 }
 
 /* responsive (mobile-md) — 32px, line-height 42, letter-spacing 32×-0.04 = -1.28 */
-@media only screen and (min-device-width: 1px) and (max-device-width: 769px) {
+@media only screen and (min-device-width: 1px) and (max-device-width: 767px) {
 
   .md48m,
   .md48r,
@@ -1357,8 +1393,27 @@ select option:hover {
   .md66r,
   .md76m,
   .md76r {
-    font-size: 32px;
-    line-height: 42px;
+    font-size: 35px;
+    line-height: 45px;
+    letter-spacing: -1.28px;
+    /* 32×-0.04 = -1.28 */
+  }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+
+  .md48m,
+  .md48r,
+  .md56m,
+  .md56r,
+  .md64m,
+  .md64r,
+  .md66m,
+  .md66r,
+  .md76m,
+  .md76r {
+    font-size: 45px;
+    line-height: 55px;
     letter-spacing: -1.28px;
     /* 32×-0.04 = -1.28 */
   }
@@ -1391,8 +1446,8 @@ select option:hover {
 @media (max-width: 768px) {
   .indhead span span {
 
-    font-size: 32px !important;
-    line-height: 42px !important;
+    font-size: 27px !important;
+    line-height: 28px !important;
   }
 
   .indhead sup {

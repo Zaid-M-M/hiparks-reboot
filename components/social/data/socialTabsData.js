@@ -28,7 +28,7 @@ export const socialTabsData = [
     ),
     video: "https://player.vimeo.com/video/1094667502",
     description: `Through regular tenant engagement programs, health camps, safety drills, and festive gatherings, we build a sense of belonging. Feedback loops ensure tenant voices are heard and acted on—making each park a collaborative and caring ecosystem.`,
-    btnLabel: "explore",
+    btnLabel: "explore Event",
     btnLink: "/explore-event",
   },
   {
@@ -38,7 +38,7 @@ export const socialTabsData = [
     video: "https://player.vimeo.com/video/1094676428",
     description: `From critical amenities like installing solar-powered streetlights to infrastructure support for school sanitation, we invest in uplifting our surrounding communities. In 2024, our CSR initiatives have over 5,000 beneficiaries.`,
     btnLabel: "COMMUNITY PROGRAMS",
-    btnLink: "/community-programs",
+    btnLink: "/social#community-programs",
   },
   {
     label: "Diversity, Inclusion, and Belonging",

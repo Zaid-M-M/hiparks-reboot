@@ -37,7 +37,7 @@
 //       <div className="w-full relative mt-6">
 //         {/* Gradient Glass Overlay */}
 //         <div
-//           className="absolute inset-0 backdrop-blur-[8px] bg-black/60
+//           className="absolute inset-0  bg-black/60
 //           [mask-image:linear-gradient(to_top,rgba(0,0,0,1),rgba(0,0,0,0))]
 //           [mask-repeat:no-repeat] [mask-size:100%_100%]"
 //         ></div>
@@ -133,7 +133,7 @@
 //       {/* Content Wrapper */}
 //       <div className="relative z-10 w-full mt-6">
 //         <div
-//           className={`absolute inset-0 backdrop-blur-[8px] bg-black/60
+//           className={`absolute inset-0  bg-black/60
 //       [mask-image:linear-gradient(to_top,rgba(0,0,0,1),rgba(0,0,0,0))]
 //       [mask-repeat:no-repeat] [mask-size:100%_100%]
 //       transition-opacity duration-500
@@ -237,7 +237,7 @@ const HoverCard = ({
 
       {/* Dark Glass Overlay (only when idle) */}
       <div
-        className={`absolute !w-[102%] !h-[102%] inset-0 backdrop-blur-[8px] bg-black/60
+        className={`absolute !w-[102%] !h-[102%] inset-0  bg-black/60
           [mask-image:linear-gradient(to_top,rgba(0,0,0,1),rgba(0,0,0,0))]
           [mask-repeat:no-repeat] [mask-size:100%_100%] 
           transition-opacity duration-500
