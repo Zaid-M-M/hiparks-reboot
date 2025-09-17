@@ -80,9 +80,10 @@ import FAQSection from "@/components/state/FAQSection";
 import RelatedLinks from "@/components/state/RelatedLinks";
 import HorizonRegion from "@/components/state/HorizonRegion";
 import PDMain from "@/components/parkdetial/PDMain";
-import { fetchState } from "@/lib/wp/fetchStatePage";
+// import { fetchState } from "@/lib/wp/fetchStatePage";
 import IndustrialLandScape from "@/components/state/IndustrialLandScape";
 import IndicatorsF from "@/components/state/IndicatorsF";
+import { formatStatePage } from "@/utils/formatters/formatStatePage";
 
 async function fetchAllParks() {
   const baseUrl = "https://phpstack-725513-2688800.cloudwaysapps.com/cms/wp-json/wp/v2/parks";
@@ -109,6 +110,32 @@ async function fetchAllParks() {
 
   console.log(`fetchAllParks: Retrieved ${allParks.length} parks`);
   return allParks;
+}
+const BASE = "https://phpstack-725513-2688800.cloudwaysapps.com/cms/wp-json/wp/v2";
+
+async function fetchState(slug) {
+  try {
+    const res = await fetch(`${BASE}/states?slug=${slug}`, {
+      cache: "no-store",
+    });
+    if (!res.ok) throw new Error("Failed to fetch state");
+
+    const json = await res.json();
+    if (!json?.length) return null;
+    console.log(json)
+
+    // ✅ find exact match
+    const match = json.find((item) => item.slug === slug);
+    if (!match) return null;
+    console.log(json);
+
+    // console.log("WP response:", JSON.stringify(json, null, 2));
+
+    return formatStatePage(match);
+  } catch (err) {
+    console.error("fetchState error:", err);
+    return null;
+  }
 }
 
 export default async function CombinedPage({ params }) {
