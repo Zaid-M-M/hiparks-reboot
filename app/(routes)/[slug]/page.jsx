@@ -1,4 +1,7 @@
+export const dynamic = "force-dynamic";
+
 import { notFound } from "next/navigation";
+
 import HeroSection from "@/components/state/HeroSection";
 import MakeIndia from "@/components/state/MakeIndia";
 import HorizonParks from "@/components/state/HorizonParks";
