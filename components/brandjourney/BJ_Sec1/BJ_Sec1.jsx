@@ -43,27 +43,21 @@ const BJ_Sec1 = () => {
 
           <div className="flex flex-col justify-between mt-[30px] lg:mt-[40px] xl:mt-[53px]  lg:flex-row ">
             <div className="max-w-[565px] mb-[15px] lg:mb-[0px]">
-              <p className="text-[22px] leading-[30px] lg:text-[26px] lg:leading-[37px] xl:text-[30px] xl:leading-[40px] bw-r">
-                We are India’s fastest growing developers of Grade A industrial
-                and logistics parks, creating high-performance ecosystems that
-                power the country’s growth.{" "}
+              <p className="text-[22px] leading-[30px] lg:text-[23px] lg:leading-[33px] xl:text-[27px] xl:leading-[37px] 1440:text-[30px] 1440:leading-[40px] bw-r">
+                We are India’s fastest growing developers of Grade A industrial and logistics parks, building essential and irreplaceable infrastructure critical for enabling of supply chains.{" "}
               </p>
             </div>
             <div className="max-w-[645px]">
               <p className="p_bld mb-[16px] bw-m ">
-                As a Blackstone logistics platform, we leverage the group’s vast
-                experience in global real estate management and best practices,
-                with our deep local expertise to deliver world class and premium
-                industrial and warehousing solutions.
+                Horizon parks are high-performance ecosystems power India’s manufacturing and enables efficient storage and movement of goods.
+              </p>
+
+              <p className="p_bld mb-[16px] bw-m ">
+                As a Blackstone logistics platform, we leverage the group’s vast experience in global real estate management and best practices, with our deep local expertise to deliver world class and premium industrial and warehousing solutions.
               </p>
 
               <p className="p_bld bw-m ">
-                Launched in 2022 with a portfolio of 6 MSFT, Horizon Industrial
-                Parks has since then grown into one of India’s leading
-                industrial and logistics platforms. Today, we offer one of the
-                largest Grade A portfolios in India — 40 parks across 9 key
-                markets, covering more than 2,000 acres with 50 million sq. ft.
-                of development potential.
+                Today, we have one of the largest Grade A portfolios in India — 42 parks across 10 key markets, covering more than 2,100 acres and offering 53 million sq. ft. of leasable area.
               </p>
               <Btn text="NETWORK OVERVIEW" className="mt-[24px]" />
             </div>

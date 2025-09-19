@@ -28,8 +28,8 @@ export const RegionSlider = ({ parks = [], regionName }) => {
           }}
           modules={[Navigation]}
           navigation={{
-            prevEl: ".swiper-button-prev",
-            nextEl: ".swiper-button-next",
+            prevEl: ".sbp",
+            nextEl: ".sbn",
           }}
           breakpoints={{
             640: {
@@ -43,7 +43,7 @@ export const RegionSlider = ({ parks = [], regionName }) => {
               slidesPerView: 3,
             },
           }}
-          className="map_slider"
+          className="mb-[25px]"
         >
           {parks.map((park, idx) => (
             <SwiperSlide
@@ -54,16 +54,16 @@ export const RegionSlider = ({ parks = [], regionName }) => {
             </SwiperSlide>
           ))}
           {/* Navigation buttons */}
-          {/* <div className="swiper-button-prev !text-black !left-0 map_slider_prev" />
-          <div className="swiper-button-next !text-black !right-0 map_slider_next" /> */}
+          {/* <div className="sbp !text-black !left-0 map_slider_prev" />
+          <div className="sbn !text-black !right-0 map_slider_next" /> */}
         </Swiper>
 
         {/* ✅ Arrow buttons with automatic Swiper behavior */}
         <div className="flex items-center justify-end pt-0 gap-2.5">
-          <button className="swiper-button-prev flex items-center justify-center transition-opacity duration-300 opacity-100 disabled:opacity-30 disabled:cursor-not-allowed">
+          <button className="sbp flex items-center border border-[#2E373A] p-3 justify-center transition-opacity duration-300 opacity-100 disabled:opacity-30 disabled:cursor-not-allowed">
             <ArrowLeft size={24} color="white" />
           </button>
-          <button className="swiper-button-next flex items-center justify-center transition-opacity duration-300 opacity-100 disabled:opacity-30 disabled:cursor-not-allowed">
+          <button className="sbn flex items-center justify-center transition-opacity border border-[#2E373A] p-3 duration-300 opacity-100 disabled:opacity-30 disabled:cursor-not-allowed">
             <ArrowRight size={24} color="white" />
           </button>
         </div>

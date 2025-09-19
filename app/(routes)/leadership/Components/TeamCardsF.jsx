@@ -87,10 +87,10 @@ const TeamCardsF = ({ name, role, image, onClick }) => {
         />
       </div>
 
-      <h3 className="mt-5 text-[24px] sm:text-[24px] 1280:text-[28px] 1440:text-[28px] bw-sb text-black leading-none ">
+      <h3 className="mt-5 text-[20px] md:text-[24px] xl:text-[28px] 1440:text-[28px] bw-sb text-black leading-none ">
         {name}
       </h3>
-      <p className="text-[#433F45] text-[18px] sm:text-[17px] lg:text-[19px] bw-m leading-[120%] mt-[8px]">
+      <p className="text-[#433F45] text-[15px] md:text-[17px] lg:text-[19px] bw-m leading-[120%] mt-[8px]">
         {role}
       </p>
     </motion.div>

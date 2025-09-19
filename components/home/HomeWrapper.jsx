@@ -53,9 +53,9 @@ const HomeWrapper = ({ heroData, testimonials = [] }) => {
             { start: 18, end: 23, title: "40", subtitle: "Parks" },
           ]}
         />
-        {/* <MapWrapper /> */}
+        <MapWrapper />
         <IntegratedSolutionsSection />
-        {/* <MobileMapWrapper /> */}
+        <MobileMapWrapper />
         <KeySectors />
         <TestimonialsSlider testimonials={testimonials} />
 

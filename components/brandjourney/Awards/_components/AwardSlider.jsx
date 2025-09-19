@@ -43,7 +43,7 @@ export default function AwardSlider({ awards }) {
           <SwiperSlide key={index}>
             <div
               onClick={() => handleFlip(index)}
-              className="group w-full xl:h-[425px] lg:h-[350px] md:h-[425px] h-[350px] [perspective:1000px] my-[25px]"
+              className="group w-full xl:h-[425px] lg:h-[350px] md:h-[350px] h-[350px] [perspective:1000px] my-[25px]"
             >
               <div
                 className={`relative w-[99.8%] h-full duration-700 [transform-style:preserve-3d] px-[15px]
@@ -53,7 +53,7 @@ export default function AwardSlider({ awards }) {
               >
                 {/* Front */}
                 <div className="absolute left-0 w-full h-full bg-white flex items-center justify-center backface-hidden border border-[#CDCDCD] flex-col cursor-pointer text-center px-[10px] md:px-[20px]">
-                  <h2 className="text-[28px] leading-[35px] lg:text-[24px] xl:text-[28px] bw-m text-[#000] mb-[8px]">
+                  <h2 className="text-[24px] leading-[32px] md:leading-[35px] md:text-[24px] xl:text-[28px] bw-m text-[#000] mb-[8px]">
                     {award.title}
                   </h2>
                   <h5 className="bw-m text-[18px] lg:text-[18px] xl:text-[20px] leading-[25px] xl:leading-[29px] xl:mb-[5px] xl:mt-[10px]">

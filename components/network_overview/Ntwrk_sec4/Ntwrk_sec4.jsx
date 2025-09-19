@@ -48,13 +48,13 @@ const Ntwrk_sec4 = () => {
         </div>
 
         {/* Icon Box Horizontal Scroll */}
-        <div className="flex gap-[14px] fix">
+        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 xl:flex-row gap-[14px] fix">
 
           {park_data.map((park_data, index) => (
-            <div className="border-1 bg-[#fff] border-[#D4D4D4] w-[256px] h-[200px] flex justify-center items-center text-center">
+            <div className="border-1 bg-[#fff] border-[#D4D4D4] px-[10px] py-[15px] w-[auto] md:w-[auto] md:h-[200px] flex justify-center items-center text-center">
               <div>
-                <img src={park_data.icon} className="m-[auto] lg:w-[60px] mb-[10px]"></img>
-                <h3 className="text-[#212324] text-[20px] bw-m ">{park_data.title}</h3>
+                <img src={park_data.icon} className="m-[auto] w-[50px] lg:w-[60px] mb-[10px]"></img>
+                <h3 className="text-[#212324] text-[17px] leading-[20px] lg:text-[20px] bw-m ">{park_data.title}</h3>
               </div>
             </div>
           ))}

@@ -13,8 +13,8 @@ const Ntwrk_sec8 = () => {
 
         <div className="flex justify-center">
           <div className="flex items-center flex-col w-fit relative text-center">
-            <h1 className="sec_hd bw-r"><span className="bw-m">Sustainable</span></h1>
-            <h1 className="sec_hd bw-r">and Planet-First</h1>
+            <h1 className="sec_hd bw-r"><span className="bw-m">Sustainable Design</span></h1>
+            <h1 className="sec_hd bw-r">and Operations</h1>
             <img
               src="/abstract_pattern_sustain.svg"
               className="abstract_svg xl:mt-[25px] my-[15px]"

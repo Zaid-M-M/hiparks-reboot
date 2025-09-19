@@ -717,7 +717,7 @@ export default function ZoomableSVGMap({
       };
 
       const handleClick = () => {
-        console.log("Clicked:", id);
+        // console.log("Clicked:", id);
         onRegionSelect?.(id);
       };
 
@@ -754,8 +754,8 @@ export default function ZoomableSVGMap({
           isHovered || isActive
             ? 1
             : typeof region.strokeWidth === "number"
-            ? region.strokeWidth
-            : 1;
+              ? region.strokeWidth
+              : 1;
 
         path.style.opacity = activeRegion ? (isActive ? "1" : "0.3") : "1";
         path.style.stroke = strokeColor;
@@ -827,7 +827,7 @@ export default function ZoomableSVGMap({
   }
 
   return (
-    <div className="relative z-30 w-full h-full">
+    <div className="relative z-30 w-full  h-full">
       <motion.svg
         viewBox="0 0 800 800"
         preserveAspectRatio="xMidYMid meet"

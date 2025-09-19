@@ -14,7 +14,7 @@ const Ntwrk_sec7 = () => {
             <div className="flex items-left flex-col relative w-fit">
 
               <div className="flex gap-[10px] md:gap-[17px]">
-                <h1 className="inline-block w-fit text-[26px] leading-[36px] md:text-[45px] md:leading-[55px] lg:text-[46px] lg:leading-[56px] xl:text-[56px] xl:leading-[66px] bw-m bg-[linear-gradient(111deg,#AC38D9,#f47920)] bg-clip-text text-transparent font-medium capitalize whitespace-nowrap">
+                <h1 className="inline-block w-fit text-[29px] leading-[36px] md:text-[45px] md:leading-[55px] lg:text-[46px] lg:leading-[56px] xl:text-[56px] xl:leading-[66px] bw-m bg-[linear-gradient(111deg,#AC38D9,#f47920)] bg-clip-text text-transparent font-medium capitalize whitespace-nowrap">
                   Internationally
                 </h1>
                 <img
@@ -23,7 +23,7 @@ const Ntwrk_sec7 = () => {
                 />
               </div>
 
-              <h1 className="text-[26px] leading-[36px]  md:text-[45px] md:leading-[55px] text-white lg:text-[46px] lg:leading-[56px] 1440:text-[56px] 1440:leading-[66px]  bw-r bg-gradient-to-r whitespace-nowrap overflow-visible capitalize">
+              <h1 className="text-[29px] leading-[36px]  md:text-[45px] md:leading-[55px] text-white lg:text-[46px] lg:leading-[56px] 1440:text-[56px] 1440:leading-[66px]  bw-r bg-gradient-to-r whitespace-nowrap overflow-visible capitalize">
                 Compliant Infrastructure
               </h1>
 

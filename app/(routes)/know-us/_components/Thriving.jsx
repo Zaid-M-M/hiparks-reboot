@@ -20,24 +20,24 @@ const Thriving = () => {
 
         <div className="flex w-full flex-col justify-between sm:flex-row 1280:gap-8">
           {/* Left Column */}
-          <div className="w-full sm:w-[40%] lg:w-auto 1366:w-1/2 flex flex-col gap-[25px] sm:gap-[44px] relative">
+          <div className="w-full sm:w-[40%]  1366:w-1/2 flex flex-col gap-[25px] md:gap-[24px] lg:gap-[44px] relative">
 
-            <img className="purple_vctr hidden md:block absolute top-[auto] bottom-[-150px] left-[20px] lg:top-[auto] lg:bottom-[-150px] lg:left-[0px] lg:w-[auto] md:w-[350px] w-[300px]" src='/purple_vector.svg' />
-            <img className="orange_vctr hidden md:block absolute top-[auto] bottom-[-400px] left-[-100px] md:left-[200px] md:top-[auto] md:bottom-[-200px] lg:top-[auto] lg:bottom-[-400px] lg:left-[200px] lg:w-[auto]  md:w-[350px] w-[300px]" src='/orange_vector.svg' />
+            {/* <img className="purple_vctr hidden md:block absolute top-[auto] bottom-[-150px] left-[20px] lg:top-[auto] lg:bottom-[-150px] lg:left-[0px] lg:w-[auto] md:w-[350px] w-[300px]" src='/purple_vector.svg' />
+            <img className="orange_vctr hidden md:block absolute top-[auto] bottom-[-400px] left-[-100px] md:left-[200px] md:top-[auto] md:bottom-[-200px] lg:top-[auto] lg:bottom-[-400px] lg:left-[200px] lg:w-[auto]  md:w-[350px] w-[300px]" src='/orange_vector.svg' /> */}
 
             <h1 className="flex flex-col bw-m text-[35px] sm:text-[45px] 1280:text-[64px] leading-[1.1] tracking-[-0.04em]">
-              A Thriving <span className="bw-r">Culture</span>
+              A Thriving <span className="bw-r">Work Culture</span>
               <img
-                className="1280:w-[330px] 1280:!h-[58px] w-[100px] sm:w-[40%] h-[30px] mt-2.5 sm:mt-5"
+                className="abstract_svg w-max xl:mt-[12px]"
                 src="/abstract_pattern.svg"
-                alt="Patra"
+                alt="Abstrac"
               />
             </h1>
-            <p className="bw-r text-[18px] sm:text-[24px] sm:leading-[28px]  pr-1  1280:leading-[34px] tracking-normal">
-              Is the foundation of exceptional performance{" "}
-              <br className="hidden 1280:block" /> and innovation
+            <p className="bw-r text-[18px] md:text-[20px] xl:text-[24px] sm:leading-[28px]  pr-1  xl:leading-[34px] tracking-normal">
+              Driven by values of agility, collaboration, and excellence, we are on a mission to transform not just industrial spaces and power businesses, but also nurture an exceptional team of employees and partners who deliver exceptional performance and innovation.
             </p>
-            <Btn text="JOIN HORIZON" />
+
+            <Btn text="Career" />
             {/* Mobile Grid Cards */}
             <div className="w-full  sm:w-1/2 items-center flex sm:hidden pt-[20px] sm:pt-0 flex-col gap-0">
               {/* Card 1 */}

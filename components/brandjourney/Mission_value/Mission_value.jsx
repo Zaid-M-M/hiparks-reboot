@@ -14,7 +14,7 @@ export default function Mission_value() {
     <>
       <main
         ref={container_new}
-        className="hidden w-full xl:block"
+        className="hidden w-full xl:block "
         style={{ height: "250vh" }}
       >
         {/* Purpose Card */}
@@ -23,7 +23,7 @@ export default function Mission_value() {
         </ReactLenis>
       </main>
 
-      <div className=" 1024:hidden bg-[#000000] px-[20px] lg:px-[52px] md:px-[35px] py-[45px]  ">
+      <div className=" 1024:hidden bg-[#F5F5F5] px-[20px] lg:px-[52px] md:px-[35px] py-[45px]  ">
         <div className="flex flex-col md:flex-row md:gap-[20px]">
           {/* Purpose Div Mob     */}
           <div className="mb-[30px] md:flex-1">
@@ -211,8 +211,10 @@ function Purpose({ progress }) {
   return (
     <div
       ref={container1}
-      className="bg-[#161515] sticky top-0 w-full py-[90px] 1280:py-[40px] 1600:pt-[80px] 1920:py-[90px] 1920:h-[750px] 1600:h-[750px] 1280:h-[640px] overflow-hidden"
+      className="bg-[#F5F5F5] sticky top-0 w-full py-[90px] 1280:py-[40px] 1600:pt-[80px] 1920:py-[90px] 1920:h-[750px] 1600:h-[750px] 1280:h-[640px] overflow-hidden"
     >
+
+
       <motion.div>
         <div className="relative fix">
           <div className="">

@@ -5,9 +5,9 @@ import { motion } from "framer-motion";
 const Header = () => {
   return (
     <div className=" relative overflow-hidden">
-      <div className="absolute top-[45px] right-0 z-0 pointer-events-none flex gap-[0px]">
+      <div className="absolute -top-20 -right-20 z-0 pointer-events-none flex gap-[0px]">
         <motion.div
-          className="w-[100px] h-[100px] sm:w-[200px] sm:h-[200px] xl:w-[219px] xl:h-[226.8px] bg-[#0db14b] opacity-[0.15] blur-[69px]"
+          className="w-[100px] h-[100px] sm:w-[200px] sm:h-[200px] xl:w-[219px] xl:h-[226.8px] bg-[#22B148] opacity-[1] blur-[89px] -z-1 rounded-full"
           animate={{
             x: [0, 60, 0, -60, 0], // much larger motion
             y: [0, -40, 0, 40, 0],
@@ -20,7 +20,7 @@ const Header = () => {
         />
 
         <motion.div
-          className="w-[100px] h-[100px] sm:w-[200px] sm:h-[200px] xl:w-[295.8px] xl:h-[469.8px] bg-[#F47920] opacity-[0.13] blur-[69px]"
+          className="w-[100px] h-[100px] sm:w-[200px] sm:h-[200px] xl:w-[295.8px] xl:h-[269.8px] bg-[#f47920] opacity-[1] blur-[89px] -z-1 rounded-full"
           animate={{
             x: [0, -80, 0, 80, 0],
             y: [0, 50, 0, -50, 0],
@@ -32,26 +32,25 @@ const Header = () => {
           }}
         />
       </div>
-      <div className="my-20">
+      <div className="lg:my-24 my-12">
         <div className="fix ">
           <div className="flex items-left flex-col md:flex-row md:items-center">
             <h1 className="sec_hd bw-r flex flex-col">
-              <span className="flex gap-3 items-center">
+              <span className="flex gap-3 lg:gap-4 items-center">
                 Custom Fit.<br className="block"></br>{" "}
-                <img
-                  className="1280:h-[58px] 1280:w-[226px] w-[40%] h-auto"
-                  src="/abstract_pattern.svg"
-                  alt=""
-                />
+                <img src="/abstract_pattern.svg" className="abstract_svg" />
               </span>
               <span className="bw-m">Capital-Light.</span>
             </h1>
           </div>
-          <div className="flex flex-col justify-between mt-[40px] lg:mt-[48px] gap-[20px] lg:flex-row lg:items-center">
-            <div className=" max-w-[600px] md:max-w-[100%] lg:max-w-[45%] mb-[0px] lg:mb-[0px] lg:mt-[10px] mt-[20px]">
-              <img className="w-[100%]" src="/factory/fact1.jpg"></img>
+          <div className="flex z-10 flex-col justify-between mt-[20px] xl:mt-[48px] 1440:gap-[20px] gap-5 xl:gap-0 lg:flex-row 1440:items-center">
+            <div className=" max-w-[600px] md:max-w-[100%] lg:max-w-[45%] mb-[0px] lg:mb-[0px]">
+              <img
+                className="w-[100%] 1440:h-auto h-full 1440:object-contain object-cover 1440:object-center object-left"
+                src="/factory/fact1.jpg"
+              ></img>
             </div>
-            <div className="1280:max-w-[550px] 1366:max-w-[600px] 1440:max-w-[658px] 1536:max-w-[700px] md:max-w-[100%] lg:max-w-[55%] max-w-[658px]">
+            <div className="1280:max-w-[600px] 1440:max-w-[658px] 1536:max-w-[700px] md:max-w-[100%] lg:max-w-[55%] max-w-[658px]">
               <p className="bw-r md:text-[17px] lg:text-[17px] 1280:text-[20px] md:leading-[30px] mb-[20px]">
                 We constantly seek ways to streamline processes, eliminate
                 inefficiencies, and enhance customer success at every stage of

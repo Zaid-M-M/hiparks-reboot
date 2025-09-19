@@ -46,11 +46,11 @@ const TeamSecF = () => {
   return (
     <div className=" overflow-hidden relative">
 
-      <img className="purple_vctr absolute w-[200px] md:w-[300px] lg:w-[300px] xl:w-[400px] top-[0px] md:left-[auto]  md:right-[0px] right-[-80px] md:top-[0px] lg:top-[180px] xl:right-[100px] 1920:right-[100px]" src='/purple_vector.svg' />
-      <img className="orange_vctr absolute w-[200px] md:w-[300px] lg:w-[300px] xl:w-[400px] top-[50px]  md:left-[auto] md:right-[0px] right-[0px] md:top-[-80px] lg:top-[-80px] xl:right-[-50px] 1920:right-[0px]" src='/orange_vector.svg' />
+      <img className="purple_vctr absolute w-[200px] md:w-[300px] lg:w-[300px] xl:w-[400px] top-[0px] md:left-[0px]  md:right-[auto] left-[0px] md:top-[0px] lg:top-[-20px] xl:left-[-50px] 1920:left-[0px]" src='/purple_vector.svg' />
+      <img className="green_vctr absolute w-[200px] md:w-[300px] lg:w-[300px] xl:w-[400px] top-[0px]  md:left-[0px] md:right-[auto] left-[-80px] md:top-[0px] lg:top-[-20px] xl:left-[200px] 1920:left-[200px]" src='/green_vector.svg' />
 
 
-      <div className="fix py-[70px]">
+      <div className="fix pt-[0px] py-[45px] xl:py-[70px]">
         {/* Header */}
         <div className="flex justify-between items-center flex-col lg:flex-row md:mb-[55px] mb-[25px] md:gap-5 gap-[0px]">
           <div className="flex flex-col lg:w-auto w-full items-start">
@@ -115,15 +115,15 @@ const TeamSecF = () => {
             <motion.div
               className="
       grid 
-      grid-cols-1 
+      grid-cols-2 
       sm:grid-cols-2
       md:grid-cols-3
       xl:grid-cols-4 
-      gap-x-[55px] 
+      gap-x-[20px] 
       md:gap-x-[35px] 
       lg:gap-x-[55px] 
       2xl:gap-x-[70px] 
-      gap-y-[45px]
+      gap-y-[30px]
       md:gap-y-[55px]
       xl:[&>*:nth-last-child(2)]:col-start-2
     "
@@ -151,15 +151,15 @@ const TeamSecF = () => {
             <motion.div
               className="
       grid 
-      grid-cols-1 
+      grid-cols-2 
       sm:grid-cols-2
       md:grid-cols-3
       xl:grid-cols-4 
-      gap-x-[55px] 
+      gap-x-[20px] 
       md:gap-x-[35px] 
       lg:gap-x-[55px] 
       2xl:gap-x-[70px] 
-      gap-y-[45px]
+      gap-y-[30px]
       md:gap-y-[55px]
       lg:[&>*:last-child]:col-start-2
       md:[&>*:last-child]:col-start-2

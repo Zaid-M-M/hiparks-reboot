@@ -395,7 +395,7 @@ export default function CustomDropdown({
             <span>{selected?.name || "Select/search state"}</span>
           </div>
           <Image
-            src="/home/map/dropdown.svg"
+            src="/home/map/arrdown.svg"
             alt="Dropdown Icon"
             width={20}
             height={20}

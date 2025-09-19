@@ -46,8 +46,12 @@ export default function Index() {
     <ReactLenis root>
       <main
         ref={container}
-        className="1280:pt-[0px] 1600:pt-[0px] xl:mt-[0px] xl:pb-[150px] 1920:pb-[150px] pb-[80px]"
+        className="1280:pt-[0px] 1600:pt-[0px] xl:mt-[0px] xl:pb-[150px] 1920:pb-[150px] pb-[80px] relative"
       >
+        <img
+          className="absolute right-0 top-0 w-[700px] mt-[27px] hidden lg:block"
+          src="/arrow_mark.png"
+        />
         {/* CARD 1 */}
         {/* <Card1 progress={scrollYProgress} offsetY={offsetY.card1} /> */}
 

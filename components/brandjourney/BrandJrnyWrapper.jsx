@@ -16,23 +16,19 @@ import Leadership from "./Leadership/Leadership";
 import TeamSecF from "../../app/(routes)/leadership/Components/TeamSecF";
 import Awards from "./Awards/Awards";
 
+import Milestone from "../../app/(routes)/know-us/_components/Milestone";
+import Thriving from "../../app/(routes)/know-us/_components/Thriving";
+
 const BrandJrnyWrapper = () => {
   return (
     <div className="w-full h-full bg-[#FFFFFF] ">
       <BJ_Sec1 />
+      <Milestone />
       <Mission_value />
+      <Thriving />
       {/* <Leadership /> */}
       <TeamSecF />
       <Awards />
-      {/* <div style={{ width: '100%', height: '600px' }}>
-        <iframe
-          src="https://phpstack-819107-5760335.cloudwaysapps.com/"
-          width="100%"
-          height="100%"
-          style={{ border: 'none' }}
-          allowFullScreen
-        ></iframe>
-      </div> */}
     </div>
   );
 };

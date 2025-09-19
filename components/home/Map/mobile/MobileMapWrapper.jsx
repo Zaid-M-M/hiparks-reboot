@@ -23,12 +23,12 @@ export default function MobileMapWrapper() {
     async function loadRegions() {
       try {
         setLoading(true);
-        console.log("Fetching regions for mobile...");
+        // console.log("Fetching regions for mobile...");
         const regions = await buildDynamicHighlightedRegions();
-        console.log(
-          "Fetched regions for mobile:",
-          JSON.stringify(regions, null, 2)
-        );
+        // console.log(
+        //   "Fetched regions for mobile:",
+        //   JSON.stringify(regions, null, 2)
+        // );
         setHighlightedRegions(regions);
 
         const defaultRegion = regions["maharashtra"];
@@ -110,14 +110,17 @@ export default function MobileMapWrapper() {
     <section className="flex flex-col py-[48px] lg:py-0 w-full min-h-[100svh] text-white bg-black lg:hidden">
       <motion.div
         initial={{ width: 0 }}
-        whileInView={{ width: "fit-content" }}
+        whileInView={{ width: "100%" }}
         transition={{ duration: 1.4, ease: [0.7, 0, 0.4, 1] }}
         viewport={{ once: true, amount: 0.2 }}
-        className="overflow-hidden"
+        className="overflow-hidden flex flex-col fixup "
       >
-        <motion.h2 className="text-[36px] !w-[100%] fix bg-gradient-to-r bw-m pt-0 from-[#AC38D9] to-[#f47920] bg-clip-text text-transparent whitespace-nowrap tracking-[-0.04em] leading-[100%]">
-          Park Finder
+        <motion.h2 className="text-[34px]  bg-gradient-to-r bw-m pt-0 txt_gradient whitespace-nowrap tracking-[-0.04em] leading-[100%]">
+          Grow Your World In Ours <br />
         </motion.h2>
+        <h2 className="bw-r text-white text-[36px]  tracking-[-0.04em]">
+          Park Finder
+        </h2>
       </motion.div>
 
       {/* Map Section */}

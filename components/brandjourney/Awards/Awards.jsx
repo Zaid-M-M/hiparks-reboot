@@ -484,25 +484,27 @@ const Awards = () => {
 
               <div className="flex flex-col justify-start">
                 <div className="flex md:flex-row flex-col gap-10">
-                  <h1 className="1366:text-[56px] 1024:text-[48px] text-[28px] leading-[38px] 1366:leading-[66px] 1024:leading-[58px] 1024:tracking-[-1.92px] 1366:tracking-[-2.24px] bw-r ">
-                    <span className="inline-flex bw-m items-center">
-                      Building for What’s Next.{" "}
-                      {/* <img
+
+                  <div className="flex gap-[10px] md:gap-[17px] flex-col">
+                    <h1 className="1366:text-[56px] 1024:text-[48px] text-[28px] md:text-[35px] leading-[38px] 1366:leading-[66px] 1024:leading-[58px] 1024:tracking-[-1.92px] 1366:tracking-[-2.24px] bw-r ">
+                      <span className="inline-flex bw-m items-center">
+                        Building for What’s Next.{" "}
+                        {/* <img
                         src="/abstract_pattern.svg"
                         alt=""
                         className="ml-2 xl:!flex !hidden w-[100px] md:w-[120px] lg:w-auto"
                       /> */}
-                    </span>
-                    <br />
-                    Recognised for What We Deliver.
-                    <span className="">
-                      <img
-                        src="/abstract_pattern.svg"
-                        alt=""
-                        className="lg:mt-5 mt-2 w-[100px] md:w-[120px] lg:w-auto"
-                      />
-                    </span>
-                  </h1>
+                      </span>
+                      <br />
+                      Recognised for What We Deliver.
+                    </h1>
+                    <img
+                      src="/abstract_pattern.svg"
+                      alt=""
+                      className="abstract_svg w-max"
+                    />
+                  </div>
+
                   <div className="flex md:w-1/2 flex-col lg:justify-between gap-5 mt-[10px]">
                     <p className="text-black bw-r xl:text-[24px] text-[18px] leading-[28px] xl:leading-[120%] lg:max-w-6xl">
                       From sustainability leadership to world-class park design,

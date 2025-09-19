@@ -348,11 +348,12 @@ export default function TimelineContent({ events = [] }) {
                         className="w-full sm:w-[284px] h-[128px] sm:h-[150px] mb-3 object-cover"
                       />
                     )}
+
                     {item.icon && (
                       <img
                         src={item.icon}
                         alt="timeline-icon"
-                        className="sm:w-[80px] w-[46px] h-[46px] sm:h-[80px]"
+                        className="w-full sm:w-[284px] h-[128px] sm:h-[150px] mt-3 object-cover"
                       />
                     )}
                   </>

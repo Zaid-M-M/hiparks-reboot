@@ -3,12 +3,12 @@ import TimelineSection from "./TimelineSection";
 
 const Milestone = () => {
   return (
-    <div className="relative flex min-h-screen py-10 sm:py-10 1024:pt-[80px] bg-black ">
-      <img
+    <div className="relative flex  py-10 sm:py-10 1024:pt-[80px] bg-black ">
+      {/* <img
         src="/know-us/milebg.png"
         className="absolute top-6 1280:right-[150px] 1280:w-[749px] 1280:h-[719px] right-[5%] w-[60vw] z-10 h-auto"
         alt=""
-      />
+      /> */}
       <div className="absolute -top-1  left-[4%] 1600:left-[8%] 1920:left-[15%]">
         <img
           src="/rect.svg"
@@ -24,15 +24,8 @@ const Milestone = () => {
             Milestones That Made Us
           </h1>
 
-          <p className="bw-r text-white text-[18px] 768:text-[22px] 1280:text-[22px] pt-[10px] sm:pt-[30px] 1366:text-[24px]   leading-[28px]  sm:leading-[34px] 1280:leading-[30px] 1366:leading-[34px]">
-            Since our launch in 2022 from 6 MSFT portfolio, today, our portfolio
-            has grown to 40 parks in 9 major regions, covering over 2,000 acres
-            and 50 million sq. ft. of development potential, making us one of
-            the leading developers in this asset class in India. We serve a
-            diverse range of sectors—e-commerce, third-party logistics,
-            automotive, aerospace, engineering, FMCG, retail, chemicals and
-            more, providing both ready-to-move and built-to-suit solutions
-            tailored to each customer’s needs.
+          <p className="bw-r text-white text-[16px] md:text-[22px] xl:text-[22px] pt-[10px] sm:pt-[30px] 1366:text-[24px]   leading-[26px]  sm:leading-[34px] 1280:leading-[30px] 1366:leading-[34px]">
+            Since the launch of the platform in 2022 with 6 MSFT in assets, today, our portfolio has grown to 40 parks in 9 major regions, covering over 2,000 acres and 50 million sq. ft. of development potential. We serve a diverse range of sectors, providing both ready-to-move and built-to-suit solutions tailored to each customer’s needs. Ours is also the largest portfolio of Grade A in-city warehouses in India
           </p>
         </div>
 

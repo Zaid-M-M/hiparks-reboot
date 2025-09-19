@@ -340,7 +340,7 @@ const timelineData = {
     {
       id: 6,
       text: "Expanded presence in NCR and Chennai with 4 parks.",
-      image: "/timeline/2024/icon/4park.svg",
+      image: "",
     },
     {
       id: 7,
@@ -356,7 +356,7 @@ const timelineData = {
     },
     {
       id: 2,
-      text: "XX operational parks IGBC Platinum certified- Certified by ISO (IMS and ISMS).",
+      text: "XX operational parks IGBC Platinum certified",
       image: "/timeline/2025/icon/igbc.jpg",
     },
     {
@@ -382,7 +382,7 @@ const timelineData = {
     {
       id: 7,
       text: "Portfolio grew to 52.3 MSFT spanning 41 assets in 9 markets.",
-      icon: "/timeline/time3.svg",
+      icon: "/timeline/2025/Portfolio_grew.jpg",
     },
   ],
 };

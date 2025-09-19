@@ -33,7 +33,7 @@ export default function MobileMap({
   }
 
   return (
-    <div className="relative w-full h-[400px] sm:h-[500px]">
+    <div className="relative w-full h-[300px] sm:h-[420px]">
       <svg
         id="mobile-india-map"
         viewBox="0 0 650 600"

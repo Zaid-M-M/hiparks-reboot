@@ -32,28 +32,42 @@ const Ntwrk_sec6 = () => {
         <div className="flex gap-[20px] flex-col lg:mt-[50px]  md:flex-row ">
 
           {/* column 1 */}
-          <div className="bg-[#F7C99B] md:w-[170px] lg:w-[299px] lg:h-[480px] xl:h-[540px] pb-[20px] lg:pb-[0px] overflow-hidden">
-            <h3 className="bw-m text-[26px] lg:text-[25px] md:text-[18px] xk:text-[28px] leading-[32px] lg:leading-[30px] xl:leading-[32px] md:leading-[21px] text-[#3C3C3C] w-[175px] md:w-[160px] lg:w-[auto] lg:mb-[50px] mb-[20px] pt-[25px] pl-[25px] md:pt-[17px] md:pl-[14px]md:pt-[17px]  xl:pl-[17px] lg:pl-[20px] ">Pan-India <br></br> Presence</h3>
-            <img src='/network_overview/pan_india.png' className="ml-[8px] w-full"></img>
+          <div className="group cursor-pointer bg-[#F7C99B] md:w-[170px] lg:w-[299px] h-[480px] md:h-[380px] lg:h-[480px] xl:h-[540px] pb-[20px] lg:pb-[0px] overflow-hidden relative">
+
+            <div className="w-full z-1 lg:mb-[0px] mb-[20px] pt-[20px] pl-[15px] pr-[10px]  md:pt-[17px] md:pl-[14px] xl:pl-[17px] lg:pl-[20px] absolute">
+              <h3 className="bw-m text-[26px] lg:text-[25px] md:text-[18px] xl:text-[28px] leading-[32px] lg:leading-[30px] xl:leading-[32px] md:leading-[21px] text-[#3C3C3C] w-[175px] md:w-[160px] lg:w-[auto]">Pan-India <br></br> Presence</h3>
+              <p className="capitalize bw-r text-[#212121] text-[18px] md:text-[12px] lg:text-[15px] xl:text-[18px] mt-[10px] opacity-0 transition-opacity duration-500 group-hover:opacity-100">near major industrial corridors and urban consumption hubs</p>
+            </div>
+            <img src='/network_overview/pan_india.png' className="ml-[8px] absolute top-[auto] bottom-[0]  w-full "></img>
+            <img src='/network_overview/pan_india_overlay.png' className="w-full absolute top-[auto] bottom-[0] opacity-0 transition-opacity duration-500 group-hover:opacity-100"></img>
           </div>
 
           {/* column 2 */}
           <div className="flex flex-col md:w-[170px] lg:w-[320px] lg:h-[480px] xl:h-[540px] gap-[20px]">
 
             {/* Box 1 */}
-            <div className="bg-[#C7B2D6] h-[260px] md:h-[180px] lg:h-[230px] xl:h-[260px] relative">
-              <h3 className="bw-m text-[26px] lg:text-[25px] md:text-[18px] xk:text-[28px] leading-[32px] lg:leading-[30px] xl:leading-[32px] md:leading-[21px]  text-[#3C3C3C] pt-[25px] pl-[25px] md:pl-[14px] md:pt-[17px] xl:pl-[17px] lg:pl-[20px] md:w-[160px] lg:w-[auto] ">
-                Grade A future <br></br> Ready Parks
-              </h3>
-              <img src='/network_overview/grade_A.png' className="w-full  md:absolute bottom-[0px]"></img>
+            <div className="group cursor-pointer bg-[#C7B2D6] h-[260px] md:h-[180px] lg:h-[230px] xl:h-[260px] relative">
+              <div className="w-full z-1 pt-[20px] pl-[15px] pr-[10px]  md:pl-[14px] md:pt-[17px] xl:pl-[17px] lg:pl-[20px] absolute">
+                <h3 className="bw-m text-[26px] lg:text-[25px] md:text-[18px] lk:text-[28px] leading-[32px] lg:leading-[30px] xl:leading-[32px] md:leading-[21px]  text-[#3C3C3C]  md:w-[160px] lg:w-[auto] ">
+                  Grade A future <br></br> Ready Parks
+                </h3>
+                <p className="capitalize bw-r text-[#212121] text-[18px]  md:text-[12px] lg:text-[15px] xl:text-[18px] mt-[10px] opacity-0 transition-opacity duration-500 group-hover:opacity-100">with globally compliant infrastructure and operational flexibility</p>
+              </div>
+              <img src='/network_overview/grade_A.png' className="w-full absolute bottom-[0px]"></img>
+              <img src='/network_overview/grade_A_overlay.png' className="w-full absolute top-[auto] bottom-[0] opacity-0 transition-opacity duration-500 group-hover:opacity-100"></img>
             </div>
 
             {/* Box 2 */}
-            <div className="bg-[#636466] h-[260px] md:h-[180px] lg:h-[230px] xl:h-[260px] overflow-hidden relative">
-              <h3 className="absolute z-1 bw-m text-[26px] lg:text-[25px] md:text-[18px] xk:text-[28px] leading-[32px] lg:leading-[30px] xl:leading-[32px] md:leading-[21px]  text-[#fff] pt-[25px] pl-[25px] md:pl-[14px] md:pt-[17px] xl:pl-[17px] lg:pl-[20px] md:w-[160px] lg:w-[auto] ">
-                Operational &<br></br> Location Agility
-              </h3>
-              <img src='/network_overview/location.png' className="w-full  absolute bottom-[0px] xl:bottom-[0px]"></img>
+            <div className="group cursor-pointer bg-[#636466] h-[260px] md:h-[180px] lg:h-[230px] xl:h-[260px] overflow-hidden relative">
+
+              <div className="w-full z-1 pt-[20px] pl-[15px] pr-[10px]  md:pl-[14px] md:pt-[17px] xl:pl-[17px] lg:pl-[20px] absolute">
+                <h3 className=" bw-m text-[26px] lg:text-[25px] md:text-[18px] xk:text-[28px] leading-[32px] lg:leading-[30px] xl:leading-[32px] md:leading-[21px] text-[#fff]  md:w-[160px] lg:w-[auto]">
+                  Fully Managed<br></br> Operations
+                </h3>
+                <p className="capitalize bw-r text-[#fff] text-[18px]  md:text-[12px] lg:text-[15px] xl:text-[18px] mt-[10px] opacity-0 transition-opacity duration-500 group-hover:opacity-100">to shift, scale, or split operations seamlessly across our connected network</p>
+              </div>
+              <img src='/network_overview/human.png' className="w-full  absolute bottom-[0px] xl:bottom-[0px]"></img>
+              <img src='/network_overview/Fully_manag_overlay.png' className="w-full absolute top-[auto] bottom-[0]  opacity-0 transition-opacity duration-500 group-hover:opacity-100"></img>
             </div>
 
           </div>
@@ -62,19 +76,29 @@ const Ntwrk_sec6 = () => {
           <div className="flex flex-col md:w-[170px] lg:w-[320px] lg:h-[480px] xl:h-[540px] gap-[20px] relative">
 
             {/* Box 1 */}
-            <div className="bg-[#939598] h-[260px] md:h-[180px] lg:h-[230px] xl:h-[260px]  overflow-hidden relative">
-              <h3 className="absolute z-1 bw-m text-[26px] lg:text-[25px] md:text-[18px] xk:text-[28px] leading-[32px] lg:leading-[30px] xl:leading-[32px] md:leading-[21px]  text-[#fff] pt-[25px] pl-[25px] md:pl-[14px] md:pt-[17px] xl:pl-[17px] lg:pl-[20px] md:w-[160px] lg:w-[auto] ">
-                Customisable <br></br> Spaces
-              </h3>
+            <div className="group cursor-pointer bg-[#939598] h-[260px] md:h-[180px] lg:h-[230px] xl:h-[260px]  overflow-hidden relative">
+
+              <div className="w-full z-1 pt-[20px] pl-[15px] pr-[10px]  md:pl-[14px] md:pt-[17px] xl:pl-[17px] lg:pl-[20px] absolute">
+                <h3 className="bw-m text-[26px] lg:text-[25px] md:text-[18px] xl:text-[28px] leading-[32px] lg:leading-[30px] xl:leading-[32px] md:leading-[21px]  text-[#fff]  md:w-[160px] lg:w-[auto] ">
+                  Customisable <br></br> Spaces
+                </h3>
+                <p className="capitalize bw-r text-[#fff] text-[18px] md:text-[12px] lg:text-[15px] xl:text-[18px] mt-[10px] opacity-0 transition-opacity duration-500 group-hover:opacity-100 ">with options for tailored built-to-suit and plug-and-play facilities</p>
+              </div>
               <img src='/network_overview/customise.png' className="w-full mt-[6px]  md:absolute bottom-[0px]"></img>
+              <img src='/network_overview/customise_overlay.png' className="w-full absolute top-[auto] bottom-[0] opacity-0 transition-opacity duration-500 group-hover:opacity-100"></img>
             </div>
 
             {/* Box 2 */}
-            <div className="bg-[#0db14b] h-[260px] md:h-[180px] lg:h-[230px] xl:h-[260px] overflow-hidden relative">
-              <h3 className="absolute z-1 bw-m text-[26px] lg:text-[25px] md:text-[18px] xk:text-[28px] leading-[32px] lg:leading-[30px] xl:leading-[32px] md:leading-[21px]  text-[#fff] pt-[25px] pl-[25px] md:pl-[14px] md:pt-[17px] xl:pl-[17px] lg:pl-[20px] md:w-[160px] lg:w-[auto] ">
-                Sustainable By Design
-              </h3>
-              <img src='/network_overview/sustainable.png' className="w-full mt-[8px] md:absolute bottom-[0px]"></img>
+            <div className="group cursor-pointer h-[260px] md:h-[180px] lg:h-[230px] xl:h-[260px] overflow-hidden relative">
+
+              <div className="w-full z-1 pt-[20px] pl-[15px] pr-[10px]  md:pl-[14px] md:pt-[17px] xl:pl-[17px] lg:pl-[20px] absolute">
+                <h3 className="bw-m text-[26px] lg:text-[25px] md:text-[18px] xk:text-[28px] leading-[32px] lg:leading-[30px] xl:leading-[32px] md:leading-[21px]  text-[#fff]  md:w-[160px] lg:w-[auto] ">
+                  Sustainable By Design
+                </h3>
+                <p className="capitalize bw-r text-[#fff] text-[18px]  md:text-[12px] lg:text-[15px] xl:text-[18px] mt-[10px] opacity-0 transition-opacity duration-500 group-hover:opacity-100 ">with IGBC-certified parks, green building practices, and IoT-enabled facilities management</p>
+              </div>
+              <img src='/network_overview/sustainable.png' className="w-full h-full object-cover mt-[8px] md:absolute bottom-[0px]"></img>
+              <img src='/network_overview/sustainable_overlay.png' className="w-full h-full object-cover absolute top-[auto] bottom-[0] opacity-0 transition-opacity duration-500 group-hover:opacity-100"></img>
             </div>
 
           </div>
@@ -83,19 +107,29 @@ const Ntwrk_sec6 = () => {
           <div className="flex flex-col md:w-[170px] lg:w-[320px] lg:h-[480px] xl:h-[540px] gap-[20px] relative">
 
             {/* Box 1 */}
-            <div className="bg-[#A987BC] h-[260px] md:h-[180px] lg:h-[230px] xl:h-[260px] relative overflow-hidden">
-              <h3 className="bw-m text-[26px] lg:text-[25px] md:text-[18px] xk:text-[28px] leading-[32px] lg:leading-[30px] xl:leading-[32px] md:leading-[21px]  text-[#fff] pt-[25px] pl-[25px] md:pl-[14px] md:pt-[17px] xl:pl-[17px] lg:pl-[20px] md:w-[160px] lg:w-[auto] ">
-                Human-Centric <br></br> Environments
-              </h3>
-              <img src='/network_overview/human.png' className="mt-[8px] absolute bottom-[0] w-[85%] right-[0px]"></img>
+            <div className="group cursor-pointer bg-[#A987BC] h-[260px] md:h-[180px] lg:h-[230px] xl:h-[260px] relative overflow-hidden">
+
+              <div className="w-full z-1 pt-[20px] pl-[15px] pr-[10px]  md:pl-[14px] md:pt-[17px] xl:pl-[17px] lg:pl-[20px] absolute">
+                <h3 className=" bw-m text-[26px] lg:text-[25px] md:text-[18px] xk:text-[28px] leading-[32px] lg:leading-[30px] xl:leading-[32px] md:leading-[21px]  text-[#fff] md:w-[160px] lg:w-[auto] ">
+                  Human-Centric <br></br> Environments
+                </h3>
+                <p className="capitalize bw-r text-[#fff] text-[18px]  md:text-[12px] lg:text-[15px] xl:text-[18px] mt-[10px] opacity-0 transition-opacity duration-500 group-hover:opacity-100">designed for wellbeing, safety, and workforce productivity</p>
+              </div>
+              <img src='/network_overview/human1.png' className="mt-[0px] w-full h-full object-cover"></img>
+              <img src='/network_overview/human1_overlay.png' className="w-full absolute top-[auto] bottom-[0] opacity-0 transition-opacity duration-500 group-hover:opacity-100"></img>
             </div>
 
             {/* Box 2 */}
-            <div className="bg-[#FCC79B] h-[260px] md:h-[180px] lg:h-[230px] xl:h-[260px] overflow-hidden relative">
-              <h3 className="absolute z-1 bw-m text-[26px] lg:text-[25px] md:text-[18px] xk:text-[28px] leading-[32px] lg:leading-[30px] xl:leading-[32px] md:leading-[21px]  text-[#3C3C3C] pt-[25px] pl-[25px] md:pl-[14px] md:pt-[17px] xl:pl-[17px] lg:pl-[20px] md:w-[160px] lg:w-[auto] ">
-                Leasing & Expansion <br></br> Support
-              </h3>
+            <div className="group cursor-pointer bg-[#FCC79B] h-[260px] md:h-[180px] lg:h-[230px] xl:h-[260px] overflow-hidden relative">
+
+              <div className="w-full z-1 pt-[20px] pl-[15px] pr-[10px]  md:pl-[14px] md:pt-[17px] xl:pl-[17px] lg:pl-[20px] absolute ">
+                <h3 className=" bw-m text-[26px] lg:text-[25px] md:text-[18px] xk:text-[28px] leading-[32px] lg:leading-[30px] xl:leading-[32px] md:leading-[21px]  text-[#3C3C3C] md:w-[160px] lg:w-[auto] ">
+                  Flexibility And<br></br> Scalability
+                </h3>
+                <p className="capitalize bw-r text-[#212121] text-[18px]  md:text-[12px] lg:text-[15px] xl:text-[18px] mt-[10px] opacity-0 transition-opacity duration-500 group-hover:opacity-100">to simplify your growth journey, wherever you go</p>
+              </div>
               <img src='/network_overview/leasing.png' className="w-full mt-[8px] md:absolute bottom-[0px]"></img>
+              <img src='/network_overview/leasing_overlay.png' className="w-full absolute top-[auto] bottom-[0] opacity-0 transition-opacity duration-500 group-hover:opacity-100"></img>
             </div>
 
           </div>
